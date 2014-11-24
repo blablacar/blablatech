@@ -55,3 +55,58 @@ title: "The 10 commandments of BlaBlaCar TechForce"
 10. Thou shalt enjoy your work, otherwise it's not worth bothering with!
 * If you're no longer enjoying your work, talk to your manager and/or Francis
 * This approach is designed to help you enjoy everything you do, all the time!
+
+## Version Française
+1. Tu penseras toujours « Built To Last »
+*Tu ne feras pas de dirty fix lorsque tu connaîtras une solution robuste au problème 
+*Tu commenteras ton code en pensant aux autres membres de l’équipe (et pour toi-même) qui le découvriront
+*Tu apprendras de tes erreurs et communiqueras dessus (« Fail, learn, succeed »)
+
+2. Tu ne feras jamais de modif en prod (Code ou Base)
+* Tu respecteras le processus de mise en production:
+  * [ dev + tests ] => [ preprod + tests ] => [ prod + tests ]
+  * Le backoffice et les API ne se soustraient pas à cette règle
+
+3. Tu respecteras les principes de développement KISS (Keep it simple, stupid) et SoC (Separation of Concerns)
+* Pas de wording destiné à l'affichage en dehors de la table de traduction
+* Pas d'information de style en dehors des fichiers CSS
+* Pas d’HTML dans tes fichiers PHP
+* Pas de validation Javascript sans un traitement côté serveur correspondant
+
+4. Tu ne prendras pas l’équipe pour tes beta-testeurs
+* Tu ne soumettras pas aux autres membres de l'équipe une livraison sans l'avoir honnêtement testée sur plusieurs navigateurs et dans plusieurs cas de test (« Never assume, always check »)
+* Tu garderas ton œil critique et ton bon sens en qualité de code, architecture, design et en ergonomie avant de livrer
+
+5. Tu sauras te mettre à la place de l'utilisateur
+* Tu te réjouiras lorsqu’un utilisateur t’écrira pour nous signaler un problème (« The member is the boss »)
+* Tu garderas en tête que pour un utilisateur qui se plaint, 100 ont eu le même problème et ne nous ont rien dit : un utilisateur qui se plaint a toujours raison, de son point de vue,
+* Tu feras du covoiturage pour te placer en situation « utilisateur » (« Think it, build it, use it »)
+* Tu ne livreras pas en prod quelque chose qui ira à l’encontre de ton bon sens
+
+6. Tu respecteras notre méthodologie de travail
+* Tu ne livreras pas une fonctionnalité pour validation sans avoir vérifié au préalable qu'elle intègre toutes les caractéristiques transmises initialement par le PO
+* Tu ne feras pas répéter le PO
+* Tu feras le maximum pour tenir les engagements de ton équipe sur le sprint en cours
+* Tu n’entameras pas de développement conséquent sans en discuter avant avec l’équipe (PO / Scrum Master compris) (« Done is better than perfect »)
+* Tu ne garderas pas de rancoeur pour toi et tu sauras l’expliquer pendant la rétrospective
+
+7. Tu veilleras au bon fonctionnement de la prod
+* Les problèmes de prod sont prioritaires sur tout le reste
+* Ton PO, informer tu devras, pour lui indiquer que sur un bug de prod tu travailles
+
+8. Tu favoriseras l’émulation positive dans l’équipe
+* Tu répondras à tout message qui t'es destiné et qui contient un point d'interrogation
+* Tu placeras toujours des commentaires dans tes commits
+* Tu écriras des documentations et partageras l’information sur les innovations que tu apporteras (« We are passionate, we innovate »)
+* Tu partageras tes connaissances au delà des frontières de la Team si l’occasion se présente (« Share more, learn more »)
+* Tu utiliseras les outils collaboratifs mis en place
+* Tu répondras rapidement à une PR et toujours de manière constructive
+
+9. Tu concevras ton activité comme complémentaire de celle des autres équipes
+* Les techs sont des gens bien et sensés, sinon ils ne seraient pas là
+* Les gens du marketing, des Relations Membres et de la comm’ aussi
+* Ouvertement tu les accueilleras si tu peux les aider et tu les aiguilleras vers la bonne personne sinon
+
+10. Tu te feras plaisir, sinon ce n’est pas la peine de continuer !
+* Si ton activité ne te plait pas ou plus, tu en discuteras facilement avec ton manager et/ou Francis
+* Sur cette base, ton activité te plaira donc tout le temps !
