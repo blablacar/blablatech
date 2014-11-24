@@ -1,0 +1,10 @@
+name: "BlaBlaCar"
+description: "Share more learn more - about tech @ BlaBlaCar"
+
+url: "http://blablatech.com"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: true
