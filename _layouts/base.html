@@ -1,21 +1,66 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-    <title>{{ page.title }}</title>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="The BlaBlaCar Tech team">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} - {{ site.name }}</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link href="/css/bootstrap-3.3.1.min.css" rel="stylesheet">
+    <link href="/css/blablatech.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<div id="wrapper">
-    <header role="banner">
-        <div id="site-title"><a href="/">{{ site.title }}</a></div>
-        <div id="site-description">{{ site.description }}</div>
-    </header>
-    <div id="content">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><span class="blabla-green">Think it.</span> <span class="blabla-blue">Build it.</span> <span class="blabla-red">Use it.</span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a class="blog-nav-item" href="/archive/">Archive</a></li>
+                <li><a class="blog-nav-item" href="/authors/">Authors</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
         {{ content }}
     </div>
-
 </div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 text-center">
+                <div class="follow-us">
+                    <ol class="list-unstyled">
+                        <li><a href="https://github.com/blablacar">GitHub</a></li>
+                        <li><a href="https://twitter.com/BlaBlaCarTech">Twitter</a></li>
+                    </ol>
+                </div>
+                <img alt="BlaBlaTech" class="logo" src="/images/blablatech-logo.png" title="BlaBlaTech" />
+                <p>© 2014. All rights reserved.</p>
+            </div>
+            <div class="col-md-4 text-left">
+                <img alt="Fun & Serious" class="fun-and-serious" src="/images/fun-and-serious.png" title="Fun & Serious" />
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
