@@ -1,10 +1,7 @@
-name: "BlaBlaCar"
-description: "Share more learn more - about tech @ BlaBlaCar"
-
-url: "http://blablatech.com"
-
-paginate: 10
-
-markdown: rdiscount
-permalink: pretty
-highlighter: true
+name:         "BlaBlaTech Blog"
+description:  "Share More, Learn More - BlaBlaCar's Tech team"
+url:          "http://blablatech.com"
+paginate:     10
+markdown:     rdiscount
+permalink:    /archive/:year/:month/:day/:title
+highlighter:  true
