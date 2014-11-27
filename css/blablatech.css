@@ -1,0 +1,101 @@
+/*
+ * Globals
+ */
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #555;
+    padding-top: 70px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #333;
+}
+
+a,
+h1,
+.blabla-blue {
+    color: #278bcb;
+}
+
+h2, .h2,
+h3, .h3,
+.blabla-green {
+    color: #65bd4d;
+}
+
+.blabla-red {
+    color: #cc3333;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.label {
+    background-color: #278bcb;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/*
+* Structure
+*/
+
+.navbar {
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+}
+
+section.previous {
+    margin: 40px 0;
+}
+
+footer {
+    background-color: #ddd;
+    border-top: 1px solid #ccc;
+    color: #666;
+    margin-top: 20px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .follow-us {
+    margin-bottom: 40px;
+}
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+.container {
+    width: 600px;
+}
+
+/*
+ * Images
+ */
+
+img.logo {
+    height: 36px;
+    width: 200px;
+}
+
+img.fun-and-serious {
+    height: 200px;
+    width: 155px;
+}
+
+.authors img {
+    height: 100px;
+    width: 100px;
+}
