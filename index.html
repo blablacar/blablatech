@@ -1,14 +1,37 @@
 ---
 layout: base
+title:  Welcome
 ---
 
-<h1>Posts</h1>
+<div class="jumbotron">
+    <h1>BlaBlaCar's talking tech</h1>
+    <p>Share more, learn more: one of BlaBlaCar's values explains probably best <i>la raison d'être</i> of this blog.</p>
+</div>
 
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date_to_long_string }}</time> -
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+{% assign post = site.posts.first %}
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+        <h1 itemprop="name">{{ post.title }}</h1>
+        <p class="meta">
+            <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {{ post.date | date_to_long_string }}
+            </time>
+            by <a href="/authors#nicolas-schwartz">Nicolas Schwartz</a> <span class="label label-primary">{{ post.tags }}</span>
+        </p>
+    </header>
+    <div class="blog-post">
+        {{ post.content }}
+    </div>
+</article>
+
+<section class="previous">
+    <h2>Previous posts</h2>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a> <span class="label label-primary">{{ post.tags }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
