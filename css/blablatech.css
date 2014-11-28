@@ -3,7 +3,7 @@
  */
 
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: #555;
     padding-top: 70px;
 }
@@ -13,8 +13,9 @@ h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5,
-h6, .h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+h6, .h6,
+.navbar a {
+    font-family: Tahoma, Geneva, sans-serif;
     font-weight: normal;
     color: #333;
 }
@@ -40,11 +41,21 @@ h3, .h3,
     margin: 6px 24px 0 0;
 }
 
+.navbar a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 .label {
     background-color: #278bcb;
     font-family: sans-serif;
     font-weight: normal;
     text-transform: uppercase;
+}
+
+.blog-post {
+    font-size: 1.4em;
+    line-height: 1.2;
 }
 
 /*
