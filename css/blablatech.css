@@ -36,8 +36,8 @@ h3, .h3,
 }
 
 .navbar-brand {
-    font-weight: bold;
-    padding-left: 0;
+    padding: 0;
+    margin: 6px 24px 0 0;
 }
 
 .label {

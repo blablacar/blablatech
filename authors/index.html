@@ -6,22 +6,15 @@ title:  Authors
 <h1>The authors of this blog</h1>
 
 <ul class="media-list authors">
+    {% for author in site.authors %}
     <li class="media">
-        <a id="author-nicolas-schwartz" class="media-left media-middle" href="https://twitter.com/nicoschwartz">
-            <img src="/images/author-nicolas-schwartz.png" alt="Nicolas Schwartz">
-        </a>
-        <div class="media-body">
-            <h4 class="media-heading">Nicolas Schwartz</h4>
-            Tech Manager
-        </div>
-    </li>
-    <li class="media">
-        <a id="author-christian-jennewein" class="media-left media-middle" href="https://twitter.com/cestcri">
-            <img src="/images/author-christian-jennewein.png" alt="Christian Jennewein">
-        </a>
-        <div class="media-body">
-            <h4 class="media-heading">Christian Jennewein</h4>
-            Tech Manager
-        </div>
-    </li>
+            <a id="author-{{ author[0] }}" class="media-left media-middle" href="https://twitter.com/{{ author[1].twitter }}">
+                <img src="/images/author-{{ author[0] }}.png" alt="{{ author[1].nickname }}">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{ author[1].name }}</h4>
+                {{ author[1].role }}
+            </div>
+        </li>
+    {% endfor %}
 </ul>

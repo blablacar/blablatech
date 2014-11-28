@@ -1,7 +1,20 @@
-name:         "BlaBlaTech Blog"
+authors:
+  christian-jennewein:
+    name:     "Christian Jennewein"
+    nickname: "Christian"
+    twitter:  "cestcri"
+    github:   "cestcri"
+    role:     "Tech Manager"
+  nicolas-schwartz:
+    name:     "Nicolas Schwartz"
+    nickname: "Nico"
+    twitter:  "nicoschwartz"
+    github:   "nicoschwartz"
+    role:     "Tech Manager"
 description:  "Share More, Learn More - BlaBlaCar's Tech team"
-url:          "http://blablatech.com"
-paginate:     10
-markdown:     rdiscount
-permalink:    /archive/:year/:month/:day/:title
 highlighter:  true
+markdown:     rdiscount
+name:         "BlaBlaTech Blog"
+paginate:     10
+permalink:    /archive/:year/:month/:day/:title
+url:          "http://blablatech.com"

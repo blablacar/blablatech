@@ -2,6 +2,7 @@
 layout:     post
 title:      "The 10 commandments of BlaBlaTech"
 tags:       culture
+authors:    [nicolas-schwartz, christian-jennewein]
 ---
 
 1. Thou shalt always think "Built To Last"

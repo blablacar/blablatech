@@ -1,0 +1,11 @@
+<time itemprop="datePublished" datetime="{{ post_details_date | date: '%Y-%m-%d' }}">
+    <strong>{{ post_details_date | date_to_long_string }}</strong>
+</time>
+by {% for author in post_details_authors %}
+    {% if false == forloop.first AND true == forloop.last %}
+        &middot;
+    {% endif %}
+    {% assign a = site.authors[author] %}
+    <a href="/authors/#{{ author }}">{{ a.name }}</a>
+{% endfor %}
+<span class="label label-primary">{{ post_details_tags }}</span>

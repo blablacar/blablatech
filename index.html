@@ -14,10 +14,10 @@ title:  Welcome
     <header>
         <h1 itemprop="name">{{ post.title }}</h1>
         <p class="meta">
-            <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
-                {{ post.date | date_to_long_string }}
-            </time>
-            by <a href="/authors#nicolas-schwartz">Nicolas Schwartz</a> <span class="label label-primary">{{ post.tags }}</span>
+            {% assign post_details_authors = post.authors %}
+            {% assign post_details_date = post.date %}
+            {% assign post_details_tags = post.tags %}
+            {% include post_details.html %}
         </p>
     </header>
     <div class="blog-post">
@@ -25,13 +25,15 @@ title:  Welcome
     </div>
 </article>
 
+{% if site.posts.size > 1 %}
 <section class="previous">
     <h2>Previous posts</h2>
     <ul>
-        {% for post in site.posts %}
+        {% for post in site.posts offset:1 limit:6 %}
         <li>
-            {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a> <span class="label label-primary">{{ post.tags }}</span>
+            {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
 </section>
+{% endif %}
