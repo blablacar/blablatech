@@ -3,7 +3,11 @@
  */
 
 body {
+<<<<<<< HEAD
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+=======
+    font-family: Georgia, "Times New Roman", Times, serif;
+>>>>>>> d0d1198d84b7a3b75bfe3071299a5c1ad3a36660
     color: #555;
     padding-top: 70px;
 }
@@ -13,9 +17,14 @@ h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5,
+<<<<<<< HEAD
 h6, .h6,
 .navbar a {
     font-family: Tahoma, Geneva, sans-serif;
+=======
+h6, .h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+>>>>>>> d0d1198d84b7a3b75bfe3071299a5c1ad3a36660
     font-weight: normal;
     color: #333;
 }
@@ -41,11 +50,14 @@ h3, .h3,
     margin: 6px 24px 0 0;
 }
 
+<<<<<<< HEAD
 .navbar a {
     font-weight: bold;
     text-transform: uppercase;
 }
 
+=======
+>>>>>>> d0d1198d84b7a3b75bfe3071299a5c1ad3a36660
 .label {
     background-color: #278bcb;
     font-family: sans-serif;
@@ -53,11 +65,14 @@ h3, .h3,
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 .blog-post {
     font-size: 1.4em;
     line-height: 1.2;
 }
 
+=======
+>>>>>>> d0d1198d84b7a3b75bfe3071299a5c1ad3a36660
 /*
 * Structure
 */
