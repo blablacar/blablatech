@@ -11,10 +11,14 @@ authors:
     twitter:  "nicoschwartz"
     github:   "nicoschwartz"
     role:     "Tech Manager"
+
 description:  "Share More, Learn More — BlaBlaCar's Tech team"
 highlighter:  true
 markdown:     rdiscount
 name:         "BlaBlaTech Blog"
 paginate:     10
-permalink:    /archive/:year/:month/:day/:title
+permalink:    /blog/:title
 url:          "http://blablatech.com"
+
+gems:
+  - jekyll-redirect-from
