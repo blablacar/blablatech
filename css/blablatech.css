@@ -3,9 +3,11 @@
  */
 
 body {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Lora", serif;
+    font-weight: 400;
     color: #555;
     padding-top: 70px;
+    text-shadow: 2px 2px 2px rgba(85, 85, 85, 0.15)
 }
 
 h1, .h1,
@@ -15,21 +17,24 @@ h4, .h4,
 h5, .h5,
 h6, .h6,
 .navbar a {
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: normal;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
     color: #333;
+    text-shadow: 3px 3px 3px rgba(51, 51, 51, 0.25)
 }
 
 a,
 h1,
 .blabla-blue {
     color: #278bcb;
+    text-shadow: 2px 2px 2px rgba(39, 139, 203, 0.25)
 }
 
 h2, .h2,
 h3, .h3,
 .blabla-green {
     color: #65bd4d;
+    text-shadow: 2px 2px 2px rgba(101, 189, 77, 0.25)
 }
 
 .blabla-red {
@@ -43,13 +48,13 @@ h3, .h3,
 
 .navbar a {
     font-weight: bold;
+    text-shadow: none;
     text-transform: uppercase;
 }
 
 .label {
     background-color: #278bcb;
-    font-family: sans-serif;
-    font-weight: normal;
+    text-shadow: none;
     text-transform: uppercase;
 }
 
@@ -89,7 +94,14 @@ footer .follow-us {
  */
 
 .container {
-    width: 600px;
+    margin: auto;
+    width: 650px;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 90%;
+    }
 }
 
 /*
