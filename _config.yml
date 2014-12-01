@@ -11,7 +11,7 @@ authors:
     twitter:  "nicoschwartz"
     github:   "nicoschwartz"
     role:     "Tech Manager"
-description:  "Share More, Learn More - BlaBlaCar's Tech team"
+description:  "Share More, Learn More — BlaBlaCar's Tech team"
 highlighter:  true
 markdown:     rdiscount
 name:         "BlaBlaTech Blog"
