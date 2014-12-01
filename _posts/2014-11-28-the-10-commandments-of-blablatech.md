@@ -16,8 +16,8 @@ Exceptionally we also publish [a french version, further down](#french-version).
  * Comment your code so that it's understandable to other members of the team (and yourself) when they come across it later
  * Learn from your mistakes and communicate on them ("Fail, Learn, Succeed")
 
-### 2. Thou shalt never make changes directly in prod (Code of DataBase)
- * Respect the rollout process:<br />[Dev + test] => [Preprod + tests] => [Prod + tests]
+### 2. Thou shalt never make changes directly in prod (code or database)
+ * Respect the roll-out process:<br />[dev + test] => [preprod + tests] => [prod + tests]
  * Backoffice and APIs are not exempt from this rule
 
 ### 3. Thou shalt respect the following principles of development: KISS (Keep it simple, stupid) and SoC (Separation of Concerns)
@@ -31,9 +31,9 @@ Exceptionally we also publish [a french version, further down](#french-version).
  * Use your common sense and pass a critical eye over your code quality, architecture, design and ergonomics before delivering
 
 ### 5. Thou shalt put yourself in the place of the user
- * Rejoice when a user writes to report a problem ("The member is the boss")
+ * Be thankful for every bug report from users ("The member is the boss")
  * Keep in mind that for every user who complains, 100 have had the same problem and not told us anything. A user who complains is, from his point of view, always right.
- * Put yourself in the user's shoes by ridesharing ("Think it, build it, use it")
+ * Put yourself in the user's shoes by ride sharing ("Think it, build it, use it")
  * Do not roll out something in production that goes against your common sense
 
 ### 6. Thou shalt respect our working methodology
@@ -43,8 +43,8 @@ Exceptionally we also publish [a french version, further down](#french-version).
  * Do not start a big development without first discussing it with the team, PO and Scrum Master included ("Done is better than perfect")
  * Do not bear any grudges - discuss any issues during the retrospective
 
-### 7. Thou shalt ensure the prod functions properly
- * Issues in production take precedence over everything else
+### 7. Thou shalt ensure the production functions properly
+ * Issues in production are priority, everything else has to step back
  * Always tell your PO which prod bug you're working on
 
 ### 8. Thou shalt foster a positive atmosphere within the team
