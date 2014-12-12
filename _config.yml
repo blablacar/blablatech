@@ -11,6 +11,10 @@ authors:
     twitter:  "nicoschwartz"
     github:   "nicoschwartz"
     role:     "Tech Manager"
+  benjamin-fraud:
+    name:     "Benjamin Fraud"
+    nickname: "Ben"
+    role:     "Developer"
 
 description:  "Share More, Learn More — BlaBlaCar's Tech team"
 highlighter:  true
