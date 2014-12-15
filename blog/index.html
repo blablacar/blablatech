@@ -5,8 +5,19 @@ title:  Archive
 
 <h1>The blog's archive</h1>
 
-<h2>Movember 2014</h2>
-
-<ul>
-    <li><a href="/blog/the-10-commandments-of-blablatech/">The 10 commandments of BlaBlaTech</a></li>
+{% for post in site.posts %}
+    {% unless post.next %}
+        <h2>{{ post.date | date: '%B %Y' }}</h2>
+        <ul>
+    {% else %}
+        {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
+        {% capture newMonth %}{{ post.next.date | date: '%m' }}{% endcapture %}
+        {% if month != newMonth %}
+            </ul>
+            <h2>{{ post.date | date: '%B %Y' }}</h2>
+            <ul>
+        {% endif %}
+    {% endunless %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
 </ul>

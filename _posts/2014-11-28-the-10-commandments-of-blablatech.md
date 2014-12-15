@@ -17,7 +17,7 @@ Exceptionally we also publish [a french version, further down](#french-version).
  * Comment your code so that it's understandable to other members of the team (and yourself) when they come across it later
  * Learn from your mistakes and communicate on them ("Fail, Learn, Succeed")
 
-### 2. Thou shalt never make changes directly in prod (code or database)
+### 2. Thou shalt never make changes directly on production (code or database)
  * Respect the roll-out process:<br />[dev + test] => [preprod + tests] => [prod + tests]
  * Backoffice and APIs are not exempt from this rule
 
