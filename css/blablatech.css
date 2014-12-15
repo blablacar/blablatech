@@ -59,8 +59,9 @@ h3, .h3,
 }
 
 .blog-post {
-    font-size: 1.4em;
-    line-height: 1.2;
+    font-size: 1.35em;
+    line-height: 1.5;
+    text-shadow: none;
 }
 
 /*
