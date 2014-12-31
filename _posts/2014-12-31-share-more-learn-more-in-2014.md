@@ -14,7 +14,7 @@ expected: we **organised two events** in our lovely offices in the heart of Pari
 * Sketch MeetUP, Paris (France) in September
 * SfPot, Paris (France) in October
  
-**sent people to 9 conferences in 4 countries** 
+**sent people to 10 conferences in 4 countries** 
 
 * SymfonyLive, Paris (France) in April
 * PHP Tour Lyon (France) in June
