@@ -9,8 +9,9 @@ authors:    [christian-jennewein]
 close to 50, but we also continued to live one of our key values: <strong>Share more, learn more</strong>.
 
 Looking back at all the events, meet-ups and conferences where BlaBlaTechies assisted, produced a way bigger list than
-expected: we **organised two events** in our lovely offices in the heart of Paris,
+expected: we **organised 3 events** in our lovely offices in the heart of Paris,
 
+* Paris Android User Group (PAUG) conferences, Paris (France) in March
 * Sketch MeetUP, Paris (France) in September
 * SfPot, Paris (France) in October
  
