@@ -7,8 +7,8 @@ title:  Authors
 
 <ul class="list-striped media-list authors">
     {% for author in site.authors %}
-    <li class="media">
-            <a id="author-{{ author[0] }}" class="media-left media-middle" href="#">
+    <li id="author-{{ author[0] }}" class="media">
+            <a class="media-left media-middle" href="#">
                 <img src="/images/authors/{{ author[0] }}.png" alt="{{ author[1].nickname }}">
             </a>
             <div class="media-body">
