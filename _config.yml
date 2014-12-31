@@ -23,6 +23,12 @@ authors:
     twitter:    "DEIONaLiMs"
     github:
     role:       "Mobile Development Engineer"
+  jb-favre:
+    name:       "Jean-Baptiste Favre"
+    nickname:   "JB"
+    twitter:    "jbfavre"
+    github:     "jbfavre"
+    role:       "Web Architect"
   matthieu-moquet:
     name:       "Matthieu Moquet"
     nickname:   "Mattketmo"
@@ -107,6 +113,14 @@ talks:
       title:    "Doctrine Lexer use case"
       thumb:    olivier-dolbeau_doctrine-lexer-use-case.jpg
       url:      https://speakerdeck.com/odolbeau/doctrine-lexer-use-case
+    elk-elasticsearch-logstash-kibana:
+      authors:  [jb-favre]
+      date:     "26-29 June"
+      event:    "Pas Sage en Seine"
+      place:    "Paris (France)"
+      title:    "ELK - Elasticsearch, Logstash & Kibana"
+      thumb:    jb-favre_elk-elasticsearch-logstash-kibana.jpg
+      url:      https://blog-notes.jbfavre.org/?pses2014-elk-elasticsearch-logstash-amp-kibana,3047
     agility-in-your-translation-workflow:
       authors:  [matthieu-moquet]
       date:     "23-24 June"
@@ -123,6 +137,14 @@ talks:
       title:    "SSO & SOA"
       thumb:    matthieu-moquet_phptour-2014-sso-soa.jpg
       url:      https://speakerdeck.com/mattketmo/sso-and-soa
+    debian-usage-at-blablacar:
+      authors:  [jb-favre]
+      date:     "4 June"
+      event:    "Debian Meetup Paris"
+      place:    "Paris (France)"
+      title:    "Debian usage at BlaBlaCar"
+      thumb:    jb-favre_debian-usage-at-blablacar-debian-paris-meetup.jpg
+      url:      https://speakerdeck.com/jbfavre/debian-usage-at-blablacar-debian-paris-meetup
     swarrot-a-library-to-consume-them-all:
       authors:  [olivier-dolbeau]
       date:     "7-8 April"

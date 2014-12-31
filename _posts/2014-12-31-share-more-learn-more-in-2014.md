@@ -15,26 +15,30 @@ expected: we **organised 3 events** in our lovely offices in the heart of Paris,
 * Sketch MeetUP, Paris (France) in September
 * SfPot, Paris (France) in October
  
-**sent people to 10 conferences in 4 countries** 
+**sent people to 12 conferences in 5 countries** 
 
 * SymfonyLive, Paris (France) in April
 * PHP Tour Lyon (France) in June
 * ForumPHP, Montrouge (France) in October
+* Zabbix Conference, Riga (Latvia) in September
 * Cassandra Summit, San Francisco (USA) in September
 * Droidcon, Paris (France) in September
+* Chef Community Summit, London (UK) in October
 * Varnish Summit, Paris (France) in October
 * appdays, Paris (France) in November
 * Velocity Europe, Barcelona (Spain) in November
 * SymfonyCon, Madrid (Spain) in November
 * Cassandra Summit Europe, London (UK) in December
   
-and **gave 10+ talks** on conferences or meet-ups.
+and **gave 13 talks** on conferences or meet-ups.
 
 * [Agility in your translation workflow](/talks/#agility-in-your-translation-workflow)
 * [Asynchronous tasks in PHP](/talks/#asynchronous-tasks-in-php)
 * [Comment migrer 10M membres d'une webview vers une app native ?](/talks/#appdays-2014)
+* [Debian usage at BlaBlaCar](/talks/#debian-usage-at-blablacar)
 * [Decoupling your application](/talks/#decoupling-your-application)
 * [Doctrine Lexer use case](/talks/#doctrine-lexer-use-case)
+* [ELK - Elasticsearch, Logstash & Kibana](/talks/#elk-elasticsearch-logstash-kibana)
 * [Laisse pas trainer ton log](/talks/#laisse-pas-trainer-ton-log)
 * [Localization should not be a pain (anymore)](/talks/#symfonycon-2014)
 * [Making asynchronous tasksin PHP - The easy way](/talks/#making-asynchronous-tasks-in-php)
@@ -43,4 +47,4 @@ and **gave 10+ talks** on conferences or meet-ups.
 * [When Monolog meet ELK](/talks/#when-monolog-meet-elk)
 
 With this post I would also like to introduce <a href="/talks">a new section here on our blog: Talks</a>, the place to 
-look for all our given talks & presentations. **2014 alone features 11 presentations**, feel free to flip through them.
+look for all our given talks & presentations. **2014 alone features 13 presentations**, feel free to flip through them.
