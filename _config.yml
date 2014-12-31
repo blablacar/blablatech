@@ -35,6 +35,12 @@ authors:
     github:     "MattKetmo"
     twitter:    "MattKetmo"
     role:       "Web Development Engineer"
+  nicolas-blanc:
+    name:       "Nicolas Blanc"
+    nickname:   "Jardin"
+    twitter:    "thewhitegeek"
+    github:
+    role:       "Web Architect"
   nicolas-schwartz:
     name:       "Nicolas Schwartz"
     nickname:   "Nico"
@@ -81,6 +87,14 @@ talks:
       title:    "Comment migrer 10 millions de membres d’une webview vers une app native ?"
       thumb:    erwann-robin_appdays-2014.jpg
       url:      /talks/erwann-robin_appdays-2014.pdf
+    elasticsearch-feedback:
+      authors:  [nicolas-blanc, olivier-dolbeau]
+      date:     "25 September"
+      event:    "Meetup Elasticsearch France #9"
+      place:    "Paris (France)"
+      title:    "ElasticSearch feedback"
+      thumb:    nicolas-blanc_elasticsearch-feedback.png
+      url:      /talks/nicolas-blanc_elasticsearch-feedback.odp
     laisse-pas-trainer-ton-log:
       authors:  [olivier-dolbeau]
       date:     "23-24 October"

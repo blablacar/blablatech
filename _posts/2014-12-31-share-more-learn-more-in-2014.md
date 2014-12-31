@@ -30,7 +30,7 @@ expected: we **organised 3 events** in our lovely offices in the heart of Paris,
 * SymfonyCon, Madrid (Spain) in November
 * Cassandra Summit Europe, London (UK) in December
   
-and **gave 13 talks** on conferences or meet-ups.
+and **gave 14 talks** on conferences or meet-ups.
 
 * [Agility in your translation workflow](/talks/#agility-in-your-translation-workflow)
 * [Asynchronous tasks in PHP](/talks/#asynchronous-tasks-in-php)
@@ -38,6 +38,7 @@ and **gave 13 talks** on conferences or meet-ups.
 * [Debian usage at BlaBlaCar](/talks/#debian-usage-at-blablacar)
 * [Decoupling your application](/talks/#decoupling-your-application)
 * [Doctrine Lexer use case](/talks/#doctrine-lexer-use-case)
+* [ElasticSearch feedback](/talks/#elasticsearch-feedback)
 * [ELK - Elasticsearch, Logstash & Kibana](/talks/#elk-elasticsearch-logstash-kibana)
 * [Laisse pas trainer ton log](/talks/#laisse-pas-trainer-ton-log)
 * [Localization should not be a pain (anymore)](/talks/#symfonycon-2014)
@@ -47,4 +48,4 @@ and **gave 13 talks** on conferences or meet-ups.
 * [When Monolog meet ELK](/talks/#when-monolog-meet-elk)
 
 With this post I would also like to introduce <a href="/talks">a new section here on our blog: Talks</a>, the place to 
-look for all our given talks & presentations. **2014 alone features 13 presentations**, feel free to flip through them.
+look for all our given talks & presentations. **2014 alone features 14 presentations**, feel free to flip through them.
