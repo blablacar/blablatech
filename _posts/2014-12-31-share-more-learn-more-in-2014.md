@@ -11,7 +11,7 @@ close to 50, but we also continued to live one of our key values: <strong>Share 
 Looking back at all the events, meet-ups and conferences where BlaBlaTechies assisted, produced a way bigger list than
 expected: we **organised 3 events** in our lovely offices in the heart of Paris,
 
-* Paris Android User Group (PAUG) conferences, Paris (France) in March
+* Paris Android User Group (PAUG) meet-up, Paris (France) in March
 * Sketch MeetUP, Paris (France) in September
 * SfPot, Paris (France) in October
  
