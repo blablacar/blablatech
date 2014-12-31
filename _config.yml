@@ -1,43 +1,151 @@
 authors:
   benjamin-fraud:
-    name:     "Benjamin Fraud"
-    nickname: "bench1ps"
-    github:   "bench1ps"
-    twitter:  "bench1ps"
-    role:     "Web Development Engineer"
+    name:       "Benjamin Fraud"
+    nickname:   "bench1ps"
+    github:     "bench1ps"
+    twitter:    "bench1ps"
+    role:       "Web Development Engineer"
   christian-jennewein:
-    name:     "Christian Jennewein"
-    nickname: "Christian"
-    twitter:  "cestcri"
-    github:   "cestcri"
-    role:     "Tech Manager"
+    name:       "Christian Jennewein"
+    nickname:   "Christian"
+    twitter:    "cestcri"
+    github:     "cestcri"
+    role:       "Tech Manager"
+  erwann-robin:
+    name:       "Erwann Robin"
+    nickname:   "Erwann"
+    twitter:    "diwann"
+    github:     "diwann"
+    role:       "Mobile Development Engineer"
+  fx-oxeda:
+    name:       "François-Xavier Oxeda"
+    nickname:   "FX"
+    twitter:    "DEIONaLiMs"
+    github:
+    role:       "Mobile Development Engineer"
+  matthieu-moquet:
+    name:       "Matthieu Moquet"
+    nickname:   "Mattketmo"
+    github:     "MattKetmo"
+    twitter:    "MattKetmo"
+    role:       "Web Development Engineer"
   nicolas-schwartz:
-    name:     "Nicolas Schwartz"
-    nickname: "Nico"
-    twitter:  "nicoschwartz"
-    github:   "nicoschwartz"
-    role:     "Tech Manager"
+    name:       "Nicolas Schwartz"
+    nickname:   "Nico"
+    twitter:    "nicoschwartz"
+    github:     "nicoschwartz"
+    role:       "Tech Manager"
+  olivier-dolbeau:
+    name:       "Olivier Dolbeau"
+    nickname:   "Olivier"
+    github:     "odolbeau"
+    twitter:    "odolbeau"
+    role:       "Web Architect"
 
-description:  "Share More, Learn More — BlaBlaCar's Tech team"
-highlighter:  true
-markdown:     rdiscount
-months:
-  - January
-  - February
-  - March
-  - April
-  - May
-  - June
-  - July
-  - August
-  - September
-  - October
-  - Movember
-  - December
-name:         "BlaBlaTech Blog"
-paginate:     10
-permalink:    /blog/:title
-url:          "http://blablatech.com"
+description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
 gems:
   - jekyll-redirect-from
+
+highlighter:    true
+
+markdown:       rdiscount
+
+name:           "BlaBlaTech Blog"
+
+paginate:       10
+
+permalink:      /blog/:title
+
+talks:
+  2014:
+    symfonycon-2014:
+      authors:  [matthieu-moquet]
+      date:     "27-29 November"
+      event:    "SymfonyCon"
+      place:    "Madrid (Spain)"
+      title:    "Localization should not be a pain (anymore)"
+      thumb:    matthieu-moquet_symfonycon-2014.jpg
+      url:      https://speakerdeck.com/mattketmo/localization-should-not-be-a-pain-anymore
+    appdays-2014:
+      authors:  [erwann-robin, fx-oxeda]
+      date:     "6-7 November"
+      event:    "appdays"
+      place:    "Paris (France)"
+      title:    "Comment migrer 10 millions de membres d’une webview vers une app native ?"
+      thumb:    erwann-robin_appdays-2014.jpg
+      url:      /talks/erwann-robin_appdays-2014.pdf
+    laisse-pas-trainer-ton-log:
+      authors:  [olivier-dolbeau]
+      date:     "23-24 October"
+      event:    "Forum PHP"
+      place:    "Montrouge (France)"
+      title:    "Laisse pas trainer ton log"
+      thumb:    olivier-dolbeau_laisse-pas-trainer-ton-log.jpg
+      url:      https://speakerdeck.com/odolbeau/laisse-pas-trainer-ton-log
+    when-monolog-meet-elk:
+      authors:  [olivier-dolbeau]
+      date:     "15 July"
+      event:    "sfPot"
+      place:    "Paris (France)"
+      title:    "When Monolog meet ELK"
+      thumb:    olivier-dolbeau_when-monolog-meet-elk.jpg
+      url:      https://speakerdeck.com/odolbeau/when-monolog-meet-elk
+    asynchronous-tasks-in-php:
+      authors:  [olivier-dolbeau]
+      date:     "23-24 June"
+      event:    "PHP Tour"
+      place:    "Lyon (France)"
+      title:    "Asynchronous tasks in PHP"
+      thumb:    olivier-dolbeau_asynchronous-tasks-in-php.jpg
+      url:      https://speakerdeck.com/odolbeau/asynchronous-tasks-in-php
+    doctrine-lexer-use-case:
+      authors:  [olivier-dolbeau]
+      date:     "23-24 June"
+      event:    "PHP Tour"
+      place:    "Lyon (France)"
+      title:    "Doctrine Lexer use case"
+      thumb:    olivier-dolbeau_doctrine-lexer-use-case.jpg
+      url:      https://speakerdeck.com/odolbeau/doctrine-lexer-use-case
+    agility-in-your-translation-workflow:
+      authors:  [matthieu-moquet]
+      date:     "23-24 June"
+      event:    "PHP Tour"
+      place:    "Lyon (France)"
+      title:    "Agility in your translation workflow"
+      thumb:    matthieu-moquet_phptour-2014-i18n.jpg
+      url:      https://speakerdeck.com/mattketmo/agility-in-your-translation-workflow
+    sso-and-soa:
+      authors:  [matthieu-moquet]
+      date:     "23-24 June"
+      event:    "PHP Tour"
+      place:    "Lyon (France)"
+      title:    "SSO & SOA"
+      thumb:    matthieu-moquet_phptour-2014-sso-soa.jpg
+      url:      https://speakerdeck.com/mattketmo/sso-and-soa
+    swarrot-a-library-to-consume-them-all:
+      authors:  [olivier-dolbeau]
+      date:     "7-8 April"
+      event:    "Symfony Live"
+      place:    "Paris (France)"
+      title:    "Swarrot, a library to consume them all"
+      thumb:    olivier-dolbeau_swarrot-a-library-to-consume-them-all.jpg
+      url:      https://speakerdeck.com/odolbeau/swarrot-a-library-to-consume-them-all
+    making-asynchronous-tasks-in-php:
+      authors:  [olivier-dolbeau]
+      date:     "7-8 April"
+      event:    "Symfony Live"
+      place:    "Paris (France)"
+      title:    "Making asynchronous tasks in PHP - The easy way"
+      thumb:    olivier-dolbeau_making-asynchronous-tasks-in-php.jpg
+      url:      https://speakerdeck.com/odolbeau/making-asynchronous-tasks-in-php
+    decoupling-your-application:
+      authors:  [matthieu-moquet]
+      date:     "7-8 April"
+      event:    "Symfony Live"
+      place:    "Paris (France)"
+      title:    "Decoupling your application"
+      thumb:    matthieu-moquet_symfony-live-2014.jpg
+      url:      https://speakerdeck.com/mattketmo/decoupling-your-application
+
+url:            "http://blablatech.com"

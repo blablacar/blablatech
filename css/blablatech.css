@@ -20,6 +20,9 @@ h6, .h6,
     font-family: "Nunito", sans-serif;
     font-weight: 700;
     color: #333;
+}
+
+.navbar a {
     text-shadow: 3px 3px 3px rgba(51, 51, 51, 0.25)
 }
 
@@ -27,14 +30,12 @@ a,
 h1,
 .blabla-blue {
     color: #278bcb;
-    text-shadow: 2px 2px 2px rgba(39, 139, 203, 0.25)
 }
 
 h2, .h2,
 h3, .h3,
 .blabla-green {
     color: #65bd4d;
-    text-shadow: 2px 2px 2px rgba(101, 189, 77, 0.25)
 }
 
 .blabla-red {
@@ -62,6 +63,32 @@ h3, .h3,
     font-size: 1.35em;
     line-height: 1.5;
     text-shadow: none;
+}
+
+.list-striped li {
+    border-radius: 15px;
+    padding: 10px 5px 10px 15px;
+}
+
+.list-striped li:nth-child(odd){
+    background-color: #f5f5f5;
+}
+
+.social {
+    border: 0;
+    display: inline-block;
+    height: 32px;
+    margin-right: 10px;
+    opacity: 0.15;
+    width: 32px;
+}
+
+.social-github {
+    background-image: url(/images/github-logo.png);
+}
+
+.social-twitter {
+    background-image: url(/images/twitter-logo.png);
 }
 
 /*
@@ -122,4 +149,10 @@ img.fun-and-serious {
 .authors img {
     height: 100px;
     width: 100px;
+}
+
+.talks img {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    height: 225px;
+    width: 300px;
 }

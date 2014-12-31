@@ -1,0 +1,26 @@
+---
+layout: base
+title:  Talks
+---
+
+<h1>Our talks and presentations</h1>
+
+<h2>2014 <span class="badge">{{ site.talks[2014].size }}</span></h2>
+<ul class="media-list talks">
+    {% for talk in site.talks[2014] %}
+        {% assign authors_authors = talk[1].authors %}
+        <li id="{{ talk[0] }}" class="media">
+            <a class="media-left media-middle" href="{{ talk[1].url }}">
+                <img src="/images/talks/{{ talk[1].thumb }}" alt="{{ talk[1].title }}">
+            </a>
+            <div class="media-body">
+                <h4 class="media-heading">{{ talk[1].title }}</h4>
+                <p>{% include authors.html %}</p>
+                <p>
+                    <strong>{{ talk[1].event }}, {{ talk[1].place }}</strong><br />
+                    {{ talk[1].date | strip_newlines }}
+                </p>
+            </div>
+        </li>
+    {% endfor %}
+</ul>

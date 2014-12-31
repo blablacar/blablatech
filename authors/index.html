@@ -5,15 +5,17 @@ title:  Authors
 
 <h1>The authors of this blog</h1>
 
-<ul class="media-list authors">
+<ul class="list-striped media-list authors">
     {% for author in site.authors %}
     <li class="media">
-            <a id="author-{{ author[0] }}" class="media-left media-middle" href="https://twitter.com/{{ author[1].twitter }}">
-                <img src="/images/author-{{ author[0] }}.png" alt="{{ author[1].nickname }}">
+            <a id="author-{{ author[0] }}" class="media-left media-middle" href="#">
+                <img src="/images/authors/{{ author[0] }}.png" alt="{{ author[1].nickname }}">
             </a>
             <div class="media-body">
                 <h4 class="media-heading">{{ author[1].name }}</h4>
-                {{ author[1].role }}
+                {{ author[1].role }}<br />
+                {% if author[1].github %}<a class="social social-github" href="https://github.com/{{ author[1].github }}"></a>{% endif %}
+                {% if author[1].twitter %}<a class="social social-twitter" href="https://twitter.com/{{ author[1].twitter }}"></a>{% endif %}
             </div>
         </li>
     {% endfor %}
