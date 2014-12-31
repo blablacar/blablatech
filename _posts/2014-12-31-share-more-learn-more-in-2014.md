@@ -20,6 +20,7 @@ expected: we **organised two events** in our lovely offices in the heart of Pari
 * PHP Tour Lyon (France) in June
 * ForumPHP, Montrouge (France) in October
 * Cassandra Summit, San Francisco (USA) in September
+* Droidcon, Paris (France) in September
 * Varnish Summit, Paris (France) in October
 * appdays, Paris (France) in November
 * Velocity Europe, Barcelona (Spain) in November
