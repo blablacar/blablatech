@@ -42,7 +42,7 @@ and **gave 14 talks** on conferences or meet-ups.
 * [ELK - Elasticsearch, Logstash & Kibana](/talks/#elk-elasticsearch-logstash-kibana)
 * [Laisse pas trainer ton log](/talks/#laisse-pas-trainer-ton-log)
 * [Localization should not be a pain (anymore)](/talks/#symfonycon-2014)
-* [Making asynchronous tasksin PHP - The easy way](/talks/#making-asynchronous-tasks-in-php)
+* [Making asynchronous tasks in PHP - The easy way](/talks/#making-asynchronous-tasks-in-php)
 * [SSO & SOA](/talks/#sso-and-soa)
 * [Swarrot, a library to consume them all](/talks/#swarrot-a-library-to-consume-them-all)
 * [When Monolog meet ELK](/talks/#when-monolog-meet-elk)
