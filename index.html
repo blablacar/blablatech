@@ -21,7 +21,7 @@ title:  Welcome
         </p>
     </header>
     <div class="blog-post">
-        {{ post.content }}
+        {{ post.content | truncatewords:100 | strip_html }} <a href="{{ post.url }}">read more</a>
     </div>
 </article>
 
