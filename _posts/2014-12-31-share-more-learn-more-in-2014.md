@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Share more, Learn more... in 2014"
-tags:       "conferences"
-authors:    [christian-jennewein]
+layout:         post
+title:          Share more, Learn more... in 2014
+tags:           conferences
+authors:        [christian-jennewein]
+description:    Looking back at all the events, meet-ups and conferences where BlaBlaTechies assisted in 2014
 ---
 
 2014 was a great year for the Tech team of BlaBlaCar! Not only did we grow from about 20 people to

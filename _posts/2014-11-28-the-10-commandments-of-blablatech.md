@@ -1,9 +1,10 @@
 ---
-layout:     post
-title:      "The 10 commandments of BlaBlaTech"
-tags:       culture
-authors:    [nicolas-schwartz, christian-jennewein]
-redirect_from: "/archive/2014/11/28/the-10-commandments-of-blablatech/"
+layout:         post
+title:          The 10 commandments of BlaBlaTech
+tags:           culture
+authors:        [nicolas-schwartz, christian-jennewein]
+redirect_from:  /archive/2014/11/28/the-10-commandments-of-blablatech/
+description:    A top 10 list of best practices combined with valuable advices that guide the BlaBlaTech
 ---
 
 Welcome to the new BlaBlaTech blog (build with fantastic [Jekyll](http://jekyllrb.com/), for comments please use our [Twitter](https://twitter.com/BlaBlaCarTech))! This first article will actually consist of an updated version of our 10 commandments, a **top 10 list of best practices combined with valuable advices** that guide our tech team for many years now.

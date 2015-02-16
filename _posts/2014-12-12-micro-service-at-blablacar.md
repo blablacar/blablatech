@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Micro-services at BlaBlaCar"
-tags:       "application-architecture"
-authors:    [benjamin-fraud]
+layout:         post
+title:          Micro-services at BlaBlaCar
+tags:           application-architecture
+authors:        [benjamin-fraud]
+description:    How to adopt a global technical strategy which gives us enough flexibility each and every day
 ---
 
 Going international comes with a bunch of technical challenges that need to be addressed early. How do we easily 

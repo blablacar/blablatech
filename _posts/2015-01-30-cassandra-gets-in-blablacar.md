@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Cassandra gets in BlaBlaCar"
-tags:       "tech"
-authors:    [nicolas-menoux]
+layout:         post
+title:          Cassandra gets in BlaBlaCar
+tags:           tech
+authors:        [nicolas-menoux]
+description:    Propagating the Cassandra spirit to the BlaBlaTech with the help of a funny and interactive demo
 ---
 
 ## Overview
@@ -15,7 +16,7 @@ Promote and introduce a new kind of datastore in a company is always quite trick
 
 As a former consultant in BigData (@NickyintheCloud), I've been mandated by **BlaBlaCar to set up and steer a Data Team** of which one of the main tasks is to **migrate some entities from traditional relational databases like MySQL to Cassandra** and prepare the company to tackle Data pressure especially on **a multi-region context**.
 
-The purpose of this document is not to present how we, the Data Team, are designing Cassandra tables in a query driven approach but how by a **funny and interactive demo with raspberries and elbow grease, it is possible to propagate the Cassandra spirit to tech teams** ! Oh ya!
+The purpose of this document is not to present how we, the Data Team, are designing Cassandra tables in a query driven approach but how by a **funny and interactive demo with raspberries and elbow grease, it is possible to propagate the Cassandra spirit to tech teams**! Oh ya!
 
 ### The demo
 There are some very good posts on the web for [setting up Cassandra clusters with Raspberry Pies](<http://www.datastax.com/dev/blog/32-node-raspberry-pi-cassandra-cluster>) and the [C* Summit 2013 presentation](<http://fr.slideshare.net/planetcassandra/5-andy-cobley-raspberry-pi>) by @AndyCobley, great job guys it was really inspiring!
