@@ -12,7 +12,7 @@ title:  Welcome
 
 <article itemscope itemtype="http://schema.org/BlogPosting">
     <header>
-        <h1 itemprop="name">{{ post.title }}</h1>
+        <h1 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h1>
         <p class="meta">
             {% assign post_details_authors = post.authors %}
             {% assign post_details_date = post.date %}
