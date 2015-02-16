@@ -3,12 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="The BlaBlaCar Tech team">
+    <meta name="author" content="{% if page.authors %}{% for author in page.authors %}{% if false == forloop.first AND true == forloop.last %}, {% endif %}{{ site.authors[author].name }}{% endfor %}{% else %}The BlaBlaCar Tech team{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>{{ page.title }} - {{ site.name }}</title>
-
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <link rel="alternate" href="/atom.xml" title="{{ site.name }}" type="application/atom+xml" />
     <link rel="icon" href="/images/favicon.ico">
     <link href="/css/bootstrap-3.3.1.min.css" rel="stylesheet">

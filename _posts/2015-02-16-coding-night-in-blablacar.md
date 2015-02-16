@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "First Coding Night in BlaBlaCar"
-tags:       "tech"
-authors:    [nicolas-tricot]
+layout:         post
+title:          First Coding Night in BlaBlaCar
+tags:           tech
+authors:        [nicolas-tricot]
+description:    In January, BlaBlaCar hosted its first internal coding event ever...
 ---
 
 ## Here we go!
