@@ -53,18 +53,18 @@ authors:
     twitter:    "nicoschwartz"
     github:     "nicoschwartz"
     role:       "Tech Manager"
-  olivier-dolbeau:
-    name:       "Olivier Dolbeau"
-    nickname:   "Olivier"
-    github:     "odolbeau"
-    twitter:    "odolbeau"
-    role:       "Web Architect"
   nicolas-tricot:
     name:       "Nicolas Tricot"
     nickname:   "ShoLine"
     twitter:    "sholine42"
     github:     "sholine"
     role:       "Tech Manager"
+  olivier-dolbeau:
+    name:       "Olivier Dolbeau"
+    nickname:   "Olivier"
+    github:     "odolbeau"
+    twitter:    "odolbeau"
+    role:       "Web Architect"
 
 description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
