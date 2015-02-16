@@ -51,7 +51,7 @@ Following 24 hours of coding, the remaining teams had to present their work.
 ...followed by our office management team that prepared some delights to survive...
 
 ![](/images/2015-02-13_coding-night-in-blablacar/DSC04982.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/IMG_0273.JPG =600x)
+![](/images/2015-02-13_coding-night-in-blablacar/pizza-cartons.jpg =600x)
 
 ## Time to sleep?
 
@@ -60,7 +60,7 @@ Staying up all night long is a challenge by itself:
 ![](/images/2015-02-13_coding-night-in-blablacar/DSC04986.JPG =600x)
 ![](/images/2015-02-13_coding-night-in-blablacar/DSC04992.JPG =600x)
 ![](/images/2015-02-13_coding-night-in-blablacar/DSC04994.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/IMG_0275.JPG =600x)
+![](/images/2015-02-13_coding-night-in-blablacar/falling-asleep-on-a-chair.jpg =600x)
 
 After effort comes comfort! The breakfast was the perfect moment to have a break, to exchange on the different projects' progress and to recharge the batteries.
 
