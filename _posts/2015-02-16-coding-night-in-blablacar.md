@@ -9,7 +9,7 @@ authors:    [nicolas-tricot]
 
 In January, BlaBlaCar hosted its first internal coding event ever... 24 hours of non-stop coding, whatever the project, whatever the technology. **Just code** from Friday 2pm to Saturday 2pm. It was amazing to see how highly involved were all those teams to transform their great ideas into working projects.
 
-![](/images/2015-02-13_coding-night-in-blablacar/IMG_0268.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/IMG_0268.JPG =600x)
 
 ## Why?
 
@@ -22,7 +22,7 @@ The concept was based on 4 main ideas:
 * **Create ownership**, thus allowing people to "think it, build it" and make it available for "use it"...
 * **Have fun!**
 
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04962.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04962.JPG =600x)
 
 ## How?
 
@@ -32,39 +32,39 @@ Following 24 hours of coding, the remaining teams had to present their work.
 
 ## 24 loooooooooooong hours of coding...
 
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04944.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04945.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04955.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04987.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04946.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04947.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04948.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04950.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04951.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04966.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04974.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04980.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/IMG_0239.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/IMG_0241.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04944.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04945.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04955.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04987.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04946.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04947.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04948.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04950.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04951.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04966.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04974.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04980.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/IMG_0239.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/IMG_0241.JPG =600x)
 
 
 ...followed by our office management team that prepared some delights to survive...
 
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04982.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/pizza-cartons.jpg =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04982.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/pizza-cartons.jpg =600x)
 
 ## Time to sleep?
 
 Staying up all night long is a challenge by itself:
 
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04986.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04992.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04994.JPG =600x)
-![](/images/2015-02-13_coding-night-in-blablacar/falling-asleep-on-a-chair.jpg =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04986.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04992.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04994.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/falling-asleep-on-a-chair.jpg =600x)
 
 After effort comes comfort! The breakfast was the perfect moment to have a break, to exchange on the different projects' progress and to recharge the batteries.
 
-![](/images/2015-02-13_coding-night-in-blablacar/DSC04997.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04997.JPG =600x)
 
 ## And the winner is...
 
@@ -108,7 +108,7 @@ Many thanks to all brave participants:
 * [Christian](/authors/#author-christian-jennewein), Francis, Frédéric Dermer, Simon, (BlaBlaFaces)
 * [Nicolas Tricot](/authors/#author-nicolas-tricot) (iTunes Lib Maze)
 
-![](/images/2015-02-13_coding-night-in-blablacar/DSC05009.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC05009.JPG =600x)
 
 <a href="/authors/#author-{{ author }}">{{ site.authors[author].name }}</a>
 
