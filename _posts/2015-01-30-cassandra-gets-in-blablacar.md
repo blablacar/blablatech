@@ -9,22 +9,22 @@ authors:    [nicolas-menoux]
 
 <img src="/images/2015-01-30_cassandra-gets-in-blablacar/cassandra_bbc.png" class="pull-right" style="width: 307px;" />
 
-Promote and introduce a new kind of datastore in a company is always quite tricky. Beyond the necesssary explanation how this new technology meets expectations, the most important task is to support change and help developer teams to take advantage of it.
+Promote and introduce a new kind of datastore in a company is always quite tricky. Beyond the necessary explanation how this new technology meets expectations, the most important task is to support change and help developer teams to take advantage of it.
 
-[BlaBlaCar](http://www.blablacar.com/) is a trusted community marketplace that connects drivers with empty seats to passengers looking for a ride. It is a fast-growing French firm delivering ride-sharing service accross **14 countries including India**. With **200 people** and more than **11 million users** with international growth rate exceeding **500,000** new users monthly, **Data flow is becoming really huge** !
+[BlaBlaCar](http://www.blablacar.com/) is a trusted community marketplace that connects drivers with empty seats to passengers looking for a ride. It is a fast-growing French firm delivering ride-sharing service across **14 countries including India**. With **200+ people** and **11+ million users** with international growth rate exceeding **500,000** new users monthly, **Data flow is becoming really huge**!
 
-As a former consultant in BigData (@NickyintheCloud), I've been mandated by **BlaBlaCar to set up and steer a Data Team** of which one of the main tasks is to **migrate some entities from traditionnal relational databases like MySQL to Cassandra** and prepare the company to tackle Data pressure especially on **a multi-region context**.
+As a former consultant in BigData (@NickyintheCloud), I've been mandated by **BlaBlaCar to set up and steer a Data Team** of which one of the main tasks is to **migrate some entities from traditional relational databases like MySQL to Cassandra** and prepare the company to tackle Data pressure especially on **a multi-region context**.
 
-The purpose of this document is not to present how we, the Data Team, are designing Cassandra tables in a query driven approach but how by a **funny and interactive demo with raspbberies and elbow grease, it is possible to propagate the Cassandra spirit to tech teams** ! Oh ya !..
+The purpose of this document is not to present how we, the Data Team, are designing Cassandra tables in a query driven approach but how by a **funny and interactive demo with raspberries and elbow grease, it is possible to propagate the Cassandra spirit to tech teams** ! Oh ya!
 
-### The demo##
-There are some very good posts on the web for setting up Cassandra clusters with raspberrypies (<http://www.datastax.com/dev/blog/32-node-raspberry-pi-cassandra-cluster>) and the C* Summit 2013 presentation (<http://fr.slideshare.net/planetcassandra/5-andy-cobley-raspberry-pi>) by @AndyCobley, great job guys it was really inspiring !
+### The demo
+There are some very good posts on the web for [setting up Cassandra clusters with Raspberry Pies](<http://www.datastax.com/dev/blog/32-node-raspberry-pi-cassandra-cluster>) and the [C* Summit 2013 presentation](<http://fr.slideshare.net/planetcassandra/5-andy-cobley-raspberry-pi>) by @AndyCobley, great job guys it was really inspiring!
 
-This new **demo**, based on Cassandra & Raspberry pi, is not only intended to **set up a multi-DCs high-resilient cluster** but also to demonstrate **how efficient the cassandra consistency levels tuning for write operations is** !
+This new **demo**, based on Cassandra & Raspberry Pi, is not only intended to **set up a multi-DCs high-resilient cluster** but also to demonstrate **how efficient the cassandra consistency levels tuning for write operations is**!
 
 ![](/images/2015-01-30_cassandra-gets-in-blablacar/IMG_8590.JPG =600x)
 
-As you could see above on the final demo panel, we have many elements to illustrate Cassandra resiliency :
+As you could see above on the final demo panel, we have many elements to illustrate Cassandra resiliency:
 
 * multi-DC context (2 DCs)
 * multi-rack per DC (DC1 : 3 racks, DC2 : 1 rack)
