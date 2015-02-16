@@ -59,6 +59,12 @@ authors:
     github:     "odolbeau"
     twitter:    "odolbeau"
     role:       "Web Architect"
+  nicolas-tricot:
+    name:       "Nicolas Tricot"
+    nickname:   "ShoLine"
+    twitter:    "sholine42"
+    github:     "sholine"
+    role:       "Tech Manager"
 
 description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
