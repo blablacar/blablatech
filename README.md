@@ -15,6 +15,7 @@ Posts are written in [markdown](https://help.github.com/articles/markdown-basics
     $ gem install jekyll-redirect-from
     $ gem install rdiscount
 ```
+- **Warning: commits to gh-pages are immediately live**
 
 ## Tips & Tricks
 
