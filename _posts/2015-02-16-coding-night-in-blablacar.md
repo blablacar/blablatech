@@ -91,7 +91,7 @@ A backoffice tool to enable/disable BlaBlaCar features using simple rules.
 
 ### The winner project: Meet your co-riders
 
-*by Alexandra Tritz, Charles-Henry Vespierre, Zsolt Mark, Clément Vasseur, [Erwann Robin](/authors/#author-erwann-robin), Saad Bouchehboun*
+*by [Alexandra Tritz](/authors/#author-alexandra-tritz), Charles-Henry Vespierre, Zsolt Mark, Clément Vasseur, [Erwann Robin](/authors/#author-erwann-robin), Saad Bouchehboun*
 
 A tool to geolocalize your co-riders as a driver or passenger.
 
