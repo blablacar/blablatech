@@ -5,6 +5,15 @@ BlaBlaCar's Tech Blog — all BlaBlaCar Techies are invited to participate :)
 We use [Jekyll](http://jekyllrb.com/docs/home/) for the blog, an easy-to-use way of transform plain text into blogs posts.
 Posts are written in [markdown](https://help.github.com/articles/markdown-basics/), it could not be easier!
 
+## Installation
+
+- You need a local webserver in order to run and test the blog
+- Clone gh-pages on your machine and configure your localhost accordingly 
+- Install Jekyll and the required plugins
+  $ gem install jekyll
+  $ gem install jekyll-redirect-from
+  $ gem install rdiscount
+
 ## Tips & Tricks
 
 - Add new authors in the `_config.yml`, it's as easy as this
