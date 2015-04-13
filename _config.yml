@@ -88,6 +88,15 @@ paginate:       10
 permalink:      /blog/:title
 
 talks:
+  2015:
+    scrumday-2015:
+      authors:  [christian-jennewein, nicolas-tricot]
+      date:     "2-3 April"
+      event:    "ScrumDay"
+      place:    "Disneyland (France)"
+      title:    "Scrum @ BlaBlaTech"
+      thumb:    christian-jennewein_scrumday-2015.jpg
+      url:      https://speakerdeck.com/cestcri/scrum-at-blablatech
   2014:
     symfonycon-2014:
       authors:  [matthieu-moquet]
