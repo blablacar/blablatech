@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          The History of Scrum at BlaBlaCar
-tags:           tech
+tags:           organisation
 authors:        [christian-jennewein]
 description:    Looking back at the last 3 years of BlaBlaTech and how the growth of the team has been absorbed and managed from an organisational point of view.
 ---
