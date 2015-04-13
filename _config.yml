@@ -77,7 +77,7 @@ description:    "Share More, Learn More — BlaBlaCar's Tech team"
 gems:
   - jekyll-redirect-from
 
-highlighter:    true
+highlighter:    pygments
 
 markdown:       rdiscount
 
