@@ -2,36 +2,71 @@
 layout: base
 title:  Welcome
 ---
-
-<div class="jumbotron">
-    <h1>BlaBlaCar's talking tech</h1>
-    <p>Share more, learn more: one of BlaBlaCar's values explains probably best <i>la raison d'être</i> of this blog.</p>
+<div class="hero">
+    <h1><strong>SHARE MORE,<br>LEARN MORE</strong></h1>
+    <p class="lead">One of BlaBlaCar's values explains probably best <i>"la raison d'être"</i> of this blog.</p>
 </div>
+
+<div class="clearfix">
+    <div class="follow-us pull-right">
+        <ol class="list-unstyled clearfix">
+            <li class="pull-left">
+                <a href="https://github.com/blablacar">
+                    <img src="../images/github.svg" alt="BlaBlaCar GitHub page" width="26">
+                </a>
+            </li>
+            <li class="pull-left">
+                <a href="https://twitter.com/BlaBlaCarTech">
+                    <img src="../images/twitter.svg" alt="BlaBlaTech Twitter page" width="26">
+                </a>
+            </li>
+        </ol>
+    </div>  
+</div>
+
+<div class="gradient-separator"></div>
 
 {% assign post = site.posts.first %}
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="post-preview">
     <header>
-        <h1 itemprop="name"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p class="meta">
+        <div class="text-center author-container">
+            {% for author in post.authors %}
+                <img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}">
+            {% endfor %}
+        </div>
+        <p class="meta no-margin text-center">
             {% assign post_details_authors = post.authors %}
             {% assign post_details_date = post.date %}
             {% assign post_details_tags = post.tags %}
             {% include post_details.html %}
         </p>
+        
+        <hr width="30%">
+        
+        <h1 itemprop="name"><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></h1>
     </header>
-    <div class="blog-post">
-        {{ post.content | truncatewords:100 | strip_html }} <a href="{{ post.url }}">read more</a>!
+    <div class="blog-intro">
+        {{ post.content | truncatewords:150 | strip_html }} 
+        <a href="{{ post.url }}" class="button block read-more">read more</a>
     </div>
 </article>
 
+<hr width="60%">
+
 {% if site.posts.size > 1 %}
 <section class="previous">
-    <h2>Previous posts</h2>
-    <ul>
+    <h3>Older posts</h3>
+    <ul class="list-unstyled previous-list">
         {% for post in site.posts offset:1 limit:3 %}
-        <li>
-            {{ post.date | date: "%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a>
+        <li class="previous-list--item clearfix">
+            {% for author in post.authors %}
+            <img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}" class="pull-left">
+            {% endfor %}
+            <p class="overflow no-margin">
+                {{ post.date | date: "%Y-%m-%d" }}<br>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </p>
         </li>
         {% endfor %}
     </ul>

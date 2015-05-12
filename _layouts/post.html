@@ -1,18 +1,46 @@
 ---
-layout: base
+layout: blog-post
 ---
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
+<article itemscope itemtype="http://schema.org/BlogPosting" class="blog">
     <header>
         <h1 itemprop="name">{{ page.title }}</h1>
-        <p class="meta">
-            {% assign post_details_authors = page.authors %}
-            {% assign post_details_date = page.date %}
-            {% assign post_details_tags = page.tags %}
-            {% include post_details.html %}
-        </p>
+        <div class="text-center author-container">
+            {% for author in page.authors %}
+            <img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}">
+            {% endfor %}
+            <p class="meta text-center">
+                {% assign post_details_authors = page.authors %}
+                {% assign post_details_date = page.date %}
+                {% assign post_details_tags = page.tags %}
+                {% include post_details.html %}
+            </p>
+        </div>
     </header>
+    
     <div class="blog-post">
         {{ content }}
     </div>
 </article>
+
+<hr width="60%">
+
+{% if site.posts.size > 1 %}
+<section class="previous">
+    <h3>Older posts</h3>
+    <ul class="list-unstyled previous-list">
+        {% for post in site.posts offset:1 limit:3 %}
+        <li class="previous-list--item clearfix">
+            {% for author in post.authors %}
+            <img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}" class="pull-left">
+            {% endfor %}
+            <p class="overflow no-margin">
+                {{ post.date | date: "%Y-%m-%d" }}<br>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
+{% endif %}
+
