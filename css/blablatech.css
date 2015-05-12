@@ -391,3 +391,13 @@ img.talk-thumb{
 .badge.blue{
     background-color:#0CA9FA;
 }
+
+/* Archives */
+
+.archive{
+    margin-top: 40px;
+}
+
+.archive ul{
+    margin-bottom: 40px;
+}
