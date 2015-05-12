@@ -46,7 +46,7 @@ title:  Welcome
         <hr width="60%">
     </header>
     <div class="blog-intro">
-        {{ post.content | truncatewords:150 | strip_html }} 
+        {{ post.content | truncatewords:100 | strip_html }} 
         <a href="{{ post.url }}" class="button block read-more">read more</a>
     </div>
 </article>
@@ -57,7 +57,7 @@ title:  Welcome
 <section class="previous">
     <h3>Older posts</h3>
     <ul class="list-unstyled previous-list">
-        {% for post in site.posts offset:1 limit:3 %}
+        {% for post in site.posts offset:1 limit:5 %}
         <li class="previous-list--item clearfix">
             {% for author in post.authors %}
             <img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}" class="pull-left">
