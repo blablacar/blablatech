@@ -362,3 +362,32 @@ a.button{
 .blog .author-container{
     margin: 20px 0 40px 0;
 }
+
+
+/* Talks */
+
+img.talk-thumb{
+    width: 30px;
+    height: auto;
+    margin: 5px 0;
+}
+
+.media-list li{
+    border: 1px solid #eee;
+    margin-bottom: 40px;
+}
+
+.media-body{
+    display: block;
+    padding: 12px;
+}
+
+.media-body h4{
+   line-height: 27px;
+   font-weight: 200;
+   color: #757474;
+}
+
+.badge.blue{
+    background-color:#0CA9FA;
+}

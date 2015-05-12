@@ -1,6 +1,6 @@
 {% for author in authors_authors %}
     {% if false == forloop.first AND true == forloop.last %}
-        &middot;
+        <br/>
     {% endif %}
     <a href="/authors/#author-{{ author }}">{{ site.authors[author].name }}</a>
 {% endfor %}

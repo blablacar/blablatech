@@ -4,19 +4,21 @@ title:  Talks
 ---
 
 <h1>Our talks and presentations</h1>
+<hr width="80%" />
 
 {% for year in (2014..2015) reversed %}
-    <h2>{{ year }} <span class="badge">{{ site.talks[year].size }}</span></h2>
+    <h2>{{ year }} <span class="badge blue">{{ site.talks[year].size }}</span></h2>
     <ul class="media-list talks">
         {% for talk in site.talks[year] %}
             {% assign authors_authors = talk[1].authors %}
-            <li id="{{ talk[0] }}" class="media">
-                <a class="media-left media-middle" href="{{ talk[1].url }}">
+            <li id="{{ talk[0] }}">
+                <a href="{{ talk[1].url }}">
                     <img src="/images/talks/{{ talk[1].thumb }}" alt="{{ talk[1].title }}">
                 </a>
                 <div class="media-body">
-                    <h4 class="media-heading">{{ talk[1].title }}</h4>
-                    <p>{% include authors.html %}</p>
+                    <!-- <h4>{{ talk[1].title }}</h4> -->
+                    <p>{% include authors_talk.html %}</p>
+                        <hr width="80%"/>
                     <p>
                         <strong>{{ talk[1].event }}, {{ talk[1].place }}</strong><br />
                         {{ talk[1].date | strip_newlines }}
