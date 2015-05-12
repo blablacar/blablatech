@@ -42,9 +42,8 @@ title:  Welcome
             {% include post_details.html %}
         </p>
         
-        <hr width="30%">
-        
         <h1 itemprop="name"><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></h1>
+        <hr width="60%">
     </header>
     <div class="blog-intro">
         {{ post.content | truncatewords:150 | strip_html }} 

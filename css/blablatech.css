@@ -290,7 +290,7 @@ a.button{
 }
 
     .post-preview h1 {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
 .author-container img{
@@ -400,4 +400,8 @@ img.talk-thumb{
 
 .archive ul{
     margin-bottom: 40px;
+}
+
+.archive h3{
+    color: 
 }
