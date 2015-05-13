@@ -370,6 +370,10 @@ a.button{
 
 /* Talks */
 
+.talks p{
+    margin: 0;
+}
+
 img.talk-thumb{
     width: 30px;
     height: auto;
