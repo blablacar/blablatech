@@ -43,15 +43,12 @@ title:  Welcome
         </p>
         
         <h1 itemprop="name"><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></h1>
-        <hr width="60%">
     </header>
     <div class="blog-intro">
         {{ post.content | truncatewords:100 | strip_html }} 
         <a href="{{ post.url }}" class="button block read-more">read more</a>
     </div>
 </article>
-
-<hr width="60%">
 
 {% if site.posts.size > 1 %}
 <section class="previous">

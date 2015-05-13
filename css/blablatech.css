@@ -20,6 +20,11 @@ h6, .h6{
     font-family: helvetica, roboto, arial, sans-serif;
     font-weight: normal;
     color: #111;
+    margin-top: 50px;
+}
+
+p {
+  margin: 0 0 40px;
 }
 
 .logo-blue{
@@ -202,11 +207,6 @@ footer {
         text-align: center;
         margin-left: 0;
     }   
-}
-
-.hero{
-    padding-left: 12px;
-    border-left: 1px solid rgba(190,188,188, 0.5);
 }
 
 .hero h1{
@@ -403,5 +403,10 @@ img.talk-thumb{
 }
 
 .archive h3{
-    color: 
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 40px;
+    padding: 8px;
+    max-width: 250px;
+    margin: 50px auto 20px auto;
 }

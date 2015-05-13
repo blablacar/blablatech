@@ -5,23 +5,21 @@ title:  Archive
 
 <h1>The blog's archive</h1>
 
-<hr width="80%" />
-
 <div class="archive">
   {% for post in site.posts %}
       {% unless post.next %}
           <h3>{{ post.date | date: '%B %Y' }}</h3>
-          <ul>
+          <ul class="list-unstyled">
       {% else %}
           {% capture month %}{{ post.date | date: '%m' }}{% endcapture %}
           {% capture newMonth %}{{ post.next.date | date: '%m' }}{% endcapture %}
           {% if month != newMonth %}
               </ul>
               <h3>{{ post.date | date: '%B %Y' }}</h3>
-              <ul>
+              <ul class="list-unstyled">
           {% endif %}
       {% endunless %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li class="text-center"><a href="{{ post.url }}">- {{ post.title }}</a></li>
   {% endfor %}
   </ul>  
 </div>
