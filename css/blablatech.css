@@ -184,8 +184,8 @@ footer {
  * Images
  */
 
-.authors{
-    margin-top: 40px;
+.media-list.authors{
+    margin: 50px auto 0 auto;
 }
 
 .authors img {
@@ -296,6 +296,10 @@ a.button{
     .post-preview h1 {
         margin-top: 50px;
     }
+
+.author-container{
+    margin: 50px auto;
+}
 
 .author-container img{
     width: 50px;
