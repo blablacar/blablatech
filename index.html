@@ -29,20 +29,21 @@ title:  Welcome
 {% assign post = site.posts.first %}
 
 <article itemscope itemtype="http://schema.org/BlogPosting" class="post-preview">
-    <header>
+    <header>        
+        <h1 itemprop="name"><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></h1>
+
         <div class="text-center author-container">
             {% for author in post.authors %}
                 <img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}">
             {% endfor %}
+            <p class="meta no-margin text-center">
+                {% assign post_details_authors = post.authors %}
+                {% assign post_details_date = post.date %}
+                {% assign post_details_tags = post.tags %}
+                {% include post_details.html %}
+            </p>
         </div>
-        <p class="meta no-margin text-center">
-            {% assign post_details_authors = post.authors %}
-            {% assign post_details_date = post.date %}
-            {% assign post_details_tags = post.tags %}
-            {% include post_details.html %}
-        </p>
-        
-        <h1 itemprop="name"><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></h1>
+
     </header>
     <div class="blog-intro">
         {{ post.content | truncatewords:100 | strip_html }} 
