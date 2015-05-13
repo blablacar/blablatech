@@ -27,6 +27,10 @@ p {
   margin: 0 0 40px;
 }
 
+.logo a:hover{
+    text-decoration: none;
+}
+
 .logo-blue{
     color:#0084ba ;
 }
