@@ -6,7 +6,7 @@ title:  Talks
 <h1>Our talks and presentations</h1>
 
 {% for year in (2014..2015) reversed %}
-    <h2>{{ year }} <span class="badge blue">{{ site.talks[year].size }}</span></h2>
+    <h2 class="text-center">{{ year }} <span class="badge blue">{{ site.talks[year].size }}</span></h2>
     <ul class="media-list talks">
         {% for talk in site.talks[year] %}
             {% assign authors_authors = talk[1].authors %}

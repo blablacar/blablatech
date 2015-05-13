@@ -376,6 +376,11 @@ img.talk-thumb{
     margin: 5px 0;
 }
 
+.media-list{
+    max-width: 290px;
+    margin: 0 auto;
+}
+
 .media-list li{
     border: 1px solid #eee;
     margin-bottom: 40px;
