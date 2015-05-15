@@ -27,6 +27,11 @@ p {
   margin: 0 0 40px;
 }
 
+table{
+    max-width: 100%;
+    margin: 1.5em 0;
+}
+
 .logo a:hover{
     text-decoration: none;
 }
@@ -311,7 +316,8 @@ a.button{
 .blog-post img{
     width: 100%;
     height: auto;
-    margin: 0.5em;
+    margin: 0.5em auto;
+    border-radius: 3px;
 }
 
 .blog-intro iframe,
