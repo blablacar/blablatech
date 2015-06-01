@@ -1,36 +1,61 @@
 ---
 layout:         post
-title:          The History of Scrum at BlaBlaCar
-tags:           organisation
-authors:        [christian-jennewein]
-description:    Looking back at the last 3 years of BlaBlaTech and how the growth of the team has been absorbed and managed from an organisational point of view.
+title:          Swift Meetup Paris recap
+tags:           technology
+authors:        [mickael-rodrigues]
+description:    The recap of the Swift Meetup Paris talk "Unit tests with Swift" of Tuesday 26 May by Mickael Rodrigues.
 ---
 
-A few days ago [Nicolas Tricot](/authors/#author-nicolas-tricot) and myself went to Disneyland Paris, (unfortunately) not for roller-coastering but for speaking at [2015's ScrumDay conference](http://scrumday.fr/).
+After frequent exchanges with the Swift Meetup Paris organisers, BlaBlaCar finally hosted one of their meetups on Tuesday 26 May. An interesting topic emerged from discussions with another speaker of this meetup: unit tests on Swift. We decided to split the talk in two parts:
 
-## Time travel
+1. the first that focuses on the theory and some live coding
+2. the second giving feedback from an existing project
 
-The event was actually a great opportunity to sit down and look back to tell the organisational story of BlaBlaCar's Tech team. And that's what we did! Once we got the invitation from the [French Scrum User Group](http://frenchsug.org/) —they actually motivated the talk and thus made all this happen, thanks a million for your invaluable support— we started to gather **information about the agile transformation of our tech organisation**, interviewed people and built the story.
+This blog article will explain you my part, the theory of unit tests with Swift. 
+First of all, go back to Objective-C :)
+
+## Objective-C
+
+In Objective-C you have many methods to do testing. You can use some frameworks like OCMock, GUnit, OCUnit, etc. Or you can use method swizzling:
 
 <p class="text-center">
-    <img src="../../images/2015-04-13-the-history-of-scrum-at-blablacar/scrumday-2015-blablacar.jpg" alt="Nicolas Tricot and Christian Jennewein from BlaBlaCar at Scrumday 2015" />
+    <img src="../../images/2015-05-29_swift-meetup-paris-recap/method-swizzling.png" alt="Method swizzling" />
 </p>
 
-Constructed around a timeline starting three years ago, we laid out the different stages of us being agile:
+The main goal of this method is to change on runtime the implementation of your method. In this case, we want to test if the user is connected. We actually don’t care about how the “connected” property is set (downloaded via the cloud, the user default, etc.), we just need to test the case when the “connected” property returns “YES”. We will use method swizzling to do that on runtime. We keep the reference of “connected”, we replace it by “fakeConnected” and do the test. This is simple in Objective-C, in Swift this a little trickier.
 
-- not so much besides daily **standups** in 2012
-- a little more with **user stories, velocity and complexity** in 2013
-- fully scrum throughout 2014 with **poker planning and all the roles**
-- perfect **scrumban and kanban** in 2015 with ever more mature teams
+## Swift
 
-Have a look at our presentation embedded hereafter, a little over 70 slides (in French though) for a 40 minutes talk (which actually took as 42, of course ;).
+Method swizzling just doesn’t exist in Swift. We had to use other Swift methods like polymorphism or the closure. I will explain this 2 methods below.
 
-<script async class="speakerdeck-embed" data-id="4dc56932cade4fd8965f1c84d41d58ae" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+### Polymorphism with Swift
 
-## Outlook
-
-The story continues, the BlaBlaTech team will continue to grow and evolve (stay tuned on this blog). So maybe **see you next year at the 2016 edition of Scrumday**, with another chapter and more learnings from a strongly growing agile tech organisation.
+The goal of this method is to make a class believe that it is calling a particular class, while it really calls a different. Here is an example of this method:
 
 <p class="text-center">
-    <img src="../../images/2015-04-13-the-history-of-scrum-at-blablacar/scrumday-2015-all.jpg" alt="Nicolas Tricot and Christian Jennewein from BlaBlaCar at Scrumday 2015" />
+    <img src="../../images/2015-05-29_swift-meetup-paris-recap/swift-polymorphism.png" alt="Swift Polymorphism" />
+</p>
+
+For this example we want to test that the “alertView” is displayed when the “ViewController” is loaded. 
+On the application side, you have a public property “alertView” on “ViewController” with type “UIAlertView”. This property represent the alertView to be displayed. In the “viewDidLoad”, we call the method “show” of the “alertView”.
+On the test side, we will create a “FakeAlertView” class that inherits from “UIAlertView”. This class will replace the existing “alertView” public property. This will give you the ability to override the “show” method and write your own code to test (where we set “showWasCalled” to true).
+Finally, on the test side, you call “viewDidLoad” of a “ViewController” instance and check if “showWasCalled” is true. This will test whether an “alertView” is displayed when the “ViewController” is loaded.
+
+### Closure with Swift
+
+Same goal as for the Polymorphism example, making a class believe that a particular class is called, while another gets called. Here is an example of this method:
+
+<p class="text-center">
+    <img src="../../images/2015-05-29_swift-meetup-paris-recap/swift-closure.png" alt="Swift Closure" />
+</p>
+
+For this example we want to test that the “alertView” is displayed when the “ViewController” is loaded.
+On the application side, you have a private property “alertView” on “ViewController” with type “UIAlertView” and a public property “showMethod” which is a function. “alertView” represents the alert to be displayed and “showMethod” represents the method “show” of the “UIAlertView” class. First in the “ViewController” constructor, we assign the “show” method of “alertView” to “showMethod”. This will lead to have a function pointer that points to the “show” method. In the “viewDidLoad”, we call the method “showMethod” which is the “show” method of “alertView”.
+On the test side, we will create a “FakeClass” with a function. This function will have the same signature of “show” method of “UIAlertView” class and will be used to affect “showMethod”. This will give you the ability to write your own code to test (where we set “methodCalled” to true).
+Finally, on the test side, you call “viewDidLoad” of a “ViewController” instance and check if “methodCalled” is true. This will test that something (in our case an “UIAlertView”) is displayed when the “ViewController” is loaded.
+
+You can see the entire Meetup here, my unit tests on Swift start at 46 minutes and 46 seconds:
+
+<p class="text-center">
+    <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/bOECDI6lD4k" frameborder="0" allowfullscreen></iframe>
 </p>

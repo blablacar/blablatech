@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          Cassandra gets in BlaBlaCar
-tags:           tech
+tags:           technology
 authors:        [nicolas-menoux]
 description:    Propagating the Cassandra spirit to the BlaBlaTech with the help of a funny and interactive demo
 ---

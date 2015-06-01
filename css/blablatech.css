@@ -326,6 +326,11 @@ a.button{
     height: auto;
 }
 
+.blog-post .youtube {
+    height: 315px;
+    width: 560px;
+}
+
 /*Older posts*/
 
 .previous{
