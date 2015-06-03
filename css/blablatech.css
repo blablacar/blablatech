@@ -3,9 +3,10 @@
  */
 
 body {
+    background: #f7f7f7;
+    color: #555;
     font-family: helvetica, roboto, arial, sans-serif;
     font-weight: 400;
-    color: #555;
     line-height: 2em;
     margin-top: 40px;
     /*padding-top: 110px;*/
@@ -185,23 +186,6 @@ footer {
     margin-bottom: 40px;
 }
 
-/*
- * Images
- */
-
-.media-list.authors{
-    margin: 50px auto 0 auto;
-}
-
-.authors img {
-    height: 50px;
-    width: 50px;
-}
-
-.talks img {
-    height: auto;
-    width: 100%;
-}
 
 /*
 * BlaBlaTech Components
@@ -385,11 +369,16 @@ a.button{
 
 /* Talks */
 
-.talks p{
+.talks img {
+    height: auto;
+    width: 100%;
+}
+
+.talks p {
     margin: 0;
 }
 
-img.talk-thumb{
+img.talk-thumb {
     width: 30px;
     height: auto;
     margin: 5px 0;
@@ -422,19 +411,64 @@ img.talk-thumb{
 
 /* Archives */
 
-.archive{
+.archive {
     margin-top: 40px;
 }
 
-.archive ul{
+.archive ul {
     margin-bottom: 40px;
 }
 
-.archive h3{
+.archive h3 {
+    background-color: #fff;
     text-align: center;
     border: 1px solid #f1f1f1;
     border-radius: 40px;
     padding: 8px;
     max-width: 250px;
     margin: 50px auto 20px auto;
+}
+
+/* Authors */
+.authors li:first-child {
+    margin-top: 40px;
+}
+
+.authors li {
+    background: #fff;
+    border: 1px solid #eee;
+    margin-bottom: 40px;
+}
+
+.authors li > a {
+    margin: -35px auto 5px auto;
+    display: block;
+    width: 75px;
+    height: 75px;
+}
+
+.authors li a img {
+    width: 75px;
+    height: 75px;
+}
+
+.authors .media-body {
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+
+.authors .social {
+    background-size: 26px 26px;
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+}
+
+.authors .social-github {
+    background-image: url(../images/github.svg);
+}
+
+.authors .social-twitter {
+    background-image: url(../images/twitter.svg);
 }
