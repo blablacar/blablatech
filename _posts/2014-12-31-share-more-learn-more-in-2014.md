@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          Share more, Learn more... in 2014
-tags:           conferences
+tags:           [conferences]
 authors:        [christian-jennewein]
 description:    Looking back at all the events, meet-ups and conferences where BlaBlaTechies assisted in 2014
 ---

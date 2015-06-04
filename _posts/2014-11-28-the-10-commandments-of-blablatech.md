@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          The 10 commandments of BlaBlaTech
-tags:           culture
+tags:           [culture]
 authors:        [nicolas-schwartz, christian-jennewein]
 redirect_from:  /archive/2014/11/28/the-10-commandments-of-blablatech/
 description:    A top 10 list of best practices combined with valuable advices that guide the BlaBlaTech

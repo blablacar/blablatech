@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          Micro-services at BlaBlaCar
-tags:           application-architecture
+tags:           [application-architecture]
 authors:        [benjamin-fraud]
 description:    How to adopt a global technical strategy which gives us enough flexibility each and every day
 ---

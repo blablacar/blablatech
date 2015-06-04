@@ -2,5 +2,7 @@
 <time itemprop="datePublished" datetime="{{ post_details_date | date: '%Y-%m-%d' }}">
     <strong>{{ post_details_date | date_to_long_string }}</strong>
 </time>
-by {% include authors.html %}
-<span class="label label-primary">{{ post_details_tags }}</span>
+by {% include authors.html %}<br />
+{% for tag in post_details_tags %}
+<a href="/blog/tag/{{ tag }}"><span class="label label-primary">{{ tag }}</span></a>
+{% endfor %}

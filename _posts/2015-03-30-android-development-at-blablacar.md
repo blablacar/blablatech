@@ -1,12 +1,13 @@
 ---
 layout:         post
 title:          Android development at BlaBlaCar today
-tags:           technology
+tags:           [technology, conferences]
 authors:        [alexandra-tritz]
 description:    In this article, we are going to talk about the mobile strategy of BlaBlaCar, more on Android side, give you a feedback from our experience and talk about what we will do in the future.
 ---
 
 ## Overview
+
 In this article, we are going to talk about the mobile strategy of BlaBlaCar, more on Android side, give you a feedback from our experience and talk about what we will do in the future.
 
 This is  a talk that we gave during a [PAUG](http://www.paug.fr/) meetup in march 2015.

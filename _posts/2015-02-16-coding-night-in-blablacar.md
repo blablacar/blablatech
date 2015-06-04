@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          First Coding Night in BlaBlaCar
-tags:           culture
+tags:           [culture]
 authors:        [nicolas-tricot]
 description:    In January, BlaBlaCar hosted its first internal coding event ever...
 ---
