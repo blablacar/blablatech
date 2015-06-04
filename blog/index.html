@@ -3,7 +3,15 @@ layout: base
 title:  Archive
 ---
 
-<h1>The blog's archive</h1>
+<h1>Archive</h1>
+
+<h2>Browse by tags</h2>
+
+{% for tag in site.articletags %}
+    <a href="/blog/tag/{{ tag }}">#{{ tag }}</a> &nbsp;
+{% endfor %}
+
+<h2>Browse by date</h2>
 
 <div class="archive">
   {% for post in site.posts %}

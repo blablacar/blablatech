@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<h1>Posts tagged #{{ page.tag }}</h1>
+<div>
+    {% if site.tags[page.tag] %}
+    <ul class="list-unstyled previous-list">
+        {% for post in site.tags[page.tag] %}
+        <li class="previous-list--item clearfix">
+            {% for author in post.authors %}
+            <img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}" class="pull-left">
+            {% endfor %}
+            <p class="overflow no-margin">
+                {{ post.date | date: "%Y-%m-%d" }}<br>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <i>None.</i>
+    {% endif %}
+</div>

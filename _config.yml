@@ -1,3 +1,10 @@
+articletags:
+  - application-architecture
+  - conferences
+  - culture
+  - organisation
+  - technology
+
 authors:
   alexandra-tritz:
     name:       "Alexandra Tritz"
@@ -87,7 +94,7 @@ highlighter:    pygments
 
 markdown:       rdiscount
 
-name:           "BlaBlaTech Blog"
+name:           "the BlaBlaTech Blog"
 
 paginate:       10
 
