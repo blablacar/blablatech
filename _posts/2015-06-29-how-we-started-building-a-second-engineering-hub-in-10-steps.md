@@ -14,7 +14,9 @@ I grouped our learnings in the following 10 steps, happy reading :)
 
 ### 1. Try to avoid having a second engineering hub
 
-We think that, in an ideal world, everybody should be together in the same place. There's just no good substitute for face time. Being in the same building makes many things less painful, more efficient. We had to put this idea aside since the tech talent pool in one single place—Paris in our case—is limited, making it ever harder to double the team every year.
+We think that, in an ideal world, everybody should be together in the same place. There's just no good substitute for face time. Being in the same building makes many things less painful, more efficient.
+Since the tech talent pool in one single place—Paris in our case—is limited and the creation of true diversity in one
+ single place is hard, we had to put this ideal organisation setting aside.
 
 ### 2. Have a strong team culture
 
@@ -41,7 +43,7 @@ Poland and thus Warsaw clearly stood out. It is important to note that it's not 
 
 ### 6. Find the right leader
 
-A good company is composed of excellent teams, and excellent teams of excellent people. Thus the first action was to a leader for the team. The requirements for this person were manifold:
+A good company is composed of excellent teams, and excellent teams of excellent people. Thus the first action was to find a leader for the team. The requirements for this person were manifold:
 
 - be truly local: live the place, speak the language and be part of the community.
 - be a true leader: not only does this person have to absorb our existing culture, but also spread it among the new team.
@@ -54,7 +56,11 @@ Once found—we had a bunch of very interesting candidates—this person spent o
 
 Having the right person (see the previous step) was the perfect door opener to the Polish web community. The BlaBlaTech is omnipresent in France's web community, and we work hard to become the same in Poland. Groups and conferences had to be identified and joined, sponsorships established. We were present at 2 big conferences ([4developers in Warsaw](http://4developers.org.pl/en/) and [InfoShare in Gdanks](https://infoshare.pl/)) and 1 essential meetup ([PHPers in Warsaw](http://phpers.pl/)), meeting hundreds of tech people. We continue to target important and/or interesting conferences all over Poland to truly integrate with the Polish web community in the long run.
 
-We created—as another integral part—[a meetup group](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/) that has 80+ members today. For our first event we invited 40 of them into our Warsaw office for our presentation [The BlaBlaTech arrives in Warsaw](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/events/221522452/), followed by socialising and networking. Six tech people from Paris joined the event to give BlaBlaTech a face in Warsaw and to answer to numerous questions about our project. Our next meetup is planned to be a little more technical, with presentations concerning our technology stack.
+We created—as another integral part—[a meetup group](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/) that has 80+
+ members today. For our first event we invited 40 of them into our Warsaw office for our presentation [The BlaBlaTech
+  arrives in Warsaw](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/events/221522452/), followed by socialising 
+  and networking. Six tech people—including developers—from Paris joined the event to give BlaBlaTech a face in Warsaw
+   and to answer to numerous questions about our project. Our next meetup is planned to be a little more technical, with presentations concerning our technology stack.
 
 ### 8. Hire only top talents
 
@@ -72,5 +78,10 @@ And last but not least, it's all about communication. That's what makes interact
 
 Just make it clear how to communicate and over which channel, and stick to it. This means <del>repeat</del> over-communicate, <del>repeat</del> over-communicate, <del>repeat</del> over-communicate.
 
+.
+
 I want to end this article with a warning. First of all, our second engineering hub is only about to start. We'll see in a year or two how good we all did.
-Second I want to say that team building is a social science, meaning that there are no rules or laws of nature. Things that work for us might not work for you, but I'm convinced that it's worth sharing our experiences in the hopes of pattern matching.
+Second I want to say that team building is a social science, meaning that there are no rules or laws of nature. 
+Things that work for us might not work for you, but I'm convinced that it's worth sharing our experiences in the 
+hopes of pattern matching. This brings me to one last advice: Since we are already around, Poland might actually not 
+be a good choice at all! Less competition for talent is always better ;)
