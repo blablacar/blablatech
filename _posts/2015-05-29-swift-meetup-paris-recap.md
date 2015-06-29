@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          Swift Meetup Paris recap
-tags:           [technology, conferences]
+tags:           [conferences, mobile]
 authors:        [mickael-rodrigues]
 description:    The recap of the Swift Meetup Paris talk "Unit tests with Swift" of Tuesday 26 May by Mickael Rodrigues.
 ---

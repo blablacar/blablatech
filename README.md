@@ -25,3 +25,4 @@ Posts are written in [markdown](https://help.github.com/articles/markdown-basics
 - Posts should be tagged, for instance "Culture", "Tech", "Conference", ...
 - Images that belong to a post go into `images`, prefixed with the posts's date (e.g. `2011-12-31-happy.png`)
 - Drafts should end up in the folder `_draft`, without a prefixed date (e.g. `new-years-eve-is-awesome.md`)
+- If you create a new tag you also need to create the according html file in blog/tag to have a working archive

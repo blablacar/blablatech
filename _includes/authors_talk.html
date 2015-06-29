@@ -1,6 +1,0 @@
-{% for author in authors_authors %}
-    {% if false == forloop.first AND true == forloop.last %}
-        <br/>
-    {% endif %}
-    <a href="/authors/#author-{{ author }}"><img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}" class="talk-thumb"> {{ site.authors[author].name }}</a>
-{% endfor %}

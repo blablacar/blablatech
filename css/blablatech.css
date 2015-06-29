@@ -395,6 +395,7 @@ img.talk-thumb {
 }
 
 .media-body{
+    background: #fff;
     display: block;
     padding: 12px;
 }
