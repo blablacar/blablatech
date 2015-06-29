@@ -22,11 +22,11 @@ Once the decision to have a second engineering office was made, we focused on wh
 
 ### 3. Make your team use a different language
 
-We are in France, and our tech team is almost solely composed of French people. So, surprise, we all speak French. All day! In order to open the team to remote—not French speaking—teams we had to change a rock-solid habit. We did this with the help of five guys from Romania, who work with us for over a year now and do a great job despite being remote. Thanks to them we managed to switch our entire communication—group emails, slack messages, meetings—to English, which actually took several months. Besides the change of our communication language we also started to think out-of-the-meeting-room-box, i.e. running and recording our meetings on hangout with a decent camera and microphone.
+We are in France, and our tech team is almost solely composed of French people. So, surprise, we all speak French. All day! In order to open the team to remote—not French speaking—teams we had to change a rock-solid habit. We did this with the help of five guys from Romania, who work with us for over a year now and do a great job despite being remote, and not speaking French. Thanks to them we managed to switch our entire communication—group emails, slack messages, meetings—to English, which actually took several months. Besides the change of our communication language we also started to think out-of-the-meeting-room-box, i.e. running and recording our meetings on hangout with a decent camera and microphone.
 
 ### 4. Talk to people who did this already
 
-This step is critical. It not only helped shaping the idea of having a second engineering hub but also gave us the right insights to make this happen. Talking to companies like Criteo, SmartRecruiters or Facebook—who all faced this same challenge one day—was of invaluable help. Answers to our questions like *How did you start your remote team?*, *Why did you choose this place over that?* or *What were the biggest struggles in the beginning?* actively helped us to make the first decisions and take the first actions.
+This step is critical. It not only helped shaping the idea of having a second engineering hub but also gave us the right insights to make this happen. Talking to companies like Criteo, SmartRecruiters or Facebook—who all faced this same challenge one day—was of invaluable help. Answers to our questions like *How did you start your remote team?*, *Why did you choose this place over that?* or *What were the biggest struggles in the beginning?* actively helped us to make the first decisions and take the first actions. Obviously there's no one-fits-all solution, but meeting other people with similar challenges allows you to identify patterns and to generate ideas. This playbook is a good example, it would look fairly different without external input.
 
 ### 5. Find the right place
 
@@ -37,9 +37,7 @@ This choice was hard, but in the end pretty obvious. From the very beginning we 
 - avoid above-average competition for talents with other popular product companies.
 - keep it in the same/similar timezone to ensure that everybody is working synchronous, all the time.
 
-
-Poland and thus Warsaw clearly stood out
-It is important to note that it's not about money but about getting access to a bigger talent pool. As the first step suggests, we believe that it will always be cheaper to have everybody in one room. No matter what the labour cost is.
+Poland and thus Warsaw clearly stood out. It is important to note that it's not about money but about getting access to a bigger talent pool. As the first step suggests, we believe that it will always be cheaper to have everybody in one room. No matter what the labour cost is.
 
 ### 6. Find the right leader
 
@@ -50,17 +48,17 @@ A good company is composed of excellent teams, and excellent teams of excellent 
 - be an outstanding communicator: working remotely is all about communicating—not to say over-communicating.
 - be technical: have the ability and will to know the platform well to help future recruits to get up to speed.
 
-Once found—we had a bunch of very interesting candidates—this person spent over a month with the Tech team in Paris. Piotr—the person's name—also joined a number of events in France and Poland that fostered our link and aligned us on many aspects. It took us less than two months to be fully on the same page, Piotr is now the best possible ambassador of our Tech culture in Warsaw/Poland.
+Once found—we had a bunch of very interesting candidates—this person spent over a month with the tech team in Paris. Piotr—the person's name—also joined a number of events in France and Poland that fostered our link and aligned us on many aspects. It took us less than two months to be fully on the same page, Piotr is now the best possible ambassador of our tech culture in Warsaw/Poland.
 
 ### 7. Integrate into the community
 
 Having the right person (see the previous step) was the perfect door opener to the Polish web community. The BlaBlaTech is omnipresent in France's web community, and we work hard to become the same in Poland. Groups and conferences had to be identified and joined, sponsorships established. We were present at 2 big conferences ([4developers in Warsaw](http://4developers.org.pl/en/) and [InfoShare in Gdanks](https://infoshare.pl/)) and 1 essential meetup ([PHPers in Warsaw](http://phpers.pl/)), meeting hundreds of people. We continue to target important and/or interesting conferences all over Poland to truly integrate with the Polish web company in the long run.
 
-We created—as another integral part—[a meetup group](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/) that today has 80+ members. For our first event we invited 40 of them into our Warsaw office for our presentation [The BlaBlaTech arrives in Warsaw](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/events/221522452/), followed by socialising and networking. Six Tech people from Paris joined the event to give BlaBlaTech a face in Warsaw and to answer to numerous questions about our project. Our next meetup is planned to be a little more technical, with presentations about parts of our technology stack.
+We created—as another integral part—[a meetup group](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/) that today has 80+ members. For our first event we invited 40 of them into our Warsaw office for our presentation [The BlaBlaTech arrives in Warsaw](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/events/221522452/), followed by socialising and networking. Six tech people from Paris joined the event to give BlaBlaTech a face in Warsaw and to answer to numerous questions about our project. Our next meetup is planned to be a little more technical, with presentations about parts of our technology stack.
 
 ### 8. Hire only top talents
 
-Standards are high to join the BlaBlaTech, be it for candidates in Paris or Warsaw. In addition, we demand even more from the first hires for our Tech team in Warsaw. Since they will form the ground layer of a quickly growing team, we expect them to create strong ties with engineers from Paris. Besides strong engineering skills we are looking for communicative people who live our *share more, learn more* value. Having a great network and a decent presence record at conferences is a highly appreciated bonus, thus fostering the previous step—our integration into the Polish web community.
+Standards are high to join the BlaBlaTech, be it for candidates in Paris or Warsaw. In addition, we demand even more from the first hires for our tech team in Warsaw. Since they will form the ground layer of a quickly growing team, we expect them to create strong ties with engineers from Paris. Besides strong engineering skills we are looking for communicative people who live our *share more, learn more* value. Having a great network and a decent presence record at conferences is a highly appreciated bonus, thus fostering the previous step—our integration into the Polish web community.
 
 ### 9. Give the best possible onboarding
 
