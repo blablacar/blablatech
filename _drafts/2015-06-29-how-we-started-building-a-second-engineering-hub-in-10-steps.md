@@ -18,7 +18,7 @@ We think that, in an ideal world, everybody should be together in the same place
 
 ### 2. Have a strong team culture
 
-Once the decision to have a second engineering office was made, we focused on what we did already pretty well: *[having an awesome team culture](/blog/tag/culture/)*. Thus being able to not only replicate but to extend this team culture into the new office was a key requirement. The <del>second</del> new team not only needs to feel included, it has to be part of the existing team. To get there we closely pay attention to match the new team's DNA—mindset, reflexes, behaviours—with what we already have in Paris.
+Once the decision to have a second engineering office was made, we focused on what we did already pretty well: *[having an awesome team culture](/blog/tag/culture/)*. Thus being able to not only replicate but to extend this team culture into the new office was a key requirement. The <del>second</del> new team not only needs to feel included, it has to be part of the existing. To get there we closely pay attention to match the new team's DNA—mindset, reflexes, behaviours—with what we already have in Paris. And since culture is organic, we keep on putting maximum effort into it. *Fun & serious*, all the time.
 
 ### 3. Make your team use a different language
 
