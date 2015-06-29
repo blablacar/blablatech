@@ -33,36 +33,36 @@ This step is critical. It not only helped shaping the idea of having a second en
 This choice was hard, but in the end pretty obvious. From the very beginning we imposed ourselves the following constraints: 
 
 - join an existing office—today BlaBlaCar is physically present in 12 countries—to bring developers close to business and facilitate team culture.
-- demand a thriving tech culture with strong communities around our main technologies exist.
+- demand a thriving tech culture with strong communities around our main technologies.
 - avoid above-average competition for talents with other popular product companies.
-- keep it in the same/similar timezone to ensure that everybody is working synchronous, all the time.
+- keep it in the same/similar timezone to ensure that everybody can work synchronous.
 
-Poland and thus Warsaw clearly stood out. It is important to note that it's not about money but about getting access to a bigger talent pool. As the first step suggests, we believe that it will always be cheaper to have everybody in one room. No matter what the labour cost is.
+Poland and thus Warsaw clearly stood out. It is important to note that it's not about saving money but about getting access to a bigger talent pool. As the first step suggests, we believe that it will always be cheaper to have everybody in one room. No matter what the labour cost is.
 
 ### 6. Find the right leader
 
-A good company is composed of excellent teams, and excellent teams of excellent people. Thus the first action was to find the first person to lead the team. The requirements for this person were manifold:
+A good company is composed of excellent teams, and excellent teams of excellent people. Thus the first action was to a leader for the team. The requirements for this person were manifold:
 
 - be truly local: live the place, speak the language and be part of the community.
 - be a true leader: not only does this person have to absorb our existing culture, but also spread it among the new team.
 - be an outstanding communicator: working remotely is all about communicating—not to say over-communicating.
 - be technical: have the ability and will to know the platform well to help future recruits to get up to speed.
 
-Once found—we had a bunch of very interesting candidates—this person spent over a month with the tech team in Paris. Piotr—the person's name—also joined a number of events in France and Poland that fostered our link and aligned us on many aspects. It took us less than two months to be fully on the same page, Piotr is now the best possible ambassador of our tech culture in Warsaw/Poland.
+Once found—we had a bunch of very interesting candidates—this person spent over a month with the tech team in Paris. Piotr—the person's name—also joined a number of events in France and Poland that fostered our ties and aligned us on many aspects. It took us less than two months to be fully on the same page, Piotr is now the best possible ambassador of the BlaBlaTech in Warsaw/Poland.
 
 ### 7. Integrate into the community
 
-Having the right person (see the previous step) was the perfect door opener to the Polish web community. The BlaBlaTech is omnipresent in France's web community, and we work hard to become the same in Poland. Groups and conferences had to be identified and joined, sponsorships established. We were present at 2 big conferences ([4developers in Warsaw](http://4developers.org.pl/en/) and [InfoShare in Gdanks](https://infoshare.pl/)) and 1 essential meetup ([PHPers in Warsaw](http://phpers.pl/)), meeting hundreds of people. We continue to target important and/or interesting conferences all over Poland to truly integrate with the Polish web company in the long run.
+Having the right person (see the previous step) was the perfect door opener to the Polish web community. The BlaBlaTech is omnipresent in France's web community, and we work hard to become the same in Poland. Groups and conferences had to be identified and joined, sponsorships established. We were present at 2 big conferences ([4developers in Warsaw](http://4developers.org.pl/en/) and [InfoShare in Gdanks](https://infoshare.pl/)) and 1 essential meetup ([PHPers in Warsaw](http://phpers.pl/)), meeting hundreds of tech people. We continue to target important and/or interesting conferences all over Poland to truly integrate with the Polish web community in the long run.
 
-We created—as another integral part—[a meetup group](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/) that today has 80+ members. For our first event we invited 40 of them into our Warsaw office for our presentation [The BlaBlaTech arrives in Warsaw](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/events/221522452/), followed by socialising and networking. Six tech people from Paris joined the event to give BlaBlaTech a face in Warsaw and to answer to numerous questions about our project. Our next meetup is planned to be a little more technical, with presentations about parts of our technology stack.
+We created—as another integral part—[a meetup group](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/) that has 80+ members today. For our first event we invited 40 of them into our Warsaw office for our presentation [The BlaBlaTech arrives in Warsaw](http://www.meetup.com/BlaBlaCar-Warsaw-Tech-Group/events/221522452/), followed by socialising and networking. Six tech people from Paris joined the event to give BlaBlaTech a face in Warsaw and to answer to numerous questions about our project. Our next meetup is planned to be a little more technical, with presentations concerning our technology stack.
 
 ### 8. Hire only top talents
 
-Standards are high to join the BlaBlaTech, be it for candidates in Paris or Warsaw. In addition, we demand even more from the first hires for our tech team in Warsaw. Since they will form the ground layer of a quickly growing team, we expect them to create strong ties with engineers from Paris. Besides strong engineering skills we are looking for communicative people who live our *share more, learn more* value. Having a great network and a decent presence record at conferences is a highly appreciated bonus, thus fostering the previous step—our integration into the Polish web community.
+Standards are high to join the BlaBlaTech, be it for candidates in Paris or Warsaw. In addition, we demand even more from the first hires for our tech team in Warsaw. Since they will form the ground layer of a quickly growing team, we expect them to create strong ties with engineers from Paris. Besides strong technical skills we are looking for communicative people who live our *share more, learn more* value. Having a great network and a decent presence record at conferences is a highly appreciated bonus, thus fostering the previous step—our integration into the Polish web community.
 
 ### 9. Give the best possible onboarding
 
-Just like we did (and keep on doing) with our leader in Warsaw we also put an important amount of effort into the first weeks of new hires. Spending time in Paris with our engineering team is a must, there's nothing better than face time to get to know each other. The first weeks are dedicated to technical and non-technical workshops, most of them in Paris. Besides, every new developer joins an existing and running development team to get to know the habits, do's and don'ts. Again, absorbing the culture and truly becoming part of the team is what we focus on.
+Just like we did (and keep on doing) with our leader in Warsaw we also put an important amount of effort into the first weeks of new hires. Spending time in Paris with our engineering team is a must, there's nothing better than face time to get to know each other. The first weeks are dedicated to technical and non-technical workshops, most of them in Paris. Besides, every new developer joins an existing and running development team to get to know the habits, do's and don'ts—and obviously to start work on our platform. Again, absorbing the culture and truly becoming part of the team is what we focus on.
 
 Onboarding does not stop after the first weeks, frequent exchanges are encouraged. Bringing the team to Paris and people from Paris to Warsaw will not be an exception but rather the rule.
 
