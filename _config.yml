@@ -43,6 +43,12 @@ authors:
     twitter:    "jbfavre"
     github:     "jbfavre"
     role:       "Web Architect"
+  jerome-moussay:
+    name:       "Jérôme Moussay"
+    nickname:   "Jérôme"
+    twitter:    "jmoussay"
+    github:
+    role:       "SEO Manager"
   matthieu-moquet:
     name:       "Matthieu Moquet"
     nickname:   "Mattketmo"
@@ -85,6 +91,18 @@ authors:
     github:     "odolbeau"
     twitter:    "odolbeau"
     role:       "Web Architect"
+  saad-bouchehboun:
+    name:       "Saad Bouchehboun"
+    nickname:
+    github:
+    twitter:
+    role:       "Tech Manager"
+  tony-fouchard:
+    name:       "Tony Fouchard"
+    nickname:   "Tony"
+    github:
+    twitter:    "hightoxicity"
+    role:       "Web Architect"
 
 description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
@@ -103,6 +121,14 @@ permalink:      /blog/:title
 
 talks:
   2015:
+    paug-2015-03:
+      authors:  [alexandra-tritz, fx-oxeda, saad-bouchehboun]
+      date:     "3 March"
+      event:    "PAUG"
+      place:    "Paris (France)"
+      title:    "Développer une app Android en 2015"
+      thumb:    paug-2015-03.png
+      url:      https://speakerdeck.com/alexandratritz/developper-une-app-android-en-2015
     scrumday-2015:
       authors:  [christian-jennewein, nicolas-tricot]
       date:     "2-3 April"

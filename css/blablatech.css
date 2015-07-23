@@ -25,7 +25,7 @@ h6, .h6{
 }
 
 p {
-  margin: 0 0 40px;
+  margin: 0 0 20px;
 }
 
 table{
@@ -297,11 +297,18 @@ a.button{
 }
 
 .blog-intro img,
-.blog-post img{
+.blog-post img {
     width: 100%;
     height: auto;
     margin: 0.5em auto;
     border-radius: 3px;
+}
+
+.blog-post .img-caption {
+    display: block;
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
 }
 
 .blog-intro iframe,
