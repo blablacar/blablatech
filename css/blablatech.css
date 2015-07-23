@@ -270,9 +270,9 @@ a.button{
 
 .logo{
     font-size: 22px;
-    font-family: tahoma, roboto, arial, sans-serif;
+    font-family: Tahoma, roboto, arial, sans-serif;
     padding-top: 12px;
-    font-weight: normal;
+    font-weight: bolder;
     text-transform: none;
 }
 
