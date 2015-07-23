@@ -121,14 +121,14 @@ permalink:      /blog/:title
 
 talks:
   2015:
-    paug-2015-03:
-      authors:  [alexandra-tritz, fx-oxeda, saad-bouchehboun]
-      date:     "3 March"
-      event:    "PAUG"
+    paris-monitoring-meetup-2015:
+      authors:  [jb-favre]
+      date:     "4 June"
+      event:    "Paris Monitoring Meetup #1"
       place:    "Paris (France)"
-      title:    "Développer une app Android en 2015"
-      thumb:    paug-2015-03.png
-      url:      https://speakerdeck.com/alexandratritz/developper-une-app-android-en-2015
+      title:    "Zabbix chez BlaBlaCar"
+      thumb:    jb-favre_zabbix-at-blablacar.png
+      url:      https://blog.jbfavre.org/2015/06/05/paris-monitoring-meetup-zabbix-chez-blablacar/
     scrumday-2015:
       authors:  [christian-jennewein, nicolas-tricot]
       date:     "2-3 April"
@@ -137,6 +137,14 @@ talks:
       title:    "Scrum @ BlaBlaTech"
       thumb:    christian-jennewein_scrumday-2015.jpg
       url:      https://speakerdeck.com/cestcri/scrum-at-blablatech
+    paug-2015-03:
+      authors:  [alexandra-tritz, fx-oxeda, saad-bouchehboun]
+      date:     "3 March"
+      event:    "PAUG"
+      place:    "Paris (France)"
+      title:    "Développer une app Android en 2015"
+      thumb:    paug-2015-03.png
+      url:      https://speakerdeck.com/alexandratritz/developper-une-app-android-en-2015
   2014:
     symfonycon-2014:
       authors:  [matthieu-moquet]
