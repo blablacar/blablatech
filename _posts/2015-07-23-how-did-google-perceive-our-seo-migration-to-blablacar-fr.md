@@ -13,8 +13,8 @@ was to unify our brand domain names everywhere, the SEO challenge was to make su
 
 ## What we did?
 
-- Set up 301 redirects for all pages from covoiturage.fr to blablacar.fr (e.g. [http://www.covoiturage
-.fr/trajets/rennes/](http://www.covoiturage.fr/trajets/rennes/) to [https://www.blablacar.fr/trajets/rennes/](https://www.blablacar.fr/trajets/rennes/)), and update all internal links.
+- Set up 301 redirects for all pages from covoiturage.fr to blablacar.fr 
+(e.g. [http://www.covoiturage.fr/trajets/rennes/](http://www.covoiturage.fr/trajets/rennes/) to [https://www.blablacar.fr/trajets/rennes/](https://www.blablacar.fr/trajets/rennes/)), and update all internal links.
 - Warn Google that the domain has moved in Google Webmaster Tools.
 - Update external links on most important websites. The 1st thing was to update the links on social platforms & on 
 partner websites. Of course, you can’t update everything and this can be a very long (and useless in certain cases) 
