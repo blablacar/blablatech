@@ -8,7 +8,7 @@ description:    The main goal was to unify our brand domain names everywhere, th
 
 A website migration is always a risky task. Just as a reminder, we changed our brand name in France from covoiturage to 
 BlaBlaCar in April 2013. We decided to switch the domain name only beginning June 2015 because we 
-thought it was time do it in France: *blablacar* is now much more popular than the term *covoiturage*. The main goal 
+thought it was time to do it in France: *blablacar* is now much more popular than the term *covoiturage*. The main goal 
 was to unify our brand domain names everywhere, the SEO challenge was to make sure traffic loss would be kept to a minimum.
 
 ## What we did?
