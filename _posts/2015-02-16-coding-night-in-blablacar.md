@@ -33,21 +33,30 @@ Following 24 hours of coding, the remaining teams had to present their work.
 
 ## 24 loooooooooooong hours of coding...
 
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04944.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04945.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04955.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04987.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04946.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04947.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04948.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04950.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04951.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04966.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04974.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04980.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/IMG_0239.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/IMG_0241.JPG =600x)
-
+<div class="table-responsive">
+  <table class="table">
+    <tr>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04944.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04945.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04955.JPG" alt="24h coding night" /></td>
+    </tr>
+    <tr>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04987.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04946.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/IMG_0241.JPG" alt="24h coding night" /></td>
+    </tr>
+    <tr>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04948.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04950.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04951.JPG" alt="24h coding night" /></td>
+    </tr>
+    <tr>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04966.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04974.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/IMG_0239.JPG" alt="24h coding night" /></td>
+    </tr>
+  </table>
+</div>
 
 ...followed by our office management team that prepared some delights to survive...
 
@@ -58,10 +67,17 @@ Following 24 hours of coding, the remaining teams had to present their work.
 
 Staying up all night long is a challenge by itself:
 
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04986.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04992.JPG =600x)
+<div class="table-responsive">
+  <table class="table">
+    <tr>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04986.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/DSC04992.JPG" alt="24h coding night" /></td>
+        <td><img src="../../images/2015-02-16_coding-night-in-blablacar/falling-asleep-on-a-chair.jpg" alt="24h coding night" /></td>
+    </tr>
+  </table>
+</div>
+
 ![](/images/2015-02-16_coding-night-in-blablacar/DSC04994.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/falling-asleep-on-a-chair.jpg =600x)
 
 After effort comes comfort! The breakfast was the perfect moment to have a break, to exchange on the different projects' progress and to recharge the batteries.
 

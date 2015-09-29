@@ -18,7 +18,7 @@ In May this year we all went to [the BAPBAP brewery](http://www.bapbap.paris/) a
 <div class="table-responsive">
   <table class="table">
     <tr>
-        <td><img src="../../images/2015-09-25_think-it-brew-it-drink-it/brewery-tour-10.jpg" alt="Inside BAPBAP" /></td>
+        <td><img src="../../images/2015-09-25_think-it-brew-it-drink-it/brewery-tour-1.jpg" alt="Inside BAPBAP" /></td>
         <td><img src="../../images/2015-09-25_think-it-brew-it-drink-it/brewery-tour-2.jpg" alt="Inside BAPBAP" /></td>
         <td><img src="../../images/2015-09-25_think-it-brew-it-drink-it/brewery-tour-3.jpg" alt="Inside BAPBAP" /></td>
     </tr>
