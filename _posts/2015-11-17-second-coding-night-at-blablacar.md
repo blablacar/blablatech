@@ -154,9 +154,4 @@ Congrats to the other teams and especially to:
 * Marius Palade and Andrei Penciu for **BBC Developer Companion**, an interactive installation script that can be used to install everything required on a new machine
 * Usman Akeju for **Static Analysis Tool** 
 
-And last but not least: you want to be part of next Coding Night? Join us we're [hiring](http://www.blablacar.com/blog/recruitment) !
-
-
-
-
-
+And last but not least: you want to be part of next Coding Night? Join us we're [hiring](http://www.blablacar.com/blog/recruitment)!
