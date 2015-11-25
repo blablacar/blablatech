@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "4LW6DRGJS2.com.comuto.comuto",
+                "paths": [ "/*/test" ]
+            },
+            {
+                "appID": "4LW6DRGJS2.com.comuto.inhouse",
+                "paths": [ "/*/test" ]
+            }
+        ]
+    }
+}
