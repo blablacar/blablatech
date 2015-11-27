@@ -1,9 +1,9 @@
 ---
 layout:         post
-title:          2nd Coding Night at BlaBlaCar.
+title:          2nd Coding Night at BlaBlaCar
 tags:           [culture]
 authors:        [fanny-gaborit]
-description:    The story of the Coding Night #2 at BlaBlaCar.
+description:    The full story of the second Coding Night at BlaBlaCar.
 ---
 
 In Jan 2015 we organised the [first Coding Night](http://blablatech.com/blog/coding-night-in-blablacar/) in BlaBlaCar, an internal Fun&Serious hackaton. It was a massive success. Remember? That's were [Ride Map](https://www.youtube.com/watch?v=YF6U6DZgMLk) (formerly known as Meet your Co-rider) was born, this amazing feature that enable drivers and passengers sharing a ride together to meet more easily at departure point. Then we decided to run a second edition. 
