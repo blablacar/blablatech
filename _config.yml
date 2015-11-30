@@ -133,6 +133,14 @@ permalink:      /blog/:title
 
 talks:
   2015:
+    appdays-2015:
+      authors:  [alexandra-tritz]
+      date:     "26 November"
+      event:    "appdays 2015"
+      place:    "Paris (France)"
+      title:    "Analytics & Monitoring at BlaBlaCar"
+      thumb:    alexandra-tritz_appdays-2015.jpg
+      url:      https://speakerdeck.com/alexandratritz/analytics-and-monitoring-at-blablacar
     hacking-in-the-name-of-ride-sharing:
       authors:  [pierre-lemee]
       date:     "23 Novembre"
