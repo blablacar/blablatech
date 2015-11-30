@@ -36,7 +36,7 @@ and **gave 14 talks** on conferences or meet-ups.
 * [SSO & SOA](/talks/#sso-and-soa)
 * [Swarrot, a library to consume them all](/talks/#swarrot-a-library-to-consume-them-all)
 * [When Monolog meet ELK](/talks/#when-monolog-meet-elk)
-* [Hacking in the name of ride-sharing]()
+* [Hacking in the name of ride-sharing](/talks/#hacking-in-the-name-of-ride-sharing)
 
 With this post I would also like to introduce <a href="/talks">a new section here on our blog: Talks</a>, the place to 
 look for all our given talks & presentations. **2014 alone features 14 presentations**, feel free to flip through them.
