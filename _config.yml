@@ -141,6 +141,14 @@ talks:
       title:    "Hacking in the name of ride-sharing"
       thumb:    pierre-lemee_hacking-in-the-name-of-ride-sharing.png
       url:      /talks/pierre-lemee_hacking-in-the-name-of-ride-sharing.pdf
+    lean-it-summit-2015:
+      authors:  [christian-jennewein, nicolas-tricot]
+      date:     "8-9 October"
+      event:    "Lean IT Summit"
+      place:    "Paris (France)"
+      title:    "Organising BlaBlaTech"
+      thumb:    christian-jennewein_lean-it-summit-2015.jpg
+      url:      https://speakerdeck.com/cestcri/organising-blablatech-at-lean-it-summit
     paris-monitoring-meetup-2015:
       authors:  [jb-favre]
       date:     "4 June"
