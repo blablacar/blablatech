@@ -60,7 +60,7 @@ authors:
     nickname:   "Mattketmo"
     github:     "MattKetmo"
     twitter:    "MattKetmo"
-    role:       "Web Development Engineer"
+    role:       "Web Architect"
   mickael-rodrigues:
     name:       "Mickael Rodrigues"
     nickname:   "Mickael"
@@ -97,6 +97,12 @@ authors:
     github:     "odolbeau"
     twitter:    "odolbeau"
     role:       "Web Architect"
+  pierre-lemee:
+    name:       "Pierre Lemée"
+    nickname:   "Pierre"
+    github:
+    twitter:    "pitipout"
+    role:       "Web Development Engineer"
   saad-bouchehboun:
     name:       "Saad Bouchehboun"
     nickname:
@@ -127,6 +133,14 @@ permalink:      /blog/:title
 
 talks:
   2015:
+    hacking-in-the-name-of-ride-sharing:
+      authors:  [pierre-lemee]
+      date:     "23 Novembre"
+      event:    "La Manche Open School Promotion #1"
+      place:    "Granville (France)"
+      title:    "Hacking in the name of ride-sharing"
+      thumb:
+      url:
     paris-monitoring-meetup-2015:
       authors:  [jb-favre]
       date:     "4 June"
