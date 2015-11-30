@@ -12,7 +12,7 @@ All <a href="/authors/">our</a> talks and presentations starting from 2014.
     <ul class="media-list talks">
         {% for talk in site.talks[year] %}
             <li id="{{ talk[0] }}">
-                <a href="{{ talk[1].url }}"><img src="/images/talks/{{ talk[1].thumb }}" alt="{{ talk[1].title }}"></a>
+                <a href="{{ talk[1].url }}">{% if talk[1].thumb %}<img src="/images/talks/{{ talk[1].thumb }}" alt="{{ talk[1].title }}">{% endif %}</a>
                 <div class="media-body">
                     <!-- <h4>{{ talk[1].title }}</h4> -->
                     <p>
