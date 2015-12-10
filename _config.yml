@@ -103,6 +103,12 @@ authors:
     github:
     twitter:    "pitipout"
     role:       "Web Development Engineer"
+  pierre-yves-lebecq:
+    name:       "Pierre-Yves Lebecq"
+    nickname:   "PY"
+    github:     "pylebecq"
+    twitter:    "pylebecq"
+    role:       "Web Development Engineer"
   saad-bouchehboun:
     name:       "Saad Bouchehboun"
     nickname:
@@ -149,6 +155,14 @@ talks:
       title:    "Hacking in the name of ride-sharing"
       thumb:    pierre-lemee_hacking-in-the-name-of-ride-sharing.png
       url:      /talks/pierre-lemee_hacking-in-the-name-of-ride-sharing.pdf
+    trello-meetup-2015:
+      authors:  [nicolas-tricot]
+      date:     "27 October"
+      event:    "1er Meetup Trello French UG"
+      place:    "Paris (France)"
+      title:    "Workflow and project management with Trello @ BBC"
+      thumb:    nicolas-tricot_trello-meetup-2015.jpg
+      url:      /talks/nicolas-tricot_trello-meetup-2015.pdf
     lean-it-summit-2015:
       authors:  [christian-jennewein, nicolas-tricot]
       date:     "8-9 October"
@@ -157,6 +171,14 @@ talks:
       title:    "Organising BlaBlaTech"
       thumb:    christian-jennewein_lean-it-summit-2015.jpg
       url:      https://speakerdeck.com/cestcri/organising-blablatech-at-lean-it-summit
+    zabbix-2015:
+      authors:  [jb-favre]
+      date:     "11-12 September"
+      event:    "Zabbix Conference 2015"
+      place:    "Riga (Latvia)"
+      thumb:    jp-favre_zabbix-2015.jpg
+      url:      https://speakerdeck.com/jbfavre/monitoring-a-billion-kilometers-of-monthly-ride-sharing-at-blablacar-zabbix-conference-2015
+      video:    https://www.youtube.com/watch?v=bgwSFjKT3FE
     paris-monitoring-meetup-2015:
       authors:  [jb-favre]
       date:     "4 June"
@@ -165,6 +187,15 @@ talks:
       title:    "Zabbix chez BlaBlaCar"
       thumb:    jb-favre_zabbix-at-blablacar.png
       url:      https://blog.jbfavre.org/2015/06/05/paris-monitoring-meetup-zabbix-chez-blablacar/
+    devopsdays-2015:
+      authors:  [muriel-lusseau, nicolas-blanc]
+      date:     "14-15 April"
+      event:    "DevOps Days"
+      place:    "Paris (France)"
+      title:    "DevOps Culture at BlaBlaCar - Keep CAMS and grow"
+      thumb:    nicolas-blanc_devopsdays-2015.jpg
+      url:      nicolas-blanc_devopsdays-2015.pdf
+      video:    http://www.dailymotion.com/video/x2n9etn
     scrumday-2015:
       authors:  [christian-jennewein, nicolas-tricot]
       date:     "2-3 April"
