@@ -13,16 +13,19 @@ Looking back at all the events, meet-ups and conferences where BlaBlaTechies ass
 tech events all around the globe. Here are the details:
 
 
-We **organised X events** in our lovely offices in the heart of Paris:
+We **organised 10 events** in our lovely offices in the heart of Paris:
 
-* Paris Android User Group Meetup, Paris (France) in March
-* Paris Tech Talk #9, Paris (France) in March
-* BlaBlaCar Warsaw Tech meetup #1, Warsaw (Poland) in May
-* Meetup AFUP, Paris (France) in October
-* Paris Tech Talk #10, Paris (France) in October
-* BlaBlaCar Warsaw Tech meetup #2, Warsaw (Poland) in October
-* Meetup Trello, Paris (France) in October
- 
+* [Paris Android User Group Meetup](http://www.meetup.com/fr/Android-Paris/events/220665795/), Paris (France) in March
+* [Paris Tech Talk #9](http://www.meetup.com/fr/Paris-Tech-Talks/events/220864966/), Paris (France) in March
+* [Swift Meetup - Mai 2015](http://www.meetup.com/fr/swiftparis/events/221991222/?eventId=221991222), Paris (France) in May
+* [BlaBlaCar Warsaw Tech meetup #1](http://www.meetup.com/fr/BlaBlaCar-Warsaw-Tech-Group/events/221522452/), Warsaw (Poland) in May
+* [Meetup AFUP](http://paris.afup.org/2015/09/29/rendez-vous-afup-paris-le-6-octobre-2015-moteurs-de-template/), Paris (France) in October
+* [Paris Tech Talk #10](http://www.meetup.com/fr/Paris-Tech-Talks/events/225581738/), Paris (France) in October
+* [BlaBlaCar Warsaw Tech meetup #2](http://www.meetup.com/fr/BlaBlaCar-Warsaw-Tech-Group/events/225738888/), Warsaw (Poland) in October
+* [1er Meetup Trello French UG](http://www.meetup.com/fr/Trello-France-User-Group/events/226016405/), Paris (France) in October
+* [Meetup ArchLinux France](http://blog.alteroot.org/articles/2015-11-11/compte-rendu-meetup-archlinux-france.html), Paris (France) in November
+* [CocoaHeads Paris Meetup - Décembre 2015](http://www.meetup.com/fr/CocoaHeads-Paris/events/220275109/?eventId=220275109), Paris (France) in December
+
 We **sent people to X conferences in Y countries** 
 
 * [FOSDEM 2015](https://archive.fosdem.org/2015/), Brussels (Belgium) in January
@@ -61,8 +64,12 @@ We **sent people to X conferences in Y countries**
 We **gave X talks** on conferences or meet-ups.
 
 * [ScrumDay 2015](/talks/#scrumday-2015)
+* [DevOps Days Paris](/talks/#devopsdays-2015)
 * [Lean IT Summit](/talks/#lean-it-summit-2015)
 * [Hacking in the name of ride-sharing](/talks/#hacking-in-the-name-of-ride-sharing)
+* [Analytics & Monitoring at BlaBlaCar](/talks/#appdays-2015)
+* [1er Meetup Trello French UG](/talks/#trello-meetup-2015)
+
 
 With this post I would also like to introduce <a href="/talks">a new section here on our blog: Talks</a>, the place to 
 look for all our given talks & presentations. **2014 alone features 14 presentations**, feel free to flip through them.
