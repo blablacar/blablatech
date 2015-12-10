@@ -3,7 +3,7 @@ layout:         post
 title:          Contextual template loading
 tags:           [application-architecture, technology]
 authors:        [pierre-yves-lebecq]
-description:    The full story of the second Coding Night at BlaBlaCar.
+description:    How we do contextual template loading on the BlaBlaCar platform.
 ---
 
 # Goal
