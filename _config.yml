@@ -55,6 +55,12 @@ authors:
     twitter:    "jmoussay"
     github:
     role:       "SEO Manager"
+  loic-effner:
+    name:       "Loïc Effner"
+    nickname:   "Loïc"
+    twitter:    "loiceffn"
+    github:     "loiceffn"
+    role:       "Mobile Development Engineer"
   matthieu-moquet:
     name:       "Matthieu Moquet"
     nickname:   "Mattketmo"
@@ -139,7 +145,7 @@ permalink:      /blog/:title
 
 talks:
   2015:
-    appdays-2015:
+    alexandra-tritz_appdays-2015:
       authors:  [alexandra-tritz]
       date:     "26 November"
       event:    "appdays 2015"
@@ -147,6 +153,14 @@ talks:
       title:    "Analytics & Monitoring at BlaBlaCar"
       thumb:    alexandra-tritz_appdays-2015.jpg
       url:      https://speakerdeck.com/alexandratritz/analytics-and-monitoring-at-blablacar
+    loic_effner_appdays-2015:
+      authors:  [loic-effner]
+      date:     "26 November"
+      event:    "appdays 2015"
+      place:    "Paris (France)"
+      title:    "Manage Apps at Home"
+      thumb:    loic_effner_appdays-2015.jpg
+      url:      https://speakerdeck.com/loiceffn/manage-apps-remotely
     hacking-in-the-name-of-ride-sharing:
       authors:  [pierre-lemee]
       date:     "23 Novembre"
