@@ -60,7 +60,6 @@ We **sent people to 31 conferences in 9 countries**
 * [dotCSS 2015](http://www.dotcss.io/), Paris (France) in December
 * [dotJS 2015](http://www.dotjs.io/), Paris (France) in December
 
-  
 14 different people **gave 26 talks** on conferences or meet-ups.
 
 * [Développer une app Android en 2015](/talks/#paug-2015-03), PAUG
