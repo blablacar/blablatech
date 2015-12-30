@@ -13,6 +13,12 @@ authors:
     github:     "tritzalexandra"
     twitter:    "lexouthirteen"
     role:       "Mobile Development Engineer"
+  benjamin-de-bernardi:
+    name:       "Benjamin De Bernardi"
+    nickname:   "Junior"
+    github:
+    twitter:    "Genes0r"
+    role:       "Web Development Engineer"
   benjamin-fraud:
     name:       "Benjamin Fraud"
     nickname:   "bench1ps"
@@ -121,6 +127,12 @@ authors:
     github:     "pylebecq"
     twitter:    "pylebecq"
     role:       "Web Development Engineer"
+  piotr-zarowny:
+    name:       "Piotr Zarówny"
+    nickname:   "Piotr"
+    twitter:
+    github:
+    role:       "Tech Manager"
   saad-bouchehboun:
     name:       "Saad Bouchehboun"
     nickname:
@@ -151,6 +163,14 @@ permalink:      /blog/:title
 
 talks:
   2015:
+    benjamin-de-bernardi_symfonycon2015:
+      authors:  [benjamin-de-bernardi, olivier-dolbeau]
+      date:     "4 December"
+      event:    "SymfonyCon 2015"
+      place:    "Paris (France)"
+      title:    "Symfony @ BlaBlaCar"
+      thumb:    benjamin-de-bernardi_symfonycon2015.jpg
+      url:      https://speakerdeck.com/genesor/symfony-at-blablacar
     alexandra-tritz_appdays-2015:
       authors:  [alexandra-tritz]
       date:     "26 November"
@@ -169,12 +189,44 @@ talks:
       url:      https://speakerdeck.com/loiceffn/manage-apps-remotely
     hacking-in-the-name-of-ride-sharing:
       authors:  [pierre-lemee]
-      date:     "23 Novembre"
+      date:     "23 November"
       event:    "La Manche Open School Promotion #1"
       place:    "Granville (France)"
       title:    "Hacking in the name of ride-sharing"
       thumb:    pierre-lemee_hacking-in-the-name-of-ride-sharing.png
       url:      /talks/pierre-lemee_hacking-in-the-name-of-ride-sharing.pdf
+    forumphp2015-matthieu:
+      authors:  [matthieu-moquet]
+      date:     "23-24 November"
+      event:    "ForumPHP 2015"
+      place:    "Montrouge (France)"
+      title:    "Un éléphant dans le monde des licornes"
+      thumb:    matthieu-moquet_forumphp-2015.jpg
+      url:      https://speakerdeck.com/mattketmo/forumphp-2015
+    phpcon-poland-2015_the-technical-story-of-blablacar:
+      authors:  [benjamin-de-bernardi, olivier-dolbeau]
+      date:     "13-15 November"
+      event:    "PHPCon Poland 2015"
+      place:    "Ossa (Poland)"
+      title:    "The technical story of BlaBlaCar"
+      thumb:    benjamin-de-bernardi_phpcon-poland-2015_the-technical-story-of-blablacar.jpg
+      url:      https://speakerdeck.com/genesor/phpcon-2015-the-technical-story-of-blablacar
+    phpcon-poland-2015_monolog:
+      authors:  [olivier-dolbeau]
+      date:     "13-15 November"
+      event:    "PHPCon Poland 2015"
+      place:    "Ossa (Poland)"
+      title:    "When monolog meets ELK (& bermudas!)"
+      thumb:    olivier-dolbeau_phpcon-2015-elk.jpg
+      url:      https://speakerdeck.com/odolbeau/when-monolog-meets-elk-and-bermudas
+    phpcon-poland-2015_cqrs-event-sourcing:
+      authors:  [matthieu-moquet]
+      date:     "13-15 November"
+      event:    "PHPCon Poland 2015"
+      place:    "Ossa (Poland)"
+      title:    "CQRS & Event Sourcing"
+      thumb:    matthieu-moquet_phpcon-poland-2015_cqrs.jpg
+      url:      https://speakerdeck.com/mattketmo/cqrs-and-event-sourcing
     trello-meetup-2015:
       authors:  [nicolas-tricot]
       date:     "27 October"
@@ -183,6 +235,22 @@ talks:
       title:    "Workflow and project management with Trello @ BBC"
       thumb:    nicolas-tricot_trello-meetup-2015.jpg
       url:      /talks/nicolas-tricot_trello-meetup-2015.pdf
+    blablatech-warsaw-meetup-2-2015-junior:
+      authors:  [benjamin-de-bernardi]
+      date:     "20 October"
+      event:    "BlaBlaTech Warsaw Meetup #2"
+      place:    "Warsaw (Poland)"
+      title:    "Gateway - How to bring down our monolith"
+      thumb:    benjamin-de-bernardi_gateway-bring-down-your-monolith.jpg
+      url:      https://speakerdeck.com/genesor/gateway-how-to-bring-down-our-monolith
+    blablatech-warsaw-meetup-2-2015-olivier:
+      authors:  [olivier-dolbeau]
+      date:     "20 October"
+      event:    "BlaBlaTech Warsaw Meetup #2"
+      place:    "Warsaw (Poland)"
+      title:    "Swarrot, a library to consume them all!"
+      thumb:    olivier-dolbeau_blablatech-warsaw-meetup-2.jpg
+      url:      https://speakerdeck.com/odolbeau/swarrot-a-library-to-consume-them-all-1
     lean-it-summit-2015:
       authors:  [christian-jennewein, nicolas-tricot]
       date:     "8-9 October"
@@ -191,14 +259,47 @@ talks:
       title:    "Organising BlaBlaTech"
       thumb:    christian-jennewein_lean-it-summit-2015.jpg
       url:      https://speakerdeck.com/cestcri/organising-blablatech-at-lean-it-summit
+    paris-web-2015:
+      authors:  [benjamin-de-bernardi, olivier-dolbeau]
+      date:     "2 October"
+      event:    "Paris Web"
+      place:    "Montrouge (France)"
+      title:    "Slicing up a monolithic application Why and how?"
+      thumb:    olivier-dolbeau_slicing-up-a-monolithic-application-why-and-how.jpg
+      url:      https://speakerdeck.com/odolbeau/slicing-up-a-monolithic-application-why-and-how
+    sfpot-nantes-2015:
+      authors:  [olivier-dolbeau]
+      date:     "28 September"
+      event:    "sfPot Nantes #1"
+      place:    "Paris (France)"
+      title:    "Symfony2 killed me!"
+      thumb:    olivier-dolbeau_sfpot-nantes-2015.jpg
+      url:      https://speakerdeck.com/odolbeau/symfony2-killed-me
     zabbix-2015:
       authors:  [jb-favre]
       date:     "11-12 September"
       event:    "Zabbix Conference 2015"
       place:    "Riga (Latvia)"
+      title:    "How we monitor 1 billion km of monthly ride sharing"
       thumb:    jp-favre_zabbix-2015.jpg
       url:      https://speakerdeck.com/jbfavre/monitoring-a-billion-kilometers-of-monthly-ride-sharing-at-blablacar-zabbix-conference-2015
       video:    https://www.youtube.com/watch?v=bgwSFjKT3FE
+    ipc-berlin-2015-logs:
+      authors:  [matthieu-moquet]
+      date:     "7-11 June"
+      event:    "IPC Berlin 2015"
+      place:    "Berlin (Germany)"
+      title:    "Take care of your logs with ELK"
+      thumb:    matthieu-moquet-ipc-berlin-2015-elk.jpg
+      url:      https://speakerdeck.com/mattketmo/take-care-of-your-logs-with-elk
+    ipc-berlin-2015_technical-story:
+      authors:  [matthieu-moquet]
+      date:     "7-11 June"
+      event:    "IPC Berlin 2015"
+      place:    "Berlin (Germany)"
+      title:    "From 1 to 20 million users the technical story of BlaBlaCar"
+      thumb:    matthieu-moquet_ipc-berlin-2015-technical-story.jpg
+      url:      https://speakerdeck.com/mattketmo/from-1-to-20-million-users-the-technical-story-of-blablacar
     paris-monitoring-meetup-2015:
       authors:  [jb-favre]
       date:     "4 June"
@@ -207,6 +308,22 @@ talks:
       title:    "Zabbix chez BlaBlaCar"
       thumb:    jb-favre_zabbix-at-blablacar.png
       url:      https://blog.jbfavre.org/2015/06/05/paris-monitoring-meetup-zabbix-chez-blablacar/
+    blablatech-warsaw-meetup-1-2015:
+      authors:  [christian-jennewein, nicolas-tricot, piotr-zarowny]
+      date:     "28 May"
+      event:    "BlaBlaTech Warsaw Meetup #1"
+      place:    "Warsaw (Poland)"
+      title:    "BlaBlaTech @ Warsaw"
+      thumb:    christian-jennewein_blablatech-warsaw.jpg
+      url:      https://speakerdeck.com/cestcri/blablatech-at-warsaw
+    phptour-luxembourg-2015:
+      authors:  [matthieu-moquet]
+      date:     "13 May"
+      event:    "PHPTour 2015"
+      place:    "Luxembourg (Luxembourg)"
+      title:    "Event Sourcing"
+      thumb:    matthieu-moquet_phptour2015.jpg
+      url:      https://speakerdeck.com/mattketmo/event-sourcing
     devopsdays-2015:
       authors:  [muriel-lusseau, nicolas-blanc]
       date:     "14-15 April"
@@ -216,14 +333,38 @@ talks:
       thumb:    nicolas-blanc_devopsdays-2015.jpg
       url:      nicolas-blanc_devopsdays-2015.pdf
       video:    http://www.dailymotion.com/video/x2n9etn
+    sflive-2015-olivier:
+      authors:  [olivier-dolbeau]
+      date:     "9 April"
+      event:    "Symfony Life 2015"
+      place:    "Paris (France)"
+      title:    "Logs hunting"
+      thumb:    olivier-dolbeau_sflive-2015.jpg
+      url:      https://speakerdeck.com/odolbeau/logs-hunting
     scrumday-2015:
       authors:  [christian-jennewein, nicolas-tricot]
       date:     "2-3 April"
-      event:    "ScrumDay"
+      event:    "ScrumDay 2015"
       place:    "Disneyland (France)"
       title:    "Scrum @ BlaBlaTech"
       thumb:    christian-jennewein_scrumday-2015.jpg
       url:      https://speakerdeck.com/cestcri/scrum-at-blablatech
+    paris-tech-talk-9:
+      authors:  [olivier-dolbeau]
+      date:     "24 March"
+      event:    "Paris Tech Talk #9"
+      place:    "Paris (France)"
+      title:    "Don't let your log go away"
+      thumb:    olivier-dolbeau_paris-tech-talk-9.jpg
+      url:      https://speakerdeck.com/odolbeau/dont-let-your-log-go-away
+    sfpot_mars-2015:
+      authors:  [olivier-dolbeau]
+      date:     "17 March"
+      event:    "sfPot Mars 2015"
+      place:    "Paris (France)"
+      title:    "Microservices @ BlaBlaCar"
+      thumb:    olivier-dolbeau_sfpot-nantes.jpg
+      url:      https://speakerdeck.com/odolbeau/microservices-at-blablacar
     paug-2015-03:
       authors:  [alexandra-tritz, fx-oxeda, saad-bouchehboun]
       date:     "3 March"
