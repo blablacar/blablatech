@@ -13,7 +13,7 @@ Looking back at all the events, meet-ups and conferences that BlaBlaTechies assi
 list of tech events all around the globe. **Compared to last year we more than doubled** our contribution to and/or presence 
 at the different community events. Here are all the details:
 
-We **organised 10 events** in our lovely offices in the heart of Paris:
+We **organised 10 events** in our lovely offices in the heart of Paris or in wonderful Warsaw:
 
 * [Paris Android User Group Meetup](http://www.meetup.com/fr/Android-Paris/events/220665795/), Paris (France) in March
 * [Paris Tech Talk #9](http://www.meetup.com/fr/Paris-Tech-Talks/events/220864966/), Paris (France) in March
