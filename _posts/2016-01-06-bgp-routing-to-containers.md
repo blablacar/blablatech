@@ -3,23 +3,23 @@ layout:         post
 title:          BGP routing to containers in BlaBlaCar
 tags:           [network, BGP, containers, architecture]
 authors:        [remi-paulmier]
-description:    Impact de l'organisation en containers sur le routage du traffic public avec BGP 
+description:    Impact of rkt/containers on public traffic routing with BGP
 ---
 
-# Contexte
+# Context
 
-Jusqu'à présent, le routage du traffic public jusqu'aux serveurs frontaux était assuré via des serveurs particuliers, appelés load-balancers dans notre infrastructure. Ces serveurs sont constitués autour de `nginx` pour l'off-loading SSL, `varnish` pour le reverse-proxying, et `ExaBGP` pour la communication avec nos routeurs BGP.
+Until now, routing of public traffic to our front servers was done via some particular servers, called `load-balancers`(LB) in our infrastructure. These servers are built with `nginx` for SSL-offloading, `varnish` for the reverse-proxy part, and `ExaBGP` for the communication with our BGP routers.
 
-L'arrivée des `containers` avec `rkt` dans notre infrastructure nous a poussé à revoir dans le détail l'organisation de ces composants. C'est l'objet de cet article.
+Our infrastructure's move to `containers`with `rkt` has lead us to re-consider the cooperation of these components.
 
-# Infra existante
+# Existing infrastructure
 
-Pour l'architecture existante, je m'étais inspiré de l'excellent article de Vincent Bernat: [High availability with ExaBGP](<http://vincent.bernat.im/en/blog/2013-exabgp-highavailability.html>)
+For the current design, I was inspired by the Vincent Bernat's excellent post: [High availability with ExaBGP](<http://vincent.bernat.im/en/blog/2013-exabgp-highavailability.html>)
 
-Appliqué à notre infra, ca donnait cela:
-<img src="/images/2016-01-06-bgp-routing-to-containers/old-infra1.png" class="block" style="width: 337px;" />
+When applied to our own infra, it looked like this:
+<img src="/images/2016-01-06-bgp-routing-to-containers/old-infra1.png" class="block" style="width: 352px;" />
 
-Chacun des load-balancers fait tourner [`ExaBGP`](<https://github.com/Exa-Networks/exabgp>), qui communique avec les routeurs BGP. Exemple avec l'un d'entre eux:
+Each of the `load-balancers` is running [ExaBGP](<https://github.com/Exa-Networks/exabgp>), which is talking with BGP routers. Config example of one of them: 
 
 {% highlight python %}
 group neighbors {
@@ -38,8 +38,7 @@ group neighbors {
 }
 {% endhighlight%}
 
-
-On utilise le plugin `healthcheck`, qui va, sur chaque LB, réaliser un test de dispo de la resource, puis si le test est concluant, annoncer des VIPs:
+With `ExaBGP`, we also use its `healthcheck` plugin, which is continuously testing the resource and, if available, annoucning some `VIPs`:
 
 {% highlight python %}
 process healthcheck-apex {
@@ -47,7 +46,7 @@ process healthcheck-apex {
 }
 {% endhighlight%}
 
-Regardons le détail de healthcheck-apex.conf:
+Let's check `healthcheck-apex.conf` in detail:
 
 {% highlight python %}
 name = apex
@@ -58,7 +57,7 @@ ip = 91.238.131.166
 ip = 91.238.131.167
 {% endhighlight %}
 
-Sur le second LB, la config est la même, à l'exception de l'ordre des VIPs:
+The second `LB`'s config looks the same, except the VIPs order:
 
 {% highlight python %}
 name = apex
@@ -69,32 +68,32 @@ ip = 91.238.131.167
 ip = 91.238.131.166
 {% endhighlight %}
 
-Pourquoi donc ?
+Why this difference ?
 
-C'est lié au fonctionnement d'`healthcheck` Pour chaque VIP spécifiée, healthcheck va faire faire une annonce à ExaBGP, en incrémentant la med d'une valeur arbitraire (1 par défaut). Ex sur le premier LB:
+It is connected with the way `healthcheck` works. For each specified VIP, `healthcheck` makes an announce to `ExaBGP`, increasing the `med` attribute by 1. Example on the first `LB`:
 
     announce route 91.238.131.166/32 next-hop self med 100
     announce route 91.238.131.166/32 next-hop self med 101
 
-Ce qui fait que chaque LB annonce les même VIPs, mais avec un *poids* (une med) différent. Du coup, les routeurs ne routent le traffic pour une VIP donnée que vers un seul LB. 
+It means that each `LB` is announcing the same VIP set, but with a different weight (using `med`). As a consequence, BGP routers only route traffic for a particular VIP to a single `LB`.
 
-Il suffit ensuite de publier ces 2 VIPs dans le DNS pour un service donné (ici *apex*), pour obtenir un service hautement disponible.
+Just publish these 2 VIPs into DNS for a particular service (*apex* here), and you'll obtain a highly available service.
 
-En cas de panne d'un LB, celui-ci n'annonce plus les VIPs, mais les routeurs connaissent une autre route pour ces VIPs vers le second LB, donc le service continue de fonctionner.
+In case of `LB` failure, it won't announce its VIPs anymore. Fortunately, BGP routers know at least another route, towards the second LB, so the service keeps working.
 
-# Application aux containers
+# Beahviour with containers
 
-Dans notre nouveau datacenter, nous utilisons exclusivement les containers rkt comme unité d'exécution de base. Tous les serveurs sont identiques, et ne font fonctionner qu'un seul OS: CoreOS.  Cette plate-forme est donc industrialisée au maximum. 
+In our new datacenter, we are using `rkt containers` exclusively, as the basic run unit. Every servers are the same, and they run only a single operating system: `CoreOS`. This infrastructure is massively automated.
 
-D'un point de vue réseau, nous en avons profité pour sortir du modèle commuté, puisque nous n'avons plus besoin de VLAN. L'isolation se fait par des ACLs générées automatiquement et déployées sur les CoreOS (sur le même principe que les security groups d'AWS).
+From a network point of view, we used this huge change as an opportunity to switch from a `L2` to a `L3 model`, since we don't need VLANs anymore. Network isolation is reached using ACLs that pre-generated and deployed onto CoreOS (the same principle as AWS security groups).
 
-Nous avons donc mis en place BGP de bout en bout, afin de router le traffic jusque dans les switches top-of-rack. Un dessin vaut mieux qu'un long discours:
+Therefore, we setup BGP on each level, from edge routers to top-of-rack (ToR) switches. It looks like this:
 
-<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra1.png" class="block" style="width: 418px;" />
+<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra1.png" class="block" style="width: 346px;" />
 
-Puis dans chaque rack, nous avons un CoreOS qui est éligible à porter un container de load-balancing. Ce container est responsable de faire tourner ExaBGP, et d'annoncer les VIPs qui vont être prises en charge par ce LB. 
+Then, in each rack, a single `CoreOS` server is dedicated to load-balancing. It runs a set of containers (called a `pod`), and this pod is in charge of running ExaBGP, and announce the VIPs handled by this LB.
 
-On retrouve alors la config Exabgp suivante. Ex dans le rack 1:
+`ExaBGP` config sample on rack #1: 
 
 {% highlight python %}
 group neighbors {
@@ -113,66 +112,85 @@ group neighbors {
 }
 {% endhighlight%}
 
-## Problème rencontré
+## Problem encountered
 
-Lors des premiers tests, nous nous sommes assez vite rendus compte d'un problème: pour un service donné, qq soit le nb de LB démarrés, un seul recevait tout le traffic.
+When running our first tests, we encountered a problem pretty fast: for a particular service, whatever the number of LB instances was, only one LB was receiving all of the traffic.
 
-Après investigation, il est ressorti le constat suivant: chaque load-balancer annoncait bien les même VIPs avec une med différente, et cette med était prise en compte par le switch ToR correspondant. 
+After troubleshooting, it appears that the behaviour was as expected. Each LB was announcing the same VIPs, with a different `med`, and this `med` was taken into account by the correspondig ToR.
 
-Mais, la VIP étant réannoncée par le ToR à l'étage supérieur (aggregation), la med disparaissait (prévu dans eBGP quand on change d'AS: la [med est un attribut non-transitif](<http://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13759-37.html>) ). 
+However, the VIP, when re-announced by the ToR to the upper level (aggregation switches), was loosing its `med` attribute. This behaviour is by design in BGP when ASN changes: [med is a non-transitive attribute](<http://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/13759-37.html>)
 
-Ce qui fait que les switches d'aggreg, et à fortiori les routeurs edge avaient plusieurs routes à disposition, avec un des as-path différents (donc pas éligibles au `bgp-multipath`). La conclusion était de choisir la route la plus ancienne, et c'est cohérent avec le comportement observé: un seul LB (le premier démarré en fait) recoit tout le traffic.
+Edge routers were knowing different routes, but with different as-paths (non-eligble to `bgp-multipath`, thus). So they chose the older route, which is online with the behaviour seen: only a single LB (the first started) receives all of the traffic.
 
-## Solutions envisagées
+## Workarounds
 
-Plusieurs workaround ont été imaginés pour contourner ce problème:
+We though about several workarounds: 
+
 * bgp multihop
-* serveur de route
-* utilisation des communautés
+* route server
+* BGP community values
 * ExaZK
 
-### bgp multihop
+### BGP multihop
 
-La première idée que nous avons eue était de connecter les LB non pas aux ToR, mais aux switches d'aggreg. Il fallait pour cela utiliser le mode multihop d'eBGP: 
+First idea we had: connect the LBs directly to aggregation switches, and not to ToR. We had to use multihop mode of BGP:
 
-   router bgp 65002
-     neighbor a.b.c.d remote-as 64xxx
-       ebgp-multihop 2
+    router bgp 65002
+      neighbor a.b.c.d remote-as 64xxx
+        ebgp-multihop 2
 
-Le problème rencontré avec cette solution: le next-hop pour les routes recues n'était pas connu dans l'IGP du routeur d'aggreg, la route était donc pas éligible à son insertion en RIB.
+Unfortunately, using this solution, next-hop attribute for the received routes was unknown in the IGP of the aggregation layer. Thus, the route was not inserted into RIB.
 
-### serveur de route
+### Route server
 
-L'idée suivante était de faire appel à un serveur de route. Au lieu de parler en BGP aux ToR, les LBs auraient alors parlé aux switches d'aggreg en mode route-server. Mais, nos switches d'aggregation sont des Cisco nexus 3064 et l'implémentation de BGP sur ce modèle n'inclue pas la directive `route-server-client`
+Next idea was to use a route server. Instead talking to ToR, the LBs would have to talk to aggregation layer in route-server mode. Here again, we were luckless: our aggregation switches are Cisco Nexus 3064, and their implementation of BGP does not include support for the `route-server-client` directive.
 
 ### BGP community
 
-Une autre piste: au lieu d'utiliser un attribut non transitif comme la med, nous avons envisagé d'utiliser les communautés BGP. Nous avons abandonné cette piste pour 2 raisons:
-* complexité des route-map sur les switches d'aggreg pour prendre en compte ces communautés
-* besoin de modifier le code source d'ExaBGP / healthcheck pour supporter les communautés à la place de la med.
+Another idea: rather than using a non-transitive attribute like `med` is, what about using a transitive one: community. Despite this idea was pretty sexy, we forgave it because:
+
+* high complexity of `route-maps` that we would have to implement on the aggregation layer, to handle this community values properly.
+* need to modify the source-code of `healthcheck`, in order to use `community` rather than `med`
 
 ### ExaZK
 
-Quitte à modifier le code source d'healthcheck, nous avons trouvé plus rentable de faire notre propre plugin, et de le connecter directement à notre annuaire de service.
+Since the best idea we had implied to modify `healthcheck`'s source code, we though it would be worth writing our own plugin, and to connect it directly to our service directory.
 
-En effet, dans notre infra orientée containers, l'orchestration des différents containers (instanciation, determination du nb, placement, ...) s'appuie de manière importante sur ZooKeeper.
+Indeed, in our container oriented infrastructure, orchestration of the containers (instancing, quantity, deployment ...) is highly relying on `ZooKeeper`.
 
-Il devenait évident pour nous que ExaBGP devait parler directement avec ZK pour savoir quoi annoncer aux routeurs BGP. Nous avons développé ce plugin: [ExaZK](<https://github.com/shtouff/exazk>)
+It appeared to us that `ExaBGP` should speak directly with `ZooKeeper` to determine what to announce to BGP routers. Accordingly, we chose to code this plugin: [ExaZK](<https://github.com/shtouff/exazk>)
 
-<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra2.png" class="block" style="width: 531px;" />
+<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra2.png" class="block" style="width: 507px;" />
 
-Le principe est le suivant:
-* pour un service donné, disons `apex`, on fait tourner 3 pods 'load-balancer', sur 3 coreos différents, dans 3 racks différents (contraintes de placement d'un container)
-* dans chacun de ces pods, le container `exabgp` fait tourner exazk
-* chaque instance d'exazk annonce une seule VIP, pour laquelle cette instance fait authorite (param auth_ip)
-* chaque instance écrit dans ZK le fait qu'elle est vivante, sous la forme d'un node ephemeral
-* si une instance d'exazk meurt, son node ephemeral disparait, et les autres instances d'exazk s'en apercoivent.
-* les instances restantes annoncent alors la VIP du node disparu, jusqu'à ce qu'il réapparaisse.
+Principle is:
 
-Un mode special, appelé maintenance, permet à un opérateur de mettre un service complet en maintenance: tous les LBs pour ce service arrêtent d'annoncer leurs VIPs. Le service est alors inaccessible.
+* regarding a particular service, say *apex*, we run 3 LB pods, on 3 different CoreOS servers, located in 3 different racks
+* each of these pods is running `ExaBGP` with `ExaZK`
+* each ExaZK instance announces only one VIP, for whose this instance is authoritative (`auth_ip` parameter)
+* each ExaZK instance writes down to ZK its health state, using an ephemeral node
 
-Enfin, un local check, sur le même principe qu'`healthcheck` permet à chaque instance d'`exazk` de déterminer localement s'il est apte à annoncer sa VIP.
 
-ExaZK est encore en cours de test, si le principe vous intéresse et que vous souhaitez le modifier pour vos besoins, n'hésitez pas à forker le projet sur [github](<https://github.com/shtouff/exazk>) !
+{% highlight python %}
+group neighbors {
+  neighbor 172.28.128.11 {
+    router-id 172.28.128.1;
+    local-address 172.28.128.1;
+    local-as 65001;
+    peer-as 65011;
+  }
+  process exazk-apex {
+    run /exazk/exazk.py -sF daemon -c /exazk/check_local_nginx.sh -n apex -A 10.20.255.1 -N 10.20.255.2 -N 10.20.255.3 -zH localhost -zPS /exabgp/service/apex -zPM /exabgp/maintenance/apex;
+  }
+}
+{% endhighlight %}
 
-Cheers
+* when an instance dies, its ephemeral node in ZK goes with it. The other instances catch this event
+* the other instances then announce the VIP of the faulty instance, until it comes back online.
+
+A special mode, called `maintenance`, can be used to completely put a service offline: should an operator make this special node exists in ZK, the LBs would withdraw all the VIPs.
+
+Last, a local check (same principle as used in `healthcheck`) allows every instance of `ExaZK` to check itself.
+
+`ExaZK`is still under testing. If it's of some interest to you, and you want to modify it to your needs, feel free to fork it on [github](<https://github.com/shtouff/exazk>) !
+
+Cheers !
