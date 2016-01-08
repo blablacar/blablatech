@@ -89,7 +89,7 @@ From a network point of view, we used this huge change as an opportunity to swit
 
 Therefore, we setup BGP on each level, from edge routers to top-of-rack (ToR) switches. It looks like this:
 
-<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra1.png" class="block" style="width: 346px;" />
+<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra1.png" class="block" style="width: 357px;" />
 
 Then, in each rack, a single `CoreOS` server is dedicated to load-balancing. It runs a set of containers (called a `pod`), and this pod is in charge of running ExaBGP, and announce the VIPs handled by this LB.
 
@@ -100,14 +100,14 @@ group neighbors {
   neighbor 10.20.151.129 {
     router-id 10.20.151.147;
     local-address 10.20.151.147;
-    local-as 64147;
-    peer-as 64001;
+    local-as 65147;
+    peer-as 65101;
   }
   neighbor 10.20.151.130 {
     router-id 10.20.151.147;
     local-address 10.20.151.147;
-    local-as 64147;
-    peer-as 64001;
+    local-as 65147;
+    peer-as 65101;
   }
 }
 {% endhighlight%}
@@ -136,7 +136,7 @@ We though about several workarounds:
 First idea we had: connect the LBs directly to aggregation switches, and not to ToR. We had to use multihop mode of BGP:
 
     router bgp 65002
-      neighbor a.b.c.d remote-as 64xxx
+      neighbor a.b.c.d remote-as 651xx
         ebgp-multihop 2
 
 Unfortunately, using this solution, next-hop attribute for the received routes was unknown in the IGP of the aggregation layer. Thus, the route was not inserted into RIB.
@@ -160,7 +160,7 @@ Indeed, in our container oriented infrastructure, orchestration of the container
 
 It appeared to us that `ExaBGP` should speak directly with `ZooKeeper` to determine what to announce to BGP routers. Accordingly, we chose to code this plugin: [ExaZK](<https://github.com/shtouff/exazk>)
 
-<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra2.png" class="block" style="width: 507px;" />
+<img src="/images/2016-01-06-bgp-routing-to-containers/new-infra2.png" class="block" style="width: 510px;" />
 
 Principle is:
 
