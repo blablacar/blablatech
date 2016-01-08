@@ -8,7 +8,7 @@ description:    Impact of rkt/containers on public traffic routing with BGP
 
 # Context
 
-Until now, routing of public traffic to our front servers was done via some particular servers, called `load-balancers`(LB) in our infrastructure. These servers are built with `nginx` for SSL-offloading, `varnish` for the reverse-proxy part, and `ExaBGP` for the communication with our BGP routers.
+Until now, routing of public traffic to our front servers was done via some particular servers, called `load-balancers`(LB) in our infrastructure. These servers were built with `nginx` for SSL-offloading, `varnish` for the reverse-proxy part, and `ExaBGP` for the communication with our BGP routers.
 
 Our infrastructure's move to `containers` with `rkt` has lead us to re-consider the cooperation of these components.
 
