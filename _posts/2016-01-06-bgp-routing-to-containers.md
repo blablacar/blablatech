@@ -147,7 +147,7 @@ Next idea was to use a route server. Instead talking to ToR, the LBs would have 
 
 ### BGP community
 
-Another idea: rather than using a non-transitive attribute like `med` is, what about using a transitive one: community. Despite this idea was pretty sexy, we forgave it because:
+Another idea: rather than using a non-transitive attribute like `med` is, what about using a transitive one: community. Despite this idea was pretty sexy, we dropped it because:
 
 * high complexity of `route-maps` that we would have to implement on the aggregation layer, to handle this community values properly.
 * need to modify the source-code of `healthcheck`, in order to use `community` rather than `med`
