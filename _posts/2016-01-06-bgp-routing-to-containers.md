@@ -85,7 +85,7 @@ In case of `LB` failure, it won't announce its VIPs anymore. Fortunately, BGP ro
 
 In our new datacenter, we are using `rkt containers` exclusively, as the basic run unit. Every servers are the same, and they run only a single operating system: `CoreOS`. This infrastructure is massively automated.
 
-From a network point of view, we used this huge change as an opportunity to switch from a `L2` to a `L3 model`, since we don't need VLANs anymore. Network isolation is reached using ACLs that pre-generated and deployed onto CoreOS (the same principle as AWS security groups).
+From a network point of view, we used this huge change as an opportunity to switch from a `L2` to a `L3 model`, since we don't need VLANs anymore. Network isolation is reached using ACLs that are pre-generated and deployed onto CoreOS (the same principle as AWS security groups).
 
 Therefore, we setup BGP on each level, from edge routers to top-of-rack (ToR) switches. It looks like this:
 
