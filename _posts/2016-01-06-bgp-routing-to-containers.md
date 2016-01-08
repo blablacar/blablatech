@@ -10,7 +10,7 @@ description:    Impact of rkt/containers on public traffic routing with BGP
 
 Until now, routing of public traffic to our front servers was done via some particular servers, called `load-balancers`(LB) in our infrastructure. These servers are built with `nginx` for SSL-offloading, `varnish` for the reverse-proxy part, and `ExaBGP` for the communication with our BGP routers.
 
-Our infrastructure's move to `containers`with `rkt` has lead us to re-consider the cooperation of these components.
+Our infrastructure's move to `containers` with `rkt` has lead us to re-consider the cooperation of these components.
 
 # Existing infrastructure
 
@@ -81,7 +81,7 @@ Just publish these 2 VIPs into DNS for a particular service (*apex* here), and y
 
 In case of `LB` failure, it won't announce its VIPs anymore. Fortunately, BGP routers know at least another route, towards the second LB, so the service keeps working.
 
-# Beahviour with containers
+# Behaviour with containers
 
 In our new datacenter, we are using `rkt containers` exclusively, as the basic run unit. Every servers are the same, and they run only a single operating system: `CoreOS`. This infrastructure is massively automated.
 
