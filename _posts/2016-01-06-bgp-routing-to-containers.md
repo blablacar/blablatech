@@ -14,7 +14,7 @@ Our infrastructure's move to `containers` with `rkt` has lead us to re-consider 
 
 # Existing infrastructure
 
-For the current design, I was inspired by the Vincent Bernat's excellent post: [High availability with ExaBGP](<http://vincent.bernat.im/en/blog/2013-exabgp-highavailability.html>)
+For the current design, I was inspired by Vincent Bernat's excellent post: [High availability with ExaBGP](<http://vincent.bernat.im/en/blog/2013-exabgp-highavailability.html>)
 
 When applied to our own infra, it looked like this:
 <img src="/images/2016-01-06-bgp-routing-to-containers/old-infra1.png" class="block" style="width: 352px;" />
@@ -57,7 +57,7 @@ ip = 91.238.131.166
 ip = 91.238.131.167
 {% endhighlight %}
 
-The second `LB`'s config looks the same, except the VIPs order:
+Second `LB`'s config looks the same, except the VIPs order:
 
 {% highlight python %}
 name = apex
