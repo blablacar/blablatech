@@ -73,7 +73,7 @@ Why this difference ?
 It is connected with the way `healthcheck` works. For each specified VIP, `healthcheck` makes an announce to `ExaBGP`, increasing the `med` attribute by 1. Example on the first `LB`:
 
     announce route 91.238.131.166/32 next-hop self med 100
-    announce route 91.238.131.166/32 next-hop self med 101
+    announce route 91.238.131.167/32 next-hop self med 101
 
 It means that each `LB` is announcing the same VIP set, but with a different weight (using `med`). As a consequence, BGP routers only route traffic for a particular VIP to a single `LB`.
 
