@@ -43,6 +43,12 @@ authors:
     twitter:    "fagaborit"
     github:
     role:       "Tech Manager"
+  francis-nappez:
+    name:       "Francis Nappez"
+    nickname:   "Fnapz"
+    twitter:    "fnapz"
+    github:
+    role:       "CTO"
   fx-oxeda:
     name:       "François-Xavier Oxeda"
     nickname:   "FX"
@@ -134,7 +140,7 @@ authors:
     github:
     role:       "Tech Manager"
   remi-paulmier:
-    name:       "remi paulmier"
+    name:       "Rémi Paulmier"
     nickname:   "Shtouff"
     twitter:    "shtouff"
     github:     "shtouff"
@@ -156,6 +162,7 @@ description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
 
 highlighter:    pygments
 
