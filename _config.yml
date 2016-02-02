@@ -151,6 +151,12 @@ authors:
     github:
     twitter:
     role:       "Tech Manager"
+  simon-lallemand:
+    name:       "Simon Lallemand"
+    nickname:   "Simon"
+    github:     "slallema"
+    twitter:    "slallema"
+    role:       "Infrastructure Architect"
   tony-fouchard:
     name:       "Tony Fouchard"
     nickname:   "Tony"
