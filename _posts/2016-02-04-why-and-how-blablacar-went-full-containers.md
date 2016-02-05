@@ -64,12 +64,12 @@ So we went back to the whiteboard to find a solution that would address those is
  * templating that could be resolved at the start of the container (binary immutability is good, but configuration changes)
  * a good integration with rkt (we want to create ACIs and PODs that can directly be used with rkt)
 
-## CNT
-As we couldn’t find a tool to do all that, we started to build our own. At first [CNT](https://github.com/blablacar/cnt) was written in bash but as the complexity was growing, we decided to rewrite it in go.
+## cnt
+As we couldn’t find a tool to do all that, we started to build our own. At first [cnt](https://github.com/blablacar/cnt) was written in bash but as the complexity was growing, we decided to rewrite it in go.
 
-CNT is a command line utility designed to build and configure at runtime App Containers Images (ACI) and pods based on convention instead of configuration.
+cnt is a command line utility designed to build and configure at runtime App Containers Images (ACI) and pods based on convention instead of configuration.
 
-We think that CNT deserves a dedicated blog article, stay tuned…
+We think that cnt deserves a dedicated blog article, stay tuned…
 
 ## The (Core)OS
 Now that we were able to build all the containers we needed, we had to decide the OS to install on our servers. We had been testing [CoreOS](https://coreos.com) for a while during our exploration phase, and we liked its simplicity, its security and the fact that it could only run containers. That last point was very useful to enforce our full container policy; we wanted a complete migration in order to have only one way of doing things.
