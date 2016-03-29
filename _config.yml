@@ -10,7 +10,7 @@ authors:
   alexandra-tritz:
     name:       "Alexandra Tritz"
     nickname:   "Lexou"
-    github:     "tritzalexandra"
+    github:     "atritz"
     twitter:    "lexouthirteen"
     role:       "Mobile Development Engineer"
   benjamin-de-bernardi:
@@ -30,7 +30,7 @@ authors:
     nickname:   "Christian"
     twitter:    "cestcri"
     github:     "cestcri"
-    role:       "Tech Manager"
+    role:       "Head of Engineering"
   erwann-robin:
     name:       "Erwann Robin"
     nickname:   "Erwann"
@@ -61,6 +61,12 @@ authors:
     twitter:    "jbfavre"
     github:     "jbfavre"
     role:       "Web Architect"
+  jm-charles:
+    name:       "Jean-Marc Charles"
+    nickname:   "JMC"
+    twitter:    "chomb"
+    github:     "chomb94"
+    role:       "Head of Engineering"
   jerome-moussay:
     name:       "Jérôme Moussay"
     nickname:   "Jérôme"
@@ -108,7 +114,7 @@ authors:
     nickname:   "Nico"
     twitter:    "nicoschwartz"
     github:     "nicoschwartz"
-    role:       "Tech Manager"
+    role:       "Head of Engineering"
   nicolas-tricot:
     name:       "Nicolas Tricot"
     nickname:   "ShoLine"
