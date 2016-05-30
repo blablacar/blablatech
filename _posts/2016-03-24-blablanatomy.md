@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "BlaBlaNatomy"
-tags:       [organization]
+tags:       [organisation]
 authors:    [jm-charles]
 description: BlaBlaNatomy – Anatomy of Comuto
 ---
