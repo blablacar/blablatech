@@ -1,10 +1,12 @@
 articletags:
   - application-architecture
+  - automation
   - conferences
   - culture
   - mobile
   - organisation
   - technology
+  - testing
 
 authors:
   alexandra-tritz:
@@ -13,6 +15,12 @@ authors:
     github:     "atritz"
     twitter:    "lexouthirteen"
     role:       "Mobile Development Engineer"
+  alexis-gauthiez:
+    name:       "Alexis Gauthiez"
+    nickname:
+    github:
+    twitter:
+    role:       "Quality Assurance Engineer"
   benjamin-de-bernardi:
     name:       "Benjamin De Bernardi"
     nickname:   "Junior"
@@ -169,6 +177,12 @@ authors:
     github:
     twitter:    "hightoxicity"
     role:       "Web Architect"
+  usman-akeju:
+    name:       "Usman Akeju"
+    nickname:
+    github:     "usmonster"
+    twitter:
+    role:       "Quality Assurance Specialist"
 
 description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
