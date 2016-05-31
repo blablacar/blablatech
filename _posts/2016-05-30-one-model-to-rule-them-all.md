@@ -1,9 +1,9 @@
 ---
 layout:      post
-title:       "One model to rule them all: cross-platform mobile test automation at BlaBlaCar"
+title:       "One Model to Rule Them All: Cross-platform Mobile Test Automation at BlaBlaCar"
 tags:        [testing, automation, mobile]
 authors:     [alexis-gauthiez, usman-akeju]
-description: Our approach to mobile apps end-to-end testing.
+description: Our approach to mobile apps end-to-end testing automation.
 ---
 
 > Apps should feel native.
@@ -66,7 +66,7 @@ class IOS extends Login {
 }
 {% endhighlight %}
 
-Great! Now we can take into account platform specificities while having most of our code shared. Now, what if we want to reuse our login form model for a signup form? We had to rethink the Page Object pattern and come up with a new paradigm. Using a mix-in-like construction, we can inject new methods from the `SignUp` class into parent classes to create new classes which benefit from previously-implemented behaviors and locators. `SignUp` works as an interface with default methods:
+Great! Now we can take into account platform specificities while having most of our code shared. Now, what if we want to reuse our login form model for a signup form? We had to rethink the Page Object pattern and come up with a new paradigm. Using a mixin-like construction, we can inject new methods from the `SignUp` class into parent classes to create new classes which benefit from previously-implemented behaviors and locators. `SignUp` works as an interface with default methods:
 
 {% highlight javascript %}
 const SignUp = Page => class extends Page {
@@ -86,7 +86,7 @@ Using this standard allows us to create reusable Neutrons from other Neutrons wh
 
 ## Fluently describe flows
 
-One of our goals when designing such models is to have them provide sets of methods that represent high-level actions, avoiding or hiding less useful low-level actions as much as possible. Additionally, we want Neutrons' interfaces to abstract away divergent behavior, describing what the service offered by the application does, not how it works. Last but not least, we want the relationships between these Neutrons to **reflect the user's journey through the application**.
+One of our goals when designing such models is to have them provide sets of methods that represent high-level actions, avoiding or hiding less useful low-level actions as much as possible. Additionally, we want Neutrons' interfaces to abstract away divergent behavior, describing *what* the service offered by the application does, not *how* it works. Last but not least, we want the relationships between these Neutrons to **reflect the user's journey through the application**.
 
 To achieve this, all Neutrons' methods return an object that belongs to a Neutron. Let's consider three different use cases.
 
@@ -97,7 +97,7 @@ setEmail(email) { ...; return this; }
 setPassword(password) { ...; return this; }
 {% endhighlight %}
 
-In cases involving navigation between views, we might want our current Neutron method to return another Neutron’s object. For example, pressing the "Forgot Password" button leads to another view that allows us to change our password. That means a new class that belongs to another Neutron needs to be instantiated... but which one? It actually depends upon the platform, so we introduced a spawn method to take care of it:
+In cases involving navigation between views, we might want our current Neutron method to return another Neutron’s object. For example, pressing the "Forgot Password" button leads to another view that allows us to change our password. That means a new class that belongs to another Neutron needs to be instantiated... but which one? It actually depends upon the platform, so we introduced a `spawn` method to take care of it:
 
 {% highlight javascript %}
 forgotPassword() { ...; return this.spawn(forgot); }
