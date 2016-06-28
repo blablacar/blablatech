@@ -71,11 +71,35 @@ Among trendy subjects were _streaming processing_, _self-service analytics_, _co
 
 ## California dreamin
 
-Being in California involves, of course, do to some tourism.
+On our free time, because work wasn't the only reason of our presence, we enjoyed the
+city of San Francisco and its landscapes:
 
-On our fun time, we had the opportunity to relax
-and sight-see some beautiful places and land
+- the **Golden Gate bridge**
+- the **Transamerica Tower** (and its incredible pyramid shape architecture)
+<figure style="text-align:center;">
+  <img src="/images/2016-06-10-building-bridges-to-silicon-valley/transamerica-tower.jpg" class="block" style="width: 650px;" alt="A pyramid from the ground" />
+  <figcaption class="img-caption">
+    A pyramid from the ground
+  </figcaption>
+</figure>
+- the famous San Francisco **cable cars** (we actually used Lyft instead, but it still worth a picture)
+<figure style="text-align:center;">
+  <img src="/images/2016-06-10-building-bridges-to-silicon-valley/cable-car.jpg" class="block" style="width: 650px;" alt="The origins of ride sharing" />
+  <figcaption class="img-caption">
+    The origins of ride sharing
+  </figcaption>
+</figure>
+- the exotic **Pier 39** and its sea lions
+
+We also took a tour on the pacific road in the data bus and experienced the California
+dream from Santa Clara to Big Sur and through Carmel.
 
 ## Coming back more energized then ever
 
-This once in a lifetime experience
+This once in a lifetime experience impacted us all when we came back to the office.
+
+We realized that in a company like BlaBlaCar being _data driven_, our team is precious
+and we already put in place good practices caught from Silicon Valley startups.
+
+We started to convert all the energy and good ideas we sensed during our stay to
+goals and projects, aiming to help Blablacar reach a bigger step.
