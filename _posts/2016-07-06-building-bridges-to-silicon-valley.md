@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       "Building bridges to Silicion Valley: BlaBlaCar data team at the Strata+Hadoop conferences"
+title:       "Building bridges to Silicon Valley: BlaBlaCar data team at the Strata+Hadoop conferences"
 tags:        [culture, conferences]
 authors:     [pierre-lemee]
 description: Data team trip to Silicon Valley.
