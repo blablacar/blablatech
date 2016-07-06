@@ -10,7 +10,7 @@ description: Data team trip to Silicon Valley.
 
 Belonging to the Blablacar Tech family offers some incredible privileges. We get to host meetups, participate in intense coding parties AND travel around the world.
 
-As part of our internal "Culture trips" program, my team -the Data team- had the chance to travel across the Atlantic Ocean to attend the Strata+Hadoop world conference in San José, California at the end of March 2016.
+As part of our internal "Culture trips" program, my team -the Data team- had the chance to travel across the Atlantic Ocean to attend the Strata+Hadoop world conference in San Jose, California at the end of March 2016.
 
 During one amazing week, we had the opportunity to talk data with the most active and influential people in the tech community, get inspired by how things are done in Silicon Valley and of course discover the beauty of California.
 
@@ -20,7 +20,7 @@ As everyone knows, every tech thing comes from San Francisco or Silicon Valley.
 
 That’s why when you work for a tech company with such high ambitions  as Blablacar, you tend to absorb good practices, ideas and emerging technologies that come from the Valley.
 
-Our first objective for this trip was to connect with the tech guys working in various  data departments to exchange how our teams work, discuss the benefits of each organization and, because at some point it does matter, who has the biggest amount of data. Then, as soon as we got the keys of our big (we were in America - everything is big there!) car, we went to visit several cool companies and people:
+Our first objective for this trip was to connect with the tech guys working in various  data departments to exchange how our teams work, discuss the benefits of each organization and, because at some point it does matter, who has the most amount of data. Then, as soon as we got the keys of our big (we were in America - everything is big there!) car, we went to visit several cool companies and people:
 
 - Martin, a *data analyst* at **Airbnb**. He explained how he and his team work whilst enjoying a delicious breakfast everyday. Breakfast is open for all employees and their relatives
 <figure style="text-align:center;">
