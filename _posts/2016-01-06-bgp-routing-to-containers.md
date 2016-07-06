@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          BGP routing to containers in BlaBlaCar
-tags:           [network, BGP, containers, architecture]
+tags:           [automation, technology, application-architecture]
 authors:        [remi-paulmier]
 description:    Impact of rkt/containers on public traffic routing with BGP
 ---

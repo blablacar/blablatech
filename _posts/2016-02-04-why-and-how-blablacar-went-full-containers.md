@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Why and how BlaBlaCar went full containers"
-tags:       [containers, architecture]
+tags:       [automation, technology, application-architecture]
 authors:    [simon-lallemand]
 description: Why and how BlaBlaCar went full containers
 ---
