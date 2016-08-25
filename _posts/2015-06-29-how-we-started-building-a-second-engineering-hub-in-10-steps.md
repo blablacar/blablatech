@@ -6,7 +6,7 @@ authors:        [christian-jennewein]
 description:    Some learnings from the first steps of BlaBlaCar growing their tech team beyond one single office.
 ---
 
-With an ever growing team of developers, challenges arise. So far we scaled from five developers in beginning 2013 to a 30+ people strong developer squad today. <a href="/blog/the-history-of-scrum-at-blablacar/">Adapting the organisation of an ever growing team is another story</a>, here I would like to focus on keep on finding them!
+With an ever growing team of developers, challenges arise. So far we scaled from five developers in beginning 2013 to a 30+ people strong developer squad today. [Adapting the organisation of an ever growing team is another story](/blog/the-history-of-scrum-at-blablacar), here I would like to focus on keep on finding them!
 
 And to restrict today's topic even further: I won't write about the details of selecting the best candidates (this could or will be addressed in a future post) but rather about preparing the foundation for scaling geographically. 
 

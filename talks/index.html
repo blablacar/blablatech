@@ -17,7 +17,7 @@ All <a href="/authors/">our</a> talks and presentations starting from 2014.
                     <!-- <h4>{{ talk[1].title }}</h4> -->
                     <p>
                         {% for author in talk[1].authors %}
-                            {% if false == forloop.first AND true == forloop.last %}<br/>{% endif %}
+                            {% if forloop.first == false and forloop.last %}<br/>{% endif %}
                             <a href="/authors/#author-{{ author }}"><img src="/images/authors/{{ author }}.png" alt="{{ author[1].nickname }}" class="talk-thumb"></a> <a href="/authors/#author-{{ author }}">{{ site.authors[author].name }}</a>
                         {% endfor %}
                     </p>
