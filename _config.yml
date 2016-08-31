@@ -14,7 +14,7 @@ authors:
     nickname:   "Lexou"
     github:     "atritz"
     twitter:    "lexouthirteen"
-    role:       "Mobile Development Engineer"
+    role:       "Android Engineer"
   alexis-gauthiez:
     name:       "Alexis Gauthiez"
     nickname:   "Alexis"
@@ -26,13 +26,19 @@ authors:
     nickname:   "Junior"
     github:     "genesor"
     twitter:    "Genes0r"
-    role:       "Web Development Engineer"
+    role:       "Software Engineer"
   benjamin-fraud:
     name:       "Benjamin Fraud"
     nickname:   "bench1ps"
     github:     "bench1ps"
     twitter:    "bench1ps"
-    role:       "Web Development Engineer"
+    role:       "Software Engineer"
+  blazej-kraszewski:
+    name:       "Błazej Kraszewski"
+    nickname:   "Błazej"
+    github:
+    twitter:
+    role:       "Software Engineer"
   christian-jennewein:
     name:       "Christian Jennewein"
     nickname:   "Christian"
@@ -44,13 +50,13 @@ authors:
     nickname:   "Erwann"
     twitter:    "diwann"
     github:     "diwann"
-    role:       "Mobile Development Engineer"
+    role:       "iOS Engineer"
   fanny-gaborit:
     name:       "Fanny Gaborit"
     nickname:   "Fanny"
     twitter:    "fagaborit"
     github:
-    role:       "Tech Manager"
+    role:       "Engineering Manager"
   francis-nappez:
     name:       "Francis Nappez"
     nickname:   "Fnapz"
@@ -62,7 +68,7 @@ authors:
     nickname:   "FX"
     twitter:    "DEIONaLiMs"
     github:     "DEIONaLiMs"
-    role:       "Mobile Development Engineer"
+    role:       "Android Engineer"
   jb-favre:
     name:       "Jean-Baptiste Favre"
     nickname:   "JB"
@@ -86,25 +92,37 @@ authors:
     nickname:   "Loïc"
     twitter:    "loiceffn"
     github:     "loiceffn"
-    role:       "Mobile Development Engineer"
+    role:       "iOS Engineer"
   matthieu-moquet:
     name:       "Matthieu Moquet"
     nickname:   "Mattketmo"
     github:     "MattKetmo"
     twitter:    "MattKetmo"
     role:       "Web Architect"
+  marek-ruszczyk:
+    name:       "Marek Ruszczyk"
+    nickname:   "Marek"
+    github:
+    twitter:
+    role:       "Software Engineer"
+  michal-fikus:
+    name:       "Michał Fikus"
+    nickname:   "Michał"
+    github:
+    twitter:
+    role:       "Software Engineer"
   mickael-rodrigues:
     name:       "Mickael Rodrigues"
     nickname:   "Mickael"
     github:
     twitter:
-    role:       "Mobile Development Engineer"
+    role:       "Former Android Engineer"
   muriel-lusseau:
     name:       "Muriel Lusseau"
     nickname:   "Muriel"
     github:     "metalmumu"
     twitter:    "metalmumu"
-    role:       "Web Development Engineer"
+    role:       "Software Engineer"
   nicolas-blanc:
     name:       "Nicolas Blanc"
     nickname:   "Jardin"
@@ -116,7 +134,7 @@ authors:
     nickname:
     twitter:    "nickyinthecloud"
     github:
-    role:       "Head of Data"
+    role:       "Software Engineer"
   nicolas-schwartz:
     name:       "Nicolas Schwartz"
     nickname:   "Nico"
@@ -128,7 +146,7 @@ authors:
     nickname:   "ShoLine"
     twitter:    "sholine42"
     github:     "sholine"
-    role:       "Tech Manager"
+    role:       "Engineering Manager"
   olivier-dolbeau:
     name:       "Olivier Dolbeau"
     nickname:   "Olivier"
@@ -140,31 +158,31 @@ authors:
     nickname:   "Pierre"
     github:
     twitter:    "pitipout"
-    role:       "Software Engineer"
+    role:       "Former Software Engineer"
   pierre-yves-lebecq:
     name:       "Pierre-Yves Lebecq"
     nickname:   "PY"
     github:     "pylebecq"
     twitter:    "pylebecq"
-    role:       "Web Development Engineer"
+    role:       "Software Engineer"
   piotr-zarowny:
     name:       "Piotr Zarówny"
     nickname:   "Piotr"
     twitter:
     github:
-    role:       "Tech Manager"
+    role:       "Engineering Manager"
   remi-paulmier:
     name:       "Rémi Paulmier"
     nickname:   "Shtouff"
     twitter:    "shtouff"
     github:     "shtouff"
-    role:       "tech leader"
+    role:       "Former Tech Leader"
   saad-bouchehboun:
     name:       "Saad Bouchehboun"
     nickname:
     github:
     twitter:
-    role:       "Tech Manager"
+    role:       "Engineering Manager"
   simon-lallemand:
     name:       "Simon Lallemand"
     nickname:   "Simon"
@@ -183,6 +201,12 @@ authors:
     github:     "usmonster"
     twitter:
     role:       "Quality Assurance Specialist"
+  wojciech-wiktorowicz:
+    name:       "Wojciech Wiktorowicz"
+    nickname:   "Wojtek"
+    github:
+    twitter:
+    role:       "Software Engineer"
 
 description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
@@ -190,7 +214,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-paginate
 
-highlighter:    pygments
+highlighter:    rouge
 
 markdown:       kramdown
 
