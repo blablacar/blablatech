@@ -24,17 +24,21 @@ Over the next few months we’ll not only keep on hiring (eventually having 25+ 
 ## Ongoing challenges
 Having teams in two different locations is never as easy as being all together, but that’s nothing new. The challenges we faced and solved were mainly linked to videoconferencing (thanks to Lifesize) and to team organisation (thanks to our switch to Tribes and Squads). Until we’ve rendered squads fully independent—meaning having all required skills and roles united in one single location—we’ll keep on struggling with split teams and the discomfort of  working and having dependencies with those far away. And getting there won’t come for free either since it will require teams that are for now in one single location— such as product, quality assurance and ops which are today only Paris based—to expand and welcome people working in different offices. 
 
-Having many people from different countries and thus with different backgrounds also underlines cultural differences that pop up when working together on a daily basis. Language was the first obvious obstacle, but also the first to get removed quickly. Office hours is another, with very different lunch habits for instance between the French (where a déjeuner can last up to 1.5h, not to forget the coffee) and the Polish culture (where it’s about having lunch in under 20 minutes). Fortunately both cultures are pretty close, and most attitudes and habits are actually shared (e.g. the mutual respect, valuing quality, or the thirst for our Thursday night drinks). 
+Having many people from different countries and thus with different backgrounds also underlines cultural differences that pop up when working together on a daily basis. Language was the first obvious obstacle, but also the first to get removed quickly. Office hours is another, with very different lunch habits for instance between the French (where a *déjeuner* can last up to 1.5h, not to forget the coffee) and the Polish culture (where it’s about having lunch in under 20 minutes). Fortunately both cultures are pretty close, and most attitudes and habits are actually shared (e.g. the mutual respect, valuing quality, or the thirst for our Thursday night drinks). 
 
 <div class="table-responsive">
   <table class="table">
     <tr>
         <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_outside.jpg" alt="The BlaBlaCar Warsaw offices at Plac Unii" /></td>
-        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_corridor.jpg" alt="Our Warsaw office corridor" /></td>
+        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_tech_space.jpg" alt="Our Warsaw office corridor" /></td>
     </tr>
     <tr>
-        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_tech_space.jpg" alt="The tech space of our Warsaw offices" /></td>
-        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_recovery_space.jpg" alt="Table foosball at our Warsaw offices" /></td>
+        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_hammock.jpg" alt="The tech space of our Warsaw offices" /></td>
+        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_conference_dog.jpg" alt="Table foosball at our Warsaw offices" /></td>
+    </tr>
+    <tr>
+        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_welcome.jpg" alt="The tech space of our Warsaw offices" /></td>
+        <td><img src="/images/2016-08-31-growing_a_second_engineering_hub_in_warsaw/warsaw_office_values.jpg" alt="Table foosball at our Warsaw offices" /></td>
     </tr>
  </table>
 </div> 
