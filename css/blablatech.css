@@ -17,7 +17,7 @@ h2, .h2,
 h3, .h3,
 h4, .h4,
 h5, .h5,
-h6, .h6{
+h6, .h6 {
     font-family: helvetica, roboto, arial, sans-serif;
     font-weight: normal;
     color: #111;
@@ -28,34 +28,33 @@ p {
   margin: 0 0 20px;
 }
 
-table{
+table {
     max-width: 100%;
     margin: 1.5em 0;
 }
 
-.logo a:hover{
+.logo a:hover {
     text-decoration: none;
 }
 
-.logo-blue{
-    color:#0084ba ;
+.logo-blue {
+    color:#0086BF;
 }
 
-a,
-.blabla-blue {
+a {
     color: #0CA9FA;
 }
 
-a:hover{
+a:hover {
     color: #0CA9FA;
 }
 
 .blabla-green {
-    color: #6cb52d;
+    color: #00A87E;
 }
 
 .blabla-red {
-    color: #c83433;
+    color: #F53F5B;
 }
 
 .navbar-brand {
@@ -95,19 +94,19 @@ a:hover{
     background-color: #f5f5f5;
 }*/
 
-.block{
+.block {
     display: block;
 }
 
-article{
+article {
     margin-bottom: 50px;
 }
 
-.no-margin{
+.no-margin {
     margin: 0;
 }
 
-.overflow{
+.overflow {
     overflow: hidden;
 }
 
@@ -121,7 +120,7 @@ pre {
     white-space: pre;
 }
 
-.navbar-default{
+.navbar-default {
     background-color: transparent;
 }
 
@@ -148,7 +147,7 @@ pre {
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .navbar-nav {
       float: right;
       margin: 0;
@@ -160,7 +159,7 @@ pre {
     margin-right: 0;
 }
 
-.follow-us li:first-child{
+.follow-us li:first-child {
     margin-right: 6px;
 }
 
@@ -187,7 +186,7 @@ footer {
     }
 }
 
-.lead{
+.lead {
     width: 80%;
     margin-bottom: 40px;
 }
@@ -197,7 +196,7 @@ footer {
 * BlaBlaTech Components
 */
 
-#menu{
+#menu {
     margin-left: -45px;
 }
 
@@ -208,24 +207,24 @@ footer {
     }   
 }
 
-.hero h1{
+.hero h1 {
     font-size: 38px;
     position: relative;
 }
 
-.gradient-separator{
-    background: #6cb52d; /* Old browsers */ /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6cb52d), color-stop(33%,#6cb52d), color-stop(33%,#0084ba), color-stop(65%,#0084ba), color-stop(65%,#c83433), color-stop(100%,#c83433)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  #6cb52d 0%,#6cb52d 33%,#0084ba 33%,#0084ba 65%,#c83433 65%,#c83433 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
-    background: -webkit-linear-gradient(left, #6cb52d 0%, #6cb52d 33%, #0084ba 33%, #0084ba 65%, #c83433 65%, #c83433 100%);
-    background: linear-gradient(to right,  #6cb52d 0%,#6cb52d 33%,#0084ba 33%,#0084ba 65%,#c83433 65%,#c83433 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6cb52d', endColorstr='#c83433',GradientType=1 ); /* IE6-9 */
+.gradient-separator {
+    background: #00A87E; /* Old browsers */ /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#00A87E), color-stop(33%,#00A87E), color-stop(33%,#0086BF), color-stop(65%,#0086BF), color-stop(65%,#F53F5B), color-stop(100%,#F53F5B)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #00A87E 0%,#00A87E 33%,#0086BF 33%,#0086BF 65%,#F53F5B 65%,#F53F5B 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+    background: -webkit-linear-gradient(left, #00A87E 0%, #00A87E 33%, #0086BF 33%, #0086BF 65%, #F53F5B 65%, #F53F5B 100%);
+    background: linear-gradient(to right,  #00A87E 0%,#00A87E 33%,#0086BF 33%,#0086BF 65%,#F53F5B 65%,#F53F5B 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00A87E', endColorstr='#F53F5B',GradientType=1 ); /* IE6-9 */
     height: 2px;
     margin-bottom: 24px;
     margin-top: 15px;
 }
 
-article h1{
+article h1 {
     margin: 0 0 10px 0;
 }
 
@@ -237,7 +236,7 @@ article h1 a.post-title{
 
 /* Buttons */
 
-a.button{
+a.button {
     padding: 0.25em 1em;
     text-align: center;
     color:#0CA9FA;
@@ -251,14 +250,14 @@ a.button{
     font-weight:normal ;
 }
 
-    a.button:hover{
-        text-decoration: none;
-    }
+a.button:hover {
+    text-decoration: none;
+}
 
-    a.button.small{
-        padding: 0.05em 0.75em;
-        font-size: 12px;
-    }
+a.button.small{
+    padding: 0.05em 0.75em;
+    font-size: 12px;
+}
 
 @media screen and (min-width: 650px) {
     a.read-more {
@@ -274,7 +273,7 @@ a.button{
         }
 }
 
-.logo{
+.logo {
     font-size: 22px;
     font-family: Tahoma, roboto, arial, sans-serif;
     padding-top: 12px;
@@ -292,7 +291,7 @@ a.button{
         margin-top: 50px;
     }
 
-.author-container{
+.author-container {
     margin: 50px auto;
 }
 
@@ -318,7 +317,7 @@ a.button{
 }
 
 .blog-intro iframe,
-.blog-post iframe{
+.blog-post iframe {
     width: 100%;
     height: auto;
 }
@@ -330,15 +329,15 @@ a.button{
 
 /*Older posts*/
 
-.previous{
+.previous {
     margin-top: 50px;
 }
 
-.previous-list{
+.previous-list {
     margin-top: 20px;
 }
 
-.previous-list--item{
+.previous-list--item {
     border-bottom: 1px solid #f6f6F6;
     padding-bottom: 9px;
     padding-top: 9px;
@@ -346,28 +345,28 @@ a.button{
     margin-bottom: 9px;
 }
 
-    .previous-list--item img{
-        width: 40px;
-        height:auto;
-        margin-right: 6px;
-    }
+.previous-list--item img {
+    width: 40px;
+    height:auto;
+    margin-right: 6px;
+}
 
-    .previous-list--item a{
-        text-decoration: underline;
-    }
+.previous-list--item a{
+    text-decoration: underline;
+}
 
-    .previous-list--item:first-child{
-        padding-top: 0;
-    }
+.previous-list--item:first-child{
+    padding-top: 0;
+}
 
-    .previous-list--item:last-child{
-        padding-bottom: 0;
-        border-bottom: none;
-    }
+.previous-list--item:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+}
 
 /* Blog page */
 
-.blog-page .logo{
+.blog-page .logo {
     margin-top: 12px;
 }
 
@@ -375,7 +374,7 @@ a.button{
     margin-bottom: 40px;
 }
 
-.blog .author-container{
+.blog .author-container {
     margin: 20px 0 40px 0;
 }
 
@@ -397,7 +396,7 @@ img.talk-thumb {
     margin: 5px 0;
 }
 
-.media-list{
+.media-list {
     max-width: 290px;
     margin: 0 auto;
 }
@@ -407,19 +406,19 @@ img.talk-thumb {
     margin-bottom: 40px;
 }
 
-.media-body{
+.media-body {
     background: #fff;
     display: block;
     padding: 12px;
 }
 
-.media-body h4{
+.media-body h4 {
    line-height: 27px;
    font-weight: 200;
    color: #757474;
 }
 
-.badge.blue{
+.badge.blue {
     background-color:#0CA9FA;
 }
 
