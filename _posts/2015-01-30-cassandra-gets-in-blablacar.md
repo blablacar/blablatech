@@ -23,7 +23,7 @@ There are some very good posts on the web for [setting up Cassandra clusters wit
 
 This new **demo**, based on Cassandra & Raspberry Pi, is not only intended to **set up a multi-DCs high-resilient cluster** but also to demonstrate **how efficient the cassandra consistency levels tuning for write operations is**!
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/IMG_8590.JPG =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/IMG_8590.JPG" class="block" style="width: 600px;" />
 
 As you could see above on the final demo panel, we have many elements to illustrate Cassandra resiliency:
 
@@ -36,9 +36,9 @@ As you could see above on the final demo panel, we have many elements to illustr
 
 It all started with some rough sketches to more accurate schemas with the objective to demonstrate how a Cassandra cluster could resist to rack & DC losses and how we could tune writing to the cluster from a client aspect.
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/1st_sketch.png =300x)
-![](/images/2015-01-30_cassandra-gets-in-blablacar/1st_sketch 2.png =300x)
-![](/images/2015-01-30_cassandra-gets-in-blablacar/demo_RPI.png =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/1st_sketch.png" class="block" style="width: 300px;" />
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/1st_sketch 2.png" class="block" style="width: 300px;" />
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/demo_RPI.png" class="block" style="width: 600px;" />
 
 ## Let's make it !
 
@@ -48,7 +48,7 @@ You will find below a list of all the material needed for this demo. Of course i
 
 #### 11 x Raspberry pi
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/RPIB+.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/RPIB+.jpg" class="block" style="width: 100px;" />
 
 the [Model B+](http://www.raspberrypi.org/products/model-b-plus/) is recommended with 512MB of SDRAM
 
@@ -56,11 +56,11 @@ the [Model B+](http://www.raspberrypi.org/products/model-b-plus/) is recommended
 * 2 RPI for client nodes
 
 #### 11 x 8GB micro SD CARD
-![](/images/2015-01-30_cassandra-gets-in-blablacar/8GB-Micro-SD-Card.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/8GB-Micro-SD-Card.jpg" class="block" style="width: 100px;" />
 
 
 #### 2 x Adafruit RGB Negative 16x2 LCD+Keypad Kit
-![](/images/2015-01-30_cassandra-gets-in-blablacar/lcd.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/lcd.jpg" class="block" style="width: 100px;" />
 
 this [kit](http://www.adafruit.com/products/1110) is perfect to build a standalone LCD display and add user interface to our demo.
 
@@ -68,22 +68,22 @@ this [kit](http://www.adafruit.com/products/1110) is perfect to build a standalo
 * 1 plate for client DC2
 
 #### 9 x Raspberry Pi B+ 4-layer Dog Bone Stack Clear Case Box Enclosure
-![](/images/2015-01-30_cassandra-gets-in-blablacar/RPI_case.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/RPI_case.jpg" class="block" style="width: 100px;" />
 
 these Clear stackable box [enclosures](http://www.amazon.com/GeauxRobot-Raspberry-4-layer-Stack-Enclosure/dp/B00MYFAAPO) are really great to rack your Raspberry PIs and especially in our demo where we simulate a Datacenter rack !
 
 #### 1 x mini PC
-![](/images/2015-01-30_cassandra-gets-in-blablacar/zbox.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/zbox.jpg" class="block" style="width: 100px;" />
 
 this mini PC (in this demo a [Zbox](http://www.zotac.com/products/mini-pcs/zbox/product/zbox.html)) runs Ubuntu Desktop 14.04 and [OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) from DataStax. 
 
 #### 1 x monitor
-![](/images/2015-01-30_cassandra-gets-in-blablacar/monitor_opscenter.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/monitor_opscenter.jpg" class="block" style="width: 100px;" />
 
 In this demo, a 19.5" color [monitor](http://www.amazon.fr/gp/product/B00B7TLRO6) is integrated to the panel for displaying the OpsCenter dashboard. 
 
 #### 1 x 5V power supply
-![](/images/2015-01-30_cassandra-gets-in-blablacar/power.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/power.jpg" class="block" style="width: 100px;" />
 
 Typically, the Raspberry pi Model B+ has efficient power circuits and can use between 600-2000mA, so we need a good power supply for switching our DCs on. As we insert emergency stop buttons, we need to do some small changes to the circuit.
 
@@ -91,17 +91,17 @@ To power the 10 Raspberry pi nodes (the 2 client nodes will be powered by the mi
 Please add also some Connector Strips to gather power cables.
 
 #### 2 x 8-port 10/100 Mbps switches
-![](/images/2015-01-30_cassandra-gets-in-blablacar/switch.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/switch.jpg" class="block" style="width: 100px;" />
 
 These switches will connect all RaspberryPI nodes all together. One switch per Datacenter.
 
 ##### 13 x 1.5m Cat5 RJ45 Ethernet Network Cable
-![](/images/2015-01-30_cassandra-gets-in-blablacar/cables.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/cables.jpg" class="block" style="width: 100px;" />
 
 1.5m cables are ok. Since I'd a set of 3m cables I've used them but a little bit messy with this extra length...
 
 #### 1 x Soldering iron
-![](/images/2015-01-30_cassandra-gets-in-blablacar/soldering.jpg =100x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/soldering.jpg" class="block" style="width: 100px;" />
 
 In this demo we need to solder some parts like the emergency stop buttons and the LCD display panels. If you do not have any soldering iron or station, you could find one like [this](http://www.amazon.fr/gp/product/B00N8A7S3Q)
 
@@ -399,7 +399,7 @@ Let's try now if your cluster is working correctly.
 In a cluster, all nodes have to see each other so we will unbox our 2 switches and connect the first 6 x DC1 nodes to the 1st switch and the 3 x DC2 nodes to the 2nd switch. Do not forget of course to link the 2 switches together :-)
 **The cluster network is 192.168.11.0 you may connect your router with the LAN port on this network to provide internet access to all nodes for loading some external modules (python, ...).**
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/what_a_mess.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/what_a_mess.jpg" class="block" style="width: 600px;" />
 
 You could see on my 'messy' floor :-), my RPIs connected to switches. Do not pay attention to the 2 other RPIs with LCD display, we will see them later. However, I'm sure you will stop and ask me : "**Wait dude !!!..what about the power for my RPIs ? What are these black & red cables ???**"
 
@@ -407,11 +407,11 @@ As said previously in the list of material, we will use a generic power supply t
 
 Otherwise, if you prefer to improve your DIY side, you could cut off the end of the main power cable and through multiples strip connectors you connect all the nodes as decribed in my quick & dirty sketch....below :
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/power_cables.png =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/power_cables.png" class="block" style="width: 600px;" />
 
 Once you've cut the main cable and link the extra cables, you could use extra [jumper wires](http://www.adafruit.com/products/826) to plug them to the right GPIO pins for the Raspberry pi B+ (which are the pins 4 (5V) & 6 (Ground)) :
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/gpio.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/gpio.jpg" class="block" style="width: 600px;" />
 
 Every nodes are up and running Raspbian and you feel the power of your coming cluster ! 
 So, the first thing to do before starting the cluster for the first time is to ensure there is nothing remaining on the data directory of Cassandra. So on all nodes, please type this command :
@@ -434,7 +434,7 @@ When all these nodes are running, you could open a new terminal on the first nod
 
 if your cluster is running well, you get something like that :
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/status_cluster.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/status_cluster.jpg" class="block" style="width: 600px;" />
 
 You have to see 2 distinct parts for each DC and for each DC, the list of all nodes with their Rack position and status (2 letters in the first column : UN = Up Node, DN = Down Node)
 
@@ -442,8 +442,8 @@ So each node has to be **UN** and the **2 DCs** listed.
 
 If not, please check connectivity between all nodes (switch, cables, IP addresses, network mask,...) and do not hesitate to redo the previous steps.
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/debug_cluster.jpg =300x)
-![](/images/2015-01-30_cassandra-gets-in-blablacar/debug_cheminee_cassandra.jpg =300x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/debug_cluster.jpg" class="block" style="width: 300px;" />
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/debug_cheminee_cassandra.jpg" class="block" style="width: 300px;" />
 
 (debug in my office and also... in the living room with my son on the PS4 flat TV ! :-)
 
@@ -511,7 +511,7 @@ To launch OpsCenter, you've just to open the url :
 	
 I invite you to read the [documentation](http://www.datastax.com/documentation/opscenter/5.0/opsc/about_c.html) to fully understand how OpsCenter works.
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/opscenter_screen.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/opscenter_screen.jpg" class="block" style="width: 600px;" />
 
 To complete this section, we have to add a new cluster to opsCenter
 
@@ -528,7 +528,7 @@ You could then install DataStax agents to each Cassandra nodes by clicking on th
 
 We have previously set up a running Cassandra cluster. We will prepare, now, two client nodes to write to the cluster with different level of consistency.
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/client_node.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/client_node.jpg" class="block" style="width: 600px;" />
 
 
 ##### Hostname, IP addresses
@@ -633,11 +633,11 @@ and you should see something like that :
 Since our client is able to interact with our Cassandra cluster, it could be interesting to add an external display and a user interface to tune the [Consistency Levels](http://www.datastax.com/documentation/cassandra/2.0/cassandra/dml/dml_config_consistency_c.html) both for writing and reading.
 
 This demo is a good example to mix making and coding for a [fun and serious](https://www.youtube.com/watch?v=kjo5XNCdefY) spirit
-![](/images/2015-01-30_cassandra-gets-in-blablacar/fun_and_serious.png =300x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/fun_and_serious.png" class="block" style="width: 300px;" />
 
 This [kit](http://www.adafruit.com/products/1110) from Adafruit is a Pi plate that lets you control a 16x2 Character LCD, up to 3 backlight pins AND 5 keypad pins using only the two I2C pins on the R-Pi. It is a great 
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/lcd.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/lcd.jpg" class="block" style="width: 600px;" />
 
 We will use the tiny keypad with a python script to browse consistency levels and select one.
 
@@ -974,7 +974,7 @@ but especially in the Cluster definition :
 	Cluster(['192.168.11.41','192.168.11.42','192.168.11.43'],load_balancing_policy=DCAwareRoundRobinPolicy(local_dc='DC2',used_hosts_per_remote_dc=6))
 
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/rpi_lcd.jpg =300x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/rpi_lcd.jpg" class="block" style="width: 300px;" />
 
 this photo was taken during some debug tests and at that time I was using some WIFI dongle...latency is terrible and for a cassandra cluster... no way ! So use good RJ45 cable, that's it ! :-)
 
@@ -999,12 +999,12 @@ To simulate power loss in a rack or a DC when all racks are shut down, we use **
 
 For this demo, I've used this kind of [switch](http://www.conrad.fr/ce/fr/product/704722/Conrad-LAS1-BY-11TSA)
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/stop_switch.png =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/stop_switch.png" class="block" style="width: 600px;" />
 
 To isolate a rack by controling its power, we need to cut one of the power cables in the middle, the red (5V) cable for example, and connect the ends to the inner pins of the Emergency Stop Switch like in the sketch below :
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/emergency_detail.png =300x)
-![](/images/2015-01-30_cassandra-gets-in-blablacar/switch_sketch.png =300x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/emergency_detail.png" class="block" style="width: 300px;" />
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/switch_sketch.png" class="block" style="width: 300px;" />
 
 So when the switch is up, the current is flowing across the rack (2 or 3 nodes) and Cassandra is running.
 
@@ -1012,7 +1012,7 @@ If we push the button, we cut off the power and all nodes in the related rack ar
 
 When you've validated one button for the first rack, you could carry on for the 3 other ones.
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/stop_button.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/stop_button.jpg" class="block" style="width: 600px;" />
 
 ### Final assembly
 
@@ -1022,14 +1022,14 @@ We have build and configured many elements, Raspberry Pi, LCD, python scripts,..
 
 I've chosen a 120cm x 100cm Melamine White Panel for pasting easily some stickers on it and emphasizing all the colored shelf units for a great effect (BlaBlaCar logo colors)
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/wood_panel.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/wood_panel.jpg" class="block" style="width: 600px;" />
 
 Firstable, you have to cut out the space for the monitor and the 2 client nodes. Then prepare holes for the Emergency Stop switches and calculate equal spaces between the 4 shelf units. 
 
 Install the 4 Emergency Stop Switches, the monitor, the shelf units and the differents stickers if you have some :-)
 You should have something like that :
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/4_emergency_switches.jpg =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/4_emergency_switches.jpg" class="block" style="width: 600px;" />
 
 Now, if we look at 'Behind the scene' it is a little bit more epic as we have to connect all the elements :
 
@@ -1042,7 +1042,7 @@ Now, if we look at 'Behind the scene' it is a little bit more epic as we have to
 * 4 clear box enclosures
 * ...
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/back_1.png =600x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/back_1.png" class="block" style="width: 600px;" />
 
 For fixing monitor, as I did not have any VESA mount brackets, I've just used a piece of wood with screws to secure monitor mounting. Not really great but it works ! :-)
 
@@ -1050,8 +1050,8 @@ For fixing the two client nodes, it was also quite tricky as I've inserted the R
 
 At last, to make it more rigid, I've used 3 metallic clamps to fix it on a table. 
 
-![](/images/2015-01-30_cassandra-gets-in-blablacar/back_table.jpg =300x)
-![](/images/2015-01-30_cassandra-gets-in-blablacar/nicolas_menoux_cassandra.jpg =300x)
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/back_table.jpg" class="block" style="width: 300px;" />
+<img src="/images/2015-01-30_cassandra-gets-in-blablacar/nicolas_menoux_cassandra.jpg" class="block" style="width: 300px;" />
 
 You could use that table to hide your keyboard and mouse so during the demo only the front with RPIs, cases, monito & stickers will be visible !
 
