@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="{% if page.authors %}{% for author in page.authors %}{% if forloop.first == false and forloop.last  == false %}, {% endif %}{{ site.authors[author].name }}{% endfor %}{% else %}Nobody{% endif %} from the BlaBlaCar Tech team.">
+    <meta name="author" content="{% if page.authors %}{% for author in page.authors %}{{ site.authors[author].name }}{% if forloop.rindex > 1 %}, {% endif %}{% endfor %} from the {% endif %}BlaBlaCar Tech team.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} - {{ site.name }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
