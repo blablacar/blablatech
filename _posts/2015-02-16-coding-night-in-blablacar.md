@@ -10,7 +10,7 @@ description:    In January, BlaBlaCar hosted its first internal coding event eve
 
 In January, BlaBlaCar hosted its first internal coding event ever... 24 hours of non-stop coding, whatever the project, whatever the technology. **Just code** from Friday 2pm to Saturday 2pm. It was amazing to see how highly involved were all those teams to transform their great ideas into working projects.
 
-![](/images/2015-02-16_coding-night-in-blablacar/IMG_0268.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/IMG_0268.JPG)
 
 ## Why?
 
@@ -23,7 +23,7 @@ The concept was based on 4 main ideas:
 * **Create ownership**, thus allowing people to "think it, build it" and make it available for "use it"...
 * **Have fun!**
 
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04962.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04962.JPG)
 
 ## How?
 
@@ -60,8 +60,8 @@ Following 24 hours of coding, the remaining teams had to present their work.
 
 ...followed by our office management team that prepared some delights to survive...
 
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04982.JPG =600x)
-![](/images/2015-02-16_coding-night-in-blablacar/pizza-cartons.jpg =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04982.JPG)
+![](/images/2015-02-16_coding-night-in-blablacar/pizza-cartons.jpg)
 
 ## Time to sleep?
 
@@ -77,11 +77,11 @@ Staying up all night long is a challenge by itself:
   </table>
 </div>
 
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04994.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04994.JPG)
 
 After effort comes comfort! The breakfast was the perfect moment to have a break, to exchange on the different projects' progress and to recharge the batteries.
 
-![](/images/2015-02-16_coding-night-in-blablacar/DSC04997.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC04997.JPG)
 
 ## And the winner is...
 
@@ -125,7 +125,7 @@ Many thanks to all brave participants:
 * [Christian](/authors/#author-christian-jennewein), Francis, Frédéric Dermer, Simon, (BlaBlaFaces)
 * [Nicolas Tricot](/authors/#author-nicolas-tricot) (iTunes Lib Maze)
 
-![](/images/2015-02-16_coding-night-in-blablacar/DSC05009.JPG =600x)
+![](/images/2015-02-16_coding-night-in-blablacar/DSC05009.JPG)
 
 <a href="/authors/#author-{{ author }}">{{ site.authors[author].name }}</a>
 
