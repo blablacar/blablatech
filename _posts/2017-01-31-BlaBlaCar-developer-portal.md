@@ -6,15 +6,15 @@ authors:        [erwann-robin]
 description:    In this article, we are going to introduce the new BlaBlaCar Developer portal and give you some tips about how it works.
 ---
 
-First, we wish you an happy new coding year!
+First, we wish you a Happy New Coding Year!
 
 For this new year, we are proud and very excited to launch our API Developer Portal: [https://dev.blablacar.com](https://dev.blablacar.com)
 
  ![screenshot](/images/2017-01-31_BlaBlaCar-developer-portal/DevBlaBlaCarHomePage.png)
 
-This portal will help everybody to build innovative mobility solutions, that feature carpooling trips.
+This portal will help everyone to build innovative mobility solutions, that feature carpooling trips.
 
-It gathers all documentations and guides about integrating with BlaBlaCar, to easily connect with developers and partners and to help develop carpooling. It's the privileged way to connect to the BlaBlaCar's API, which gives access to the trip inventory of BlaBlaCar.
+It gathers all documentations and guides about integrating with BlaBlaCar, to easily connect with developers and partners and to help develop carpooling. It's the best way to connect to the BlaBlaCar's API, which gives access to the trip inventory of BlaBlaCar.
 
 Discover on it how the BlaBlaCar API can easily enhance your app's user experience and take your innovation further with a wide range of new capabilities.
 
@@ -50,9 +50,9 @@ The portal itself is hosted by [Gelato](https://gelato.io), another great [Masha
 
 We also uses the open-source [kong-dashboard](https://github.com/PGBI/kong-dashboard) tool, to facilitate the administration of Kong, and our usual stack of Grafana / Kibana to monitor the cluster health and follow the http logs.
 
-This configuration allows us to scale and to maintain an updated list of consumers while behind efficient in developing new features.
+This configuration allows us to scale and to maintain an updated list of consumers while being efficient in developing new features.
 
 
 We’d love to work with developers who are willing to integrate carpooling in their service!
 
-Learn more and dive into the developer docs over at [dev.blablacar.com](dev.blablacar.com)
+Learn more and dive into the developer docs over at [dev.blablacar.com](https://dev.blablacar.com)
