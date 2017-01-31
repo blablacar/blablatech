@@ -8,7 +8,7 @@ Posts are written in [markdown](https://help.github.com/articles/markdown-basics
 ## Installation
 
 - You need a local webserver in order to run and test the blog
-- Clone gh-pages on your machine and configure your localhost accordingly 
+- Clone gh-pages on your machine and configure your localhost accordingly
 - Install Jekyll and the required plugins
 ```
     $ gem install jekyll
@@ -16,6 +16,12 @@ Posts are written in [markdown](https://help.github.com/articles/markdown-basics
     $ gem install jekyll-paginate
     $ gem install rdiscount
 ```
+- Then, launch it locally with build / serve:
+```
+    $ jekyll build
+    $ jekyll serve
+```
+
 - **Warning: commits to gh-pages are immediately live**
 
 ## Tips & Tricks
@@ -27,3 +33,7 @@ Posts are written in [markdown](https://help.github.com/articles/markdown-basics
 - Images that belong to a post go into `images`, prefixed with the posts's date (e.g. `2011-12-31-happy.png`)
 - Drafts should end up in the folder `_draft`, without a prefixed date (e.g. `new-years-eve-is-awesome.md`)
 - If you create a new tag you also need to create the according html file in blog/tag to have a working archive
+- Use the _drafts folder to prepare your post before publishing
+```
+ jekyll serve --drafts
+```
