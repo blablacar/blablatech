@@ -1,7 +1,7 @@
 ---
 layout:         post
-title:          🚀 Launch of The BlaBlaCar Developer Portal!
-tags:           [API, developer, hacking]
+title:          🚀  Launch of The BlaBlaCar Developer Portal!
+tags:           [API, developer]
 authors:        [erwann-robin]
 description:    In this article, we are going to introduce the new BlaBlaCar Developer portal and give you some tips about how it works.
 ---
@@ -10,7 +10,7 @@ First, we wish you an happy new coding year!
 
 For this new year, we are proud and very excited to launch our API Developer Portal: [https://dev.blablacar.com](https://dev.blablacar.com)
 
- ![screenshot](/images/2017-01-30_BlaBlaCar-developer-portal/DevBlaBlaCarHomePage.png)
+ ![screenshot](/images/2017-01-31_BlaBlaCar-developer-portal/DevBlaBlaCarHomePage.png)
 
 This portal will help everybody to build innovative mobility solutions, that feature carpooling trips.
 
