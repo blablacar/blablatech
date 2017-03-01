@@ -53,4 +53,4 @@ We are currently driving the adoption of Kanoah Tests within our organization. T
 
 ![Stack](/images/2017-03-01-centralized-test-management-with-kanoah/integration.png)
 
-Now the challenge is to keep our automated test suite in sync with scenarios that are referenced on Kanoah and make Koalcium mainstream in our team.
+Now the challenge is to keep our automated test suite in sync with scenarios that are referenced on Kanoah, and to gather more feedback as we make Koalcium our team's main interface for launching our mobile apps.
