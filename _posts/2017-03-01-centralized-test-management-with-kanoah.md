@@ -3,7 +3,7 @@ layout:      post
 title:       "Centralized Test Management with Kanoah"
 tags:        [testing, automation]
 authors:     [alexis-gauthiez]
-description: A solution to scattered manual and automating testing.
+description: A solution to scattered manual and automated testing.
 ---
 
 After having [automated end-to-end tests for our mobile apps](http://blablatech.com/blog/one-model-to-rule-them-all) running for a few months with Qualcium, we realized something was missing. We were lacking some kind of keystone which could really kick-off the adoption of our automated test solution throughout the company. We identified a few impediments:
