@@ -21,7 +21,7 @@ We had to introduce a new tool in order to track our manual and automated test s
 
 For manual and automated tests to coexist in a seamless fashion, we had to push in both directions: make some adjustments on how we perform and document manual tests and have automated ones transparently integrate with them.
 
-Once we decided that our goal was to centralize our collection of written test cases, both manual and automated, it became clear that we we needed to adopt a true [test management tool](https://en.wikipedia.org/wiki/Test_management#Test_management_tools).
+Once we decided that our goal was to centralize our collection of written test cases, both manual and automated, it became clear that we needed to adopt a true [test management tool](https://en.wikipedia.org/wiki/Test_management#Test_management_tools).
 
 At the time, we were using distinct tools to document and maintain our manual and automated tests. For documenting and performing manual testing, we were relying on Google Sheets. A great general-purpose tool to start with but a mess to deal with when it comes to scaling: reusing tests is basically copy-pasting, searching for existing cases is almost impossible, and we could not clearly describe nor follow test execution result trends. Not to mention the fact that integrating it with an issue tracker or a continuous integration server is, well... complicated.
 For automated test coverage documentation, we started using JIRA issues. One task for each scenario, with a custom type and configuration so we could specify test setup, exercise, verifications and teardown separately.
