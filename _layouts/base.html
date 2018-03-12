@@ -15,37 +15,41 @@
     <link href="/css/blablatech.css?v={{ site.time | date: '%s' }}" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
 
 <div class="container">
     <div class="row">
+    <div class="alert alert-warning alert-dismissible text-center" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <em><a href="/blog/our-blog-has-moved">We've moved</a> to Medium! Please <a href="https://medium.com/blablacar-tech"><strong>follow us there<strong></a>.</em>
+    </div>
     <nav class="navbar navbar-default" role="navigation">
         <div class="logo pull-left">
             <a href="/">
                 <img src="/images/BBTech_Horizontal.png" height="50px" width="215px">
             </a>
         </div>
-           <!-- <a href="" class="button block pull-right small">Subscribe</a> -->
-           <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-              </button>
-          </div>
-            <div class="navbar-collapse collapse" id="menu">
-                <ul class="nav navbar-nav">
-                    <li><a class="blog-nav-item" href="/">Home</a></li>
-                    <li><a class="blog-nav-item" href="/blog/">Archive</a></li>
-                    <li><a class="blog-nav-item" href="/authors/">Authors</a></li>
-                    <li><a class="blog-nav-item" href="/talks/">Talks</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
+         <!-- <a href="" class="button block pull-right small">Subscribe</a> -->
+         <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li><a class="blog-nav-item" href="/">Home</a></li>
+                <li><a class="blog-nav-item" href="/blog/">Archive</a></li>
+                <li><a class="blog-nav-item" href="/authors/">Authors</a></li>
+                <li><a class="blog-nav-item" href="/talks/">Talks</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
     </nav>
         {{ content }}
     </div>
@@ -55,7 +59,7 @@
     <p class="text-center">©  {{ site.time | date: '%Y' }}. All rights reserved.</p>
 </footer>
 
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 
 <script>

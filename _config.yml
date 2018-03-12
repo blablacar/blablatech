@@ -3,6 +3,7 @@ articletags:
   - automation
   - conferences
   - culture
+  - meta
   - mobile
   - organisation
   - technology
@@ -200,7 +201,7 @@ authors:
     nickname:
     github:     "usmonster"
     twitter:
-    role:       "Quality Assurance Specialist"
+    role:       "Quality Assurance Lead"
   wojciech-wiktorowicz:
     name:       "Wojciech Wiktorowicz"
     nickname:   "Wojtek"
@@ -210,7 +211,7 @@ authors:
 
 description:    "Share More, Learn More — BlaBlaCar's Tech team"
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-paginate
 
@@ -218,7 +219,7 @@ highlighter:    rouge
 
 markdown:       kramdown
 
-name:           "the BlaBlaTech Blog"
+name:           "The BlaBlaTech Blog"
 
 paginate:       10
 
