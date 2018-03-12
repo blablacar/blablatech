@@ -159,8 +159,12 @@ pre {
     margin-right: 0;
 }
 
-.follow-us li:first-child {
+.follow-us li {
     margin-right: 6px;
+}
+
+.follow-us li:last-child {
+    margin-right: 0;
 }
 
 
@@ -484,4 +488,8 @@ img.talk-thumb {
 
 .authors .social-twitter {
     background-image: url(../images/twitter.svg);
+}
+
+.authors .social-medium {
+    background-image: url(../images/medium.svg);
 }
