@@ -6,7 +6,7 @@ authors:        [fanny-gaborit]
 description:    The full story of the second Coding Night at BlaBlaCar.
 ---
 
-In Jan 2015 we organised the [first Coding Night](http://blablatech.com/blog/coding-night-in-blablacar/) in BlaBlaCar, an internal Fun&Serious hackaton. It was a massive success. Remember? That's were [Ride Map](https://www.youtube.com/watch?v=YF6U6DZgMLk) (formerly known as Meet your Co-rider) was born, this amazing feature that enable drivers and passengers sharing a ride together to meet more easily at departure point. Then we decided to run a second edition. 
+In Jan 2015 we organised the [first Coding Night](/blog/coding-night-in-blablacar/) in BlaBlaCar, an internal Fun&Serious hackaton. It was a massive success. Remember? That's were [Ride Map](https://www.youtube.com/watch?v=YF6U6DZgMLk) (formerly known as Meet your Co-rider) was born, this amazing feature that enable drivers and passengers sharing a ride together to meet more easily at departure point. Then we decided to run a second edition. 
 
 It took place on Thursday 24th and Friday 25th of September at BlaBlaCar offices in Paris. 
 
@@ -33,7 +33,7 @@ Once everyone found his team and grabbed his special Coding Night T-Shirt, the r
     <img src="../../images/2015-11-17_second-coding-night-at-blablacar/happy-people.jpg" alt="2nd Coding Night at BlaBlaCar" />
 </p>
    
-After a first stop around 7pm for a couple of [beers](http://blablatech.com/blog/think-it-brew-it-drink-it/) together, a bunch of pizzas and loads of sushis, the first part of the night was easy. 
+After a first stop around 7pm for a couple of [beers](/blog/think-it-brew-it-drink-it/) together, a bunch of pizzas and loads of sushis, the first part of the night was easy. 
 
 <div class="table-responsive">
   <table class="table">
